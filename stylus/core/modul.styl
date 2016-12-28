@@ -1,0 +1,117 @@
+@font-face 
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-bold-webfont.woff') format('woff')
+    font-weight: bold;
+    font-style: normal;
+@font-face
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-light-webfont.woff') format('woff')
+    font-weight: normal;
+    font-style: normal;
+@import "nib"
+@import "nib/vendor"
+body
+    font-family: "Gotham"
+    font-size: 16px
+.notification
+    background: #00f080;
+    color: #1d1d1b;
+    padding: .5em;
+    overflow: hidden;
+    position: relative;
+    .wrap
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .mosaico
+            position: absolute;
+            width: 232px;
+            left: 0;
+            top: 0;
+        p
+            color: #1d1d1b;
+            margin: 0
+            margin-right: 3em;
+        .btn-b_black
+            border: 1px solid;
+            padding: .3em;
+            font-weight: bold;
+.header
+    background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
+    position: absolute
+    width: 100%
+    &-Container
+        max-width: 980px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2em 1em;
+        &-Logo
+            margin: 0
+        .menu
+            ul
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                li
+                    display: flex;
+                    border-right: 1px solid #00f080;
+                    min-width: 150px;
+                    text-align: center;
+                    justify-content: center;
+                    &:nth-child(3)
+                        border-right: none;
+                    a
+                        padding: 1em;
+                        color: white !important;
+                .login
+                    display: flex;
+                    margin-left: 2em;
+                    a
+                        padding: 1em;
+                        background: #00f080;
+                        font-weight: bold;
+                        display: flex;
+                        align-items: center;
+                        color: inherit !important;
+.banner
+    background: #38023b;
+    &-Container
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        &-Item
+            .back
+                max-width: 1200px;
+                height: 600px;
+                overflow: hidden;
+                img
+                    width: 100%;
+
+
+@media (max-width: 400px)
+    .modal-video
+        .video-cont
+            width: 100%;
+            height: 100%;
+            max-height: 250px !important;
+    .layout
+        img
+            width: 90px !important
+
+
+
+    
+
+
+
