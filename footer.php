@@ -7,13 +7,43 @@
 </body>
 <footer class="footer">
 	<div class="container">
-	<div class="social">
-		<a href=""><i class="fa fa-facebook"></i></a>
-		<a href=""><i class="fa fa-twitter"></i></a>
-		<a href=""><i class="fa fa-instagram"></i></a>
-		<a href=""><i class="fa fa-youtube"></i></a>
+		<div class="col1">
+				<h4>¿Tienes preguntas? Llama a 902 101 886 o escribe a sistemas@opensport.es</h4>
+				<div class="sitemap">
+					<div class="logo">
+						<img src="img/logo-open-sport-single.svg" alt="">
+					</div>
+					<ul class="menu">
+						<li><a href="">Aviso Legal</a></li>
+						<li><a href="">Politica de cookies</a></li>
+						<li><a href="">Preguntas frecuentes</a></li>
+					</ul>
+					<ul class="menu">
+						<li><a href="">Preguntas frecuentes</a></li>
+						<li><a href="">Formas de pago</a></li>
+						<li><a href="">Condiciones del servicio</a></li>
+					</ul>
+					<ul class="menu">
+						<li><a href="">Condiciones del servicio</a></li>
+						<li><a href="">Pruebas de velocidad</a></li>
+						<li><a href="">Dispositivos</a></li>
+					</ul>
+				</div>
+		</div>
+		<div class="col2">
+			<div class="social">
+				<a href=""><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-twitter"></i></a>
+			</div>
+			<div class="apps">
+				<p>Nuestras Apps</p>
+				<a href=""><img src="img/itunes-app-store-logo.png" alt=""></a>
+				<a href=""><img src="img/play-store.png" alt=""></a>
+			</div>
+		</div>
 	</div>
-
+	<div class="disclaimer">
+		<p>Opensport 2016 (c) Todos los derechos reservados, un producto de OpenFutbol y OpenCable</p>
 	</div>
 </footer>
 <div class="rowUp"><img src="" alt=""></div>

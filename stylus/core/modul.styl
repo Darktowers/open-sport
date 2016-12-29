@@ -12,6 +12,8 @@
     font-style: normal;
 @import "nib"
 @import "nib/vendor"
+.t_green
+    color: #00f080;
 body
     font-family: "Gotham"
     font-size: 16px
@@ -46,6 +48,7 @@ body
     background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
     position: absolute
     width: 100%
+    z-index: 1
     &-Container
         max-width: 980px;
         width: 100%;
@@ -90,15 +93,333 @@ body
         max-width: 1200px;
         margin: 0 auto;
         width: 100%;
+        position: relative
         &-Item
             .back
                 max-width: 1200px;
                 height: 600px;
                 overflow: hidden;
+                position: relative
                 img
+                    position: absolute;
+                    transform: scale(1.1);
+                    height: 100%;
                     width: 100%;
+                    top: 0;
+            .content
+                position: absolute;
+                width: 100%;
+                top: 0;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                .text
+                    background: #38023b;
+                    color: white;
+                    padding: 3em 2em;
+                    max-width: 464px;
+                    position: relative;
+                    margin-left: 6em;
+                    p
+                        font-size: 40px;
+                        margin: 0;
+                        font-weight: bold;
+                    .btn-purple
+                        position: absolute;
+                        bottom: -1em;
+                        background: #dd1b71;
+                        right: 2em;
+                        padding: .5em;
+                        font-weight: bold;
+.tabs
+    background: #38023b;
+    &-Container
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2em 0;
+        .tab
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: .5em 1em;
+            width: 300px;
+            border: 1px solid #6c446e;
+            cursor: pointer
+            img
+                margin: 0
+            p
+                color: white !important
+         .active
+            border: 1px solid #dd1b71;
+            position: relative
+            &:before
+                content: "";
+                border: 1px solid #dd1b71;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                right: 0.5em;
+                top: -0.5em;
+.btn-green
+    background: #00f080;
+    padding: .5em 1em;
+    font-weight: bold;
+    font-size: 17.4px;
+    color: #38023b !important;
+    display: inline-block;
+    position: relative;
+    &:before
+        content: "";
+        border: 1px solid #00f080;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: -0.5em;
+        top: 0.5em;
+.content-tab
+    .gratis
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        .back
+            position: absolute;
+            top: -2px;
+            width: 825px;
+            right: 0;
+            z-index: -1;
+        .content
+            color: #38023b;
+            padding: 3em 0;
+            font-size: 18px;
+            h2
+                margin: 0;
+            h3
+                margin: 0;
+                font-weight: normal
+            .btn-purple
+                background: #dd1b71;
+                padding: .5em 1em;
+                font-weight: bold;
+                font-size: 24.4px;
+                color: white !important;
+                display: inline-block;
+                margin: 1.5em 9em;
+                position: relative
+                &:before
+                    content: "";
+                    border: 1px solid #dd1b71;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    right: -0.5em;
+                    top: 0.5em;
+    .noti
+        background: white !important
+        padding: 0 !important
+    .precont
+        background: #e9e9e9;
+        padding: 1em 0 5em 0;
+        .competencias
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+            color: #38023b;
+            h3
+                text-align: center;
+                font-size: 26px;
+            .competiciones
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .item
+                    img
+                        width: 100%;
+                        padding: 1em;
+            p
+                padding: 0 11em;
+            .btn-purple
+                background: #dd1b71;
+                padding: .5em 1em;
+                font-weight: bold;
+                font-size: 20px;
+                color: #fff !important;
+                display: inline-block;
+                position: relative;
+                &:before
+                    content: "";
+                    border: 1px solid #dd1b71;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    right: -0.5em;
+                    top: 0.5em;
+
+    .noticias
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        .img
+            position: relative;
+            height: 600px;
+            overflow: hidden;
+            .back
+                position: absolute;
+                width: 100%;
+            .play
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 3;
+                img
+                    background: #dd1b71;
+                    border: 1em solid #dd1b71;
+                    border-radius: 50%;
+                    cursor: pointer;
+            .filtro
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-end;
+                img
+                    width: 700px;
+        .content
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            .text
+                max-width: 648px;
+                width: 100%;
+                background: #38023b;
+                color: white;
+                position: relative;
+                padding: 2em 3em;
+                margin-top: 3em;
+                margin-left: 5em;
+                .btn-purple
+                    position: absolute;
+                    top: -1em;
+                    left: -1em;
+                    background: #dd1b71;
+                    padding: .5em 2em;
+                    font-size: 20px;
+                    font-weight: bold;
+                h3
+                    margin: 0
+.cont-2
+    position: relative;
+    .back
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300px;
+    .disfruta
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding: 2em 0
+        .content
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #38023b !important
+            h2
+                margin: 0;
+                font-size: 36px;
+                color: #38023b !important
+            .devices
+                display: flex;
+                align-items: flex-end;
+                width: 100%;
+                justify-content: space-around;
+                padding: 3em 0;
+.footer
+    background: #38023b;
+    .container
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 3em 0;
+        .col1
+            width: 80%;
+            h4
+                margin: 0;
+                font-size: 23px;
+                padding: 1em 0;
+                color: white;
+                font-weight: normal;
+            .sitemap
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .menu
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    li
+                        color: #dd1b71;
+                        a
+                            padding: .3em 0;
+                            display: inline-block;
+        .col2
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .social
+                a
+                    display: inline-block
+                    i
+                        font-size: 2.5em;
+                        color: white;
+                        padding: 0 .5em;
+            .apps
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p
+                    color: #cd156f;
+                    text-align: center;
+                img
+                    width: 150px;
+                    &:last-child
+                        width: 172px;
+    .disclaimer
+        background: #2a012c;
+        color: white;
+        text-align: center;
+        padding: 1.5em;
+        p
+            margin: 0;
 
 
+@media (max-width:1200px)
+    .banner
+        &-Container
+            &-Item
+                .back
+                    img
+                        left: 50% !important;
+                        top: 50% !important;
+                        height: 100% !important;
+                        width: auto !important;
+                        transform: translate(-50%,-50%)!important;
 @media (max-width: 400px)
     .modal-video
         .video-cont
