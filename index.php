@@ -12,6 +12,28 @@
                 </div>
             </div>
         </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/slide1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>TODO EL DEPORTE EN <span class="t_green">DIRECTO</span></p>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/slide1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>TODO EL DEPORTE EN <span class="t_green">DIRECTO</span></p>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="tabs">
