@@ -17,10 +17,23 @@
 
 <body>
 	<div class="notification">
-		<div class="wrap">
-			<img src="img/transparent-rectangles-small.png" alt="" class="mosaico">
-			<p><b>EN VIVO:</b> Barça vs Real Madrid, desde el Estadio Santiago Bernabéu</p>
-			<a href="" class="btn btn-b_black">VER</a>
+		<img src="img/transparent-rectangles-small.png" alt="" class="mosaico">
+		<div class="wrap slidex">
+			<div class="notifi">
+				
+				<p><b>EN VIVO:</b> Barça vs Real Madrid, desde el Estadio Santiago Bernabéu</p>
+				<a href="" class="btn btn-b_black">VER</a>
+			</div>
+			<div class="notifi">
+		
+				<p><b>EN VIVO:</b> Atletico Madrid vs Galicia desde el Estadio Santiago Bernabéu</p>
+				<a href="" class="btn btn-b_black">VER</a>
+			</div>
+			<div class="notifi">
+				
+				<p><b>EN VIVO:</b> Formula 1 G.P. MALASIA</p>
+				<a href="" class="btn btn-b_black">VER</a>
+			</div>
 		</div>
 	</div>
 	<header class="header">

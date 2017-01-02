@@ -26,6 +26,11 @@ body
     padding: .5em;
     overflow: hidden;
     position: relative;
+    .mosaico
+        position: absolute;
+        width: 232px;
+        left: 0;
+        top: 0;
     .wrap
         max-width: 1200px;
         margin: 0 auto;
@@ -34,24 +39,26 @@ body
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        .mosaico
-            position: absolute;
-            width: 232px;
-            left: 0;
-            top: 0;
-        p
-            color: #1d1d1b;
-            margin: 0
-            margin-right: 3em;
-        .btn-b_black
-            border: 1px solid;
-            padding: .3em;
-            font-weight: bold;
-            transition: all .3s ease-in-out
-            &:hover
-                background: #38023b
-                color #00f080 !important
-                border: 1px solid #00f080
+        .slick-arrow
+            opacity: 0
+        .notifi
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p
+                color: #1d1d1b;
+                margin: 0
+                margin-right: 3em;
+            .btn-b_black
+                border: 1px solid;
+                padding: .3em;
+                font-weight: bold;
+                transition: all .3s ease-in-out
+                &:hover
+                    background: #38023b
+                    color #00f080 !important
+                    border: 1px solid #00f080
 .header
     background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
     position: absolute
@@ -85,6 +92,9 @@ body
                     a
                         padding: 1em;
                         color: white !important;
+                        transition: all .3s ease-in-out
+                        &:hover
+                            font-weight: bold
                 .login
                     display: flex;
                     margin-left: 2em;
@@ -564,6 +574,12 @@ body
                 justify-content: space-around;
                 padding: 3em 0;
                 flex-wrap: wrap
+                .device
+                    img
+                        transform: scale(1.0);
+                        transition: all .3s ease-in-out
+                        &:hover    
+                            transform: scale(1.1);
     .test-speed
         background: #00f080;
         padding: 4em 0;
