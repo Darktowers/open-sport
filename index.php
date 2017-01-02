@@ -14,24 +14,32 @@
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/slide1.png" alt="">
-            </div>
-            <div class="content">
-                <div class="text">
-                    <p>TODO EL DEPORTE EN <span class="t_green">DIRECTO</span></p>
-                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
-                </div>
+                <img src="img/post1.jpg" alt="">
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/slide1.png" alt="">
+                <img src="img/post2.jpg" alt="">
             </div>
-            <div class="content">
-                <div class="text">
-                    <p>TODO EL DEPORTE EN <span class="t_green">DIRECTO</span></p>
-                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
-                </div>
+        </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/post3.jpg" alt="">
+            </div>
+        </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/post4.jpg" alt="">
+            </div>
+        </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/post5.jpg" alt="">
+            </div>
+        </div>
+        <div class="banner-Container-Item">
+            <div class="back">
+                <img src="img/post6.jpg" alt="">
             </div>
         </div>
     </div>
