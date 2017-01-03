@@ -48,8 +48,12 @@ body
             justify-content: center;
             p
                 color: #1d1d1b;
-                margin: 0
-                margin-right: 3em;
+                margin: 0;
+                margin-right: 2em;
+                min-width: 200px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
             .btn-b_black
                 border: 1px solid;
                 padding: .3em;
@@ -702,7 +706,87 @@ body
                     top: 50% !important;
                     height: 100% !important;
                     width: auto !important;
-                    transform: translate(-50%,-50%)!important;
+                    transform: translate(-50%,-50%)!important;          
+        .gratis
+            .back
+                position: absolute;
+                top: -2px;
+                width: 625px;
+                right: 0;
+                z-index: -1;
+            .content
+                margin: 0 1em
+                font-size: 16px;
+                h2
+                    font-size: 40px
+                h3
+                    font-size: 20px
+@media (max-width:930px)
+    .header
+        &-Container
+            &-Logo
+                img
+                    width: 150px !important
+            .menu
+                font-size: 14px !important
+                ul
+                    li
+                        min-width: auto !important        
+
+@media (max-width:768px)   
+    .header
+        background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
+        position: absolute
+        width: 100%
+        z-index: 1
+        &-Container
+            max-width: 980px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2em 1em;
+            &-Logo
+                margin: 0
+            .menu
+                display: none
+                position: fixed!important;
+                top: 0 !important;
+                background: #38023B !important;
+                width: 100% !important;
+                height: 100% !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                justify-content: center !important;
+                padding: 20% !important;
+                ul
+                    flex-direction: column !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    display: flex !important;
+                    width: 100% !important;
+                    li
+                        width: 100%  !important;
+                        border-right: 0  !important;
+                        border-bottom: 1px solid #00f080  !important;        
+                    .login
+                        margin: 0 !important;
+                        margin-top: 1em !important;
+                        border-bottom: 0  !important;
+        .gratis
+            .back
+                position: absolute;
+                top: -2px;
+                width: 425px !important;
+                right: 0;
+                z-index: -1;
+            .content
+                font-size: 14px !important
+                h2
+                    font-size: 30px !important
+                h3
+                    font-size: 20px !important
 @media (max-width: 400px)
     .modal-video
         .video-cont
