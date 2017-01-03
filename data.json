@@ -1,0 +1,725 @@
+{
+    "weekend": {
+        "title": "PROGRAMACIÓN SEMANAL",
+        "yearsweek": {
+            "year": {
+                "2016": {
+                    "december": {
+                        "title": "Diciembre",
+                        "titleMin": "DIC",
+                        "days": {
+                            "5": {
+                                "dayNum": "5",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "6": {
+                                "dayNum": "6",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "7": {
+                                "dayNum": "7",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "8": {
+                                "dayNum": "8",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "9": {
+                                "dayNum": "9",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "10": {
+                                "dayNum": "10",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "11": {
+                                "dayNum": "11",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "12": {
+                                "dayNum": "12",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "13": {
+                                "dayNum": "13",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "14": {
+                                "dayNum": "14",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "15": {
+                                "dayNum": "15",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "16": {
+                                "dayNum": "16",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "17": {
+                                "dayNum": "17",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "18": {
+                                "dayNum": "18",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "19": {
+                                "dayNum": "19",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "20": {
+                                "dayNum": "20",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "21": {
+                                "dayNum": "21",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "22": {
+                                "dayNum": "22",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "23": {
+                                "dayNum": "23",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "24": {
+                                "dayNum": "24",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "25": {
+                                "dayNum": "25",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "26": {
+                                "dayNum": "26",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "27": {
+                                "dayNum": "27",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "28": {
+                                "dayNum": "28",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "29": {
+                                "dayNum": "29",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "30": {
+                                "dayNum": "30",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            },
+                            "31": {
+                                "dayNum": "31",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "2017": {
+                    "january": {
+                        "title": "Enero",
+                        "titleMin": "ENE",
+                        "days": {
+                            "1": {
+                                "dayNum": "1",
+                                "programs": {
+                                    "morning": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "afternoon": {
+                                        "outstanding": "TRUE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    },
+                                    "evening": {
+                                        "outstanding": "FALSE",
+                                        "items": [
+                                            "NOMBRE DEL EVENTO",
+                                            "NOMBRE DEL EVENTO"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

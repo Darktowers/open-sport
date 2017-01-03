@@ -16,6 +16,8 @@
     color: #00f080;
 .t_purple
     color #dd1b71
+.wrapper
+    overflow: hidden
 body
     font-family: "Gotham"
     font-size: 16px
@@ -122,6 +124,24 @@ body
         margin: 0 auto;
         width: 100%;
         position: relative
+        .box
+            align-self: flex-end;
+            margin-bottom: .5em;
+            h1
+                color: white;
+                margin-left: 3em;
+            .text
+                padding-top: 1.5em !important
+                padding-bottom: 1.5em !important
+        .programa
+            .back
+                height: 320px !important
+                img
+                    position: absolute;
+                    transform: scale(1.0);
+                    height: auto !important;
+                    width: auto !important;
+                    top: 0;
         &-Item
             position: relative
             .back
@@ -154,6 +174,11 @@ body
                         font-size: 40px;
                         margin: 0;
                         font-weight: bold;
+                    h3
+                    h4
+                    h5
+                    h6
+                        margin: 0
                     .btn-purple
                         position: absolute;
                         bottom: -1em;
@@ -168,7 +193,25 @@ body
                             background: white
                             color #dd1b71 !important
                             border: 1px solid #dd1b71
-
+                    .btn-green
+                        position: absolute !important;
+                        bottom: 0em;
+                        right: -5em;
+                        background: #00f080;
+                        padding: .5em 1em;
+                        font-weight: bold;
+                        font-size: 17.4px;
+                        color: #38023b !important;
+                        display: inline-block;
+                        position: relative;
+                        margin: 1em 0
+                        text-decoration: none !important
+                        border: 1px solid transparent
+                        transition: all .3s ease-in-out
+                        &:hover
+                            background: #38023b
+                            color #00f080 !important
+                            border: 1px solid #00f080
                         
 .tabs
     background: #38023b;
@@ -377,6 +420,207 @@ body
                     right: -0.5em;
                     top: 0.5em;
                     z-index: -1
+    .semanal
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        .content
+            color: #38023b;
+            padding: 3em 0;
+            font-size: 16px;
+            .deportes
+                .programas
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    cursor: pointer
+                    .programa-item
+                        width: 32%
+                        display: flex;
+                        align-items: center;
+                        margin: .5em;
+                        position: relative
+                        .visible-item
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            border: 1px solid #dd1b71;
+                            padding: 0 1.5em;
+                            color: #dd1b71;
+                            i
+                                font-size: 1.5em;
+                        .modal-item
+                            position: absolute;
+                            top: 0;
+                            width: 100%;
+                            background: white;
+                            border: 1px solid #dd1b71;
+                            padding: 0 1em;
+                            display: none
+                            z-index: 1
+                            color: #dd1b71
+                            .encabezado
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                i
+                                    font-size: 1.5em;
+                            a
+                                display: flex;
+                                padding: .8em 0;
+                                p
+                                    margin: 0
+            .calendar-weekend
+                .header-segment
+                    .segment-tab
+                        p
+                            color: #9e869f !important
+                .segment-journe
+                    display: flex;
+                    width: 100%;
+                    border-bottom: 1px solid #9e869f;
+                    .journe-empty
+                        min-width: 27px;
+                    .journe
+                        writing-mode: vertical-lr;
+                        transform: rotate(180deg);
+                        background: #56f8b3;
+                        display: flex;
+                        padding: 1em .3em;
+                        min-height: 136px;
+                        margin: 1em 0;
+                        align-items: center;
+                        justify-content: center;
+                        p
+                            margin: 0
+                    .segment-tab
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        flex-direction: column;
+                        border-right: 1px solid #9e869f;
+                        margin: .3em;
+                        font-weight: bold;
+                        min-width: 158px;
+                        p
+                            margin: 0
+                    .multiple
+                        p
+                            border-bottom: 1px solid;
+                            margin: 0;
+                            padding: 1em 0;
+                            max-width: 125px;
+                            &:last-child
+                                border-bottom:0;
+                    .outstanding
+                        background: #dd1b71;
+                        color: white;
+                        p
+                            border-bottom: 1px solid;
+                            margin: 0;
+                            padding: 1em 0;
+                            max-width: 125px;
+                            &:last-child
+                                border-bottom:0;
+            .calendar-month
+                .header-segment
+                    .segment-tab
+                        p
+                            color: #9e869f !important
+                .segment-journe
+                    display: flex;
+                    width: 100%;
+                    border-bottom: 1px solid #9e869f;
+                    .journe-empty
+                        min-width: 27px;
+                    .journe
+                        min-height: 136px;
+                        width: 75px;
+                        p
+                            margin: 0
+                            display: none
+                    .segment-tab
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        flex-direction: column;
+                        border-right: 1px solid #9e869f;
+                        margin: .3em;
+                        font-weight: bold;
+                        min-width: 158px;
+                        p
+                            margin: 0
+                    .multiple
+                        p
+                            border-bottom: 1px solid;
+                            margin: 0;
+                            padding: 1em 0;
+                            max-width: 125px;
+                            &:last-child
+                                border-bottom:0;
+                    .outstanding
+                        background: #dd1b71;
+                        color: white;
+                        p
+                            border-bottom: 1px solid;
+                            margin: 0;
+                            padding: 1em 0;
+                            max-width: 125px;
+                            &:last-child
+                                border-bottom:0;
+                                
+            .content-tab-calendar
+                display: flex;
+                margin: 1em 0;   
+            .tab-programacion
+                border: 1px solid #38023b;
+                padding: .6em 2em;
+                margin-right: .5em;
+                cursor: pointer;
+                transition: all .3s ease-in-out
+                &:hover
+                    background: #38023b;
+                    color: white;
+                    padding: .6em 2em;
+                p
+                    margin: 0
+            .active
+                background: #38023b;
+                color: white;
+                padding: .6em 2em;
+
+            h2
+                margin: 0;
+                font-size: 40px
+            .btn-purple
+                background: #dd1b71;
+                padding: .5em 1em;
+                font-weight: bold;
+                font-size: 24.4px;
+                color: white !important;
+                display: inline-block;
+                margin: 1.5em 9em;
+                position: relative
+                text-decoration: none !important
+                border: 1px solid transparent
+                transition: all .3s ease-in-out
+                &:hover
+                    background: white
+                    color #dd1b71 !important
+                    border: 1px solid #dd1b71
+                &:before
+                    content: "";
+                    border: 1px solid #dd1b71;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    right: -0.5em;
+                    z-index: -1
+                    top: 0.5em;
     .gratis
         position: relative;
         max-width: 1200px;
@@ -623,8 +867,10 @@ body
         align-items: flex-start;
         justify-content: center;
         padding: 3em 0;
+        flex-wrap: wrap
         .col1
             width: 80%;
+            max-width: 784px
             h4
                 margin: 0;
                 font-size: 23px;
@@ -635,6 +881,7 @@ body
                 display: flex;
                 align-items: center;
                 justify-content: space-around;
+                flex-wrap: wrap
                 .menu
                     padding: 0;
                     margin: 0;
@@ -649,6 +896,7 @@ body
                                 color white !important
         .col2
             width: 20%;
+            min-width: 196px
             display: flex;
             justify-content: center;
             align-items: center;

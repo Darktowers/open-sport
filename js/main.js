@@ -59,7 +59,7 @@
 				$(".cont-1").slideUp();
 			}
 		});
-		
+
 		$(".rowUp").on("click", function (e) {
 			e.preventDefault();
 			$("html, body").animate({
@@ -121,6 +121,79 @@
 				$(this).attr('src', src);
 			});
 		});
+		$(".programacion .tab-programacion").on("click",function(){
+			$(".programacion .tab-programacion").removeClass("active")
+			$(this).addClass("active");
+			if($(this).hasClass("tab_pre_semanal")){
+				$(".calendar-weekend-container").slideDown();
+				$(".calendar-month-container").slideUp();
+				$(".tab-mensual").slideUp();	
+				$(".tab-semanal").slideDown();	
+			}else if($(this).hasClass("tab_pre_mensual")){
+				$(".calendar-month-container").slideDown();
+				$(".calendar-weekend-container").slideUp();
+				$(".tab-mensual").slideDown();	
+				$(".tab-semanal").slideUp();				
+			}
+			
+		});
+		
+		$(".programa-item .visible-item").on("click",function(){
+			$(this).parent().find(".modal-item").slideDown();
+		});
+		$(".programa-item .fa-times").on("click",function(){
+			$(this).parent().parent().slideUp();
+		});
+			$(".tab-mensual .tab-programacion").on("click",function(){
+			var active = $(this).attr("data-active");
+			$(".tab-mensual .tab-programacion").removeClass("active");
+			$(this).addClass("active");
+			$(".calendar-month").slideUp();
+			$("."+active).slideDown();
+		});
+		$(".tab-semanal .tab-programacion").on("click",function(){
+			var active = $(this).attr("data-active");
+			$(".tab-semanal .tab-programacion").removeClass("active");
+			$(this).addClass("active");
+			$(".calendar-weekend").slideUp();
+			$("."+active).slideDown();
+		});
+		days= ["L","M","X","J","V","S","D"]
+		$.getJSON("./datas.json", function (json) {
+			head = "";
+			contentHead ="";
+			c=0;
+			jsonx = json.weekend.yearsweek;
+			$.each(jsonx, function (i, item) {
+				$.each(item, function (i, item) {
+
+					$.each(item, function (i, item) {
+
+						head = head + "<a>" + item.titleMin+ "</a>";
+					$.each(item.days, function (i, item) {
+
+						
+						
+						if(c!=7){
+							console.log("LELELE"+c);
+							console.log(item.dayNum);
+							contentHead+='<div class="segment-tab" class="'+item.dayNum+'">' +
+							'<p>'+days[c]+' <span class="number">'+item.dayNum+'<span></p>' +
+                			'</div>';
+							c++;
+						}else{
+						
+						}
+					
+					}) // end $.each() loop
+					}) // end $.each() loop
+
+				}) // end $.each() loop
+			}) // end $.each() loop
+			
+			$(".calendar-test .header-segment").append(contentHead);
+
+		});
 		// $('.desp').on('mouseover', function(){
 		// 	$('.back-desp').slideToggle();
 		// });
@@ -136,13 +209,13 @@
 			$(".span-menuM").attr("style", "display:block !important;");
 			$(".span-menuM-Close").attr("style", "display:none !important;");
 		});
-		
+
 		$('.banner-Container').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			dots:true,
+			dots: true,
 			responsive: [
 				{
 					breakpoint: 1024,
@@ -173,12 +246,12 @@
 			]
 
 		});
-				$('.slidex').slick({
+		$('.slidex').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			autoplay: true,
 			autoplaySpeed: 3000,
-			nav:false,
+			nav: false,
 			responsive: [
 				{
 					breakpoint: 1024,
