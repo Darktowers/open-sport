@@ -429,6 +429,7 @@ body
             padding: 3em 0;
             font-size: 16px;
             .deportes
+                    padding: 2em 0px;
                 .programas
                     display: flex;
                     align-items: center;
@@ -525,6 +526,38 @@ body
                             max-width: 125px;
                             &:last-child
                                 border-bottom:0;
+            .live-calendar
+                overflow: hidden;
+                .time
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 488%;
+                    left: -60%;
+                    position: relative;
+                    .hour
+                        width: 240px;
+                .time-line
+                    .line
+                        display: flex;
+                        width: 100%;
+                        background: #38023b;
+                        height: 2px;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        margin-bottom: 1em;
+                        .fa-angle-left
+                            position: absolute;
+                            left: -1px;
+                            z-index: 6;
+                            font-size: 3.5em;
+                            top: -29px;
+                        .fa-angle-right
+                            position: absolute;
+                            z-index: 6;
+                            font-size: 3.5em;
+                            top: -29px;
+                            right: -2px;
             .calendar-month
                 .header-segment
                     .segment-tab
@@ -575,7 +608,11 @@ body
                                 
             .content-tab-calendar
                 display: flex;
-                margin: 1em 0;   
+                margin: 1em 0;
+            .tab_pre_live
+                i
+                    margin-right: .5em;
+                    color: #ce0613;
             .tab-programacion
                 border: 1px solid #38023b;
                 padding: .6em 2em;

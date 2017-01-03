@@ -57,11 +57,40 @@
       <div class="content">
          <h2 class="title">PROGRAMACIÓN SEMANAL</h2>
          <div class="content-tab-calendar programacion">
+            <div class=" tab-programacion tab_pre_live">
+               <p><i class="fa fa-circle" aria-hidden="true"></i>EN DIRECTO</p>
+            </div>
             <div class="active tab-programacion tab_pre_semanal">
                <p>PROGRAMACIÓN SEMANAL</p>
             </div>
             <div class="tab-programacion tab_pre_mensual">
                <p>PROGRAMACIÓN MENSUAL</p>
+            </div>
+         </div>
+         <div class="content-tab-calendar tab-live">
+            <div class="tab-programacion active" >
+               <p>TODOS</p>
+            </div>
+            <div class="tab-programacion " >
+               <p>FÚTBOL</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>MOTOR</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>LUCHA</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>OLYMPIADAS</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>VELA</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>GAMER</p>
+            </div>
+            <div class="tab-programacion" >
+               <p>MAS DÉPORTES</p>
             </div>
          </div>
          <div class="content-tab-calendar tab-semanal">
@@ -1870,6 +1899,91 @@
                   <div class="journe-empty">
                   </div>
                </div>
+            </div>
+         </div>
+         <div class="live-calendar-container" style="">
+            <div class="live-calendar">
+                <div class="time-now">
+                    <div class="time"><p>Ahora <span class="time">12:21</span></p></div>
+                    <div class="line-across"></div>
+                </div>
+                <div class="time-line">
+                    <div class="line"><i class="fa fa-angle-left"></i><i class="fa fa-angle-right"></i></div>
+                </div>
+                <div class="time">
+                    <div class="hour">
+                        <p>00:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>01:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>02:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>03:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>04:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>05:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>06:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>07:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>08:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>09:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>10:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>11:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>13:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>14:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>15:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>16:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>17:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>18:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>19:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>20:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>21:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>22:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>23:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>00:00</p>
+                    </div>
+                </div>
             </div>
          </div>
          <div class="deportes">
