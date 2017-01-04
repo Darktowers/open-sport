@@ -44,8 +44,20 @@
 				<img src="img/logo-open-sport.svg" alt="">
 			</div>
 			</a>
-		
+			<div class="menu-icon">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>
+		<div class="pre-menu">
 			<div class="menu">
+				<div class="filtro"></div>
+				<i class="fa fa-times movil"></i>
+				<a href="index.php">
+				<div class="header-Container-Logo movil">
+					<center>
+						<img  style="display:inline-block"src="img/logo-open-sport.svg" alt="">
+					</center>
+				</div>
+				</a>
 				<ul>
 					<li><a href="programacion.php">PROGRAMACIÓN</a></li>
 					<li><a href="">DEPORTES</a></li>
@@ -53,6 +65,7 @@
 					<li class="btn login"><a href="">INICIAR SESIÓN</a></li>
 				</ul>
 			</div>
+		</div>		
 		</div>
 	</header>
 	<div class="wrapper">

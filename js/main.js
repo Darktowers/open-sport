@@ -220,8 +220,14 @@
 			$(".span-menuM").attr("style", "display:block !important;");
 			$(".span-menuM-Close").attr("style", "display:none !important;");
 		});
-
-
+//Menu
+	$(".menu-icon").on("click",function(){
+		$(".pre-menu").show("fade");
+	});
+	$(".pre-menu .fa-times").on("click",function(){
+		$(".pre-menu").hide("fade");
+	});
+//Logica Time Line
 		$(".pre-time .program").each(function (index) {
 			var totalTimePix = 5760;
 			var hourPix = 240;

@@ -2063,6 +2063,9 @@
                     </div>
                 </div>
             </div>
+            <div class="wrap">
+                <a href="" class="btn-purple">VER MÁS</a>                            
+            </div>
          </div>
          <div class="deportes">
             <h2>¿QUÉ DEPORTES PUEDES VER?</h2>
@@ -2279,7 +2282,7 @@
    </div>
    <div class="precont">
       <div class="competencias">
-         <h3>Disfruta de todas estas competiciones y mucho más</h3>
+         <h3>Accede a todos nuestros canales</h3>
          <div class="competiciones">
             <div class="item">
                <img src="img/la-liga.png" alt="">
@@ -2302,12 +2305,58 @@
             <div class="item">
                <img src="img/la-liga.png" alt="">
             </div>
+            <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+            <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+            <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
+                        <div class="item">
+               <img src="img/la-liga.png" alt="">
+            </div>
          </div>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel massa consectetur, finibus dolor vitae,
-            <b>efficitur nisl. Sed sollicitudin velit ut dui ultrices</b> ullamcorper. Cum sociis natoque penatibus et magnis
-            dis parturient montes, nascetur ridiculus mus.
-         </p>
-         <a href="" class="btn btn-purple">CONOCE TODA NUESTRA PROGRAMACIÓN</a>
       </div>
    </div>
 </section>

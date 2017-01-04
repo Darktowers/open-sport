@@ -80,6 +80,12 @@ body
         padding: 2em 1em;
         &-Logo
             margin: 0
+        .menu-icon
+            color: white;
+            font-size: 1.8em;
+            display: none
+        .movil
+            display: none
         .menu
             ul
                 margin: 0;
@@ -319,6 +325,11 @@ body
             width: 825px;
             right: 0;
             z-index: -1;
+        .mes-movil
+        .jornada-movil
+            display: none
+        .mes-movil
+        .jornada-movil
         .planes-Container
             .segment
                 display: flex
@@ -688,6 +699,10 @@ body
             h2
                 margin: 0;
                 font-size: 40px
+            .wrap
+                display: flex;
+                align-items: center;
+                justify-content: center;
             .btn-purple
                 background: #dd1b71;
                 padding: .5em 1em;
@@ -695,7 +710,6 @@ body
                 font-size: 24.4px;
                 color: white !important;
                 display: inline-block;
-                margin: 1.5em 9em;
                 position: relative
                 text-decoration: none !important
                 border: 1px solid transparent
@@ -704,15 +718,6 @@ body
                     background: white
                     color #dd1b71 !important
                     border: 1px solid #dd1b71
-                &:before
-                    content: "";
-                    border: 1px solid #dd1b71;
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    right: -0.5em;
-                    z-index: -1
-                    top: 0.5em;
     .gratis
         position: relative;
         max-width: 1200px;
@@ -1062,6 +1067,11 @@ body
                 h3
                     font-size: 20px
 @media (max-width:930px)
+    .banner
+        &-Container
+            &-Item
+                .back
+                    height: 580px;
     .header
         &-Container
             &-Logo
@@ -1071,9 +1081,67 @@ body
                 font-size: 14px !important
                 ul
                     li
-                        min-width: auto !important        
+                        min-width: auto !important
+    .gratis
+        text-align: center;
+        .content
+            img
+                display: inline-block;
+            .btn-purple
+                margin: .5em 0 !important
+        .back
+            display: none;
+    .content-tab
+        .back
+            display: none
+    .content-tab 
+        .planes 
+            .content
+                text-align: center
+                padding: 2em 1em !important
+                .img
+                    text-align: center
+                    img
+                        display: inline-block
 
-@media (max-width:768px)   
+        
+
+@media (max-width:768px)
+    .tabs-Container 
+        .tab
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+    .content-tab
+        .noticias
+            .img
+                height: 400px;
+            .content 
+                .text
+                    font-size: 12px !important;
+                    max-width: 300px !important;
+                    margin: .8em !important
+                    h3
+                        font-size: 20px;
+                    .btn-purple
+                        font-size: 12px !important
+
+    .content-tab 
+        .precont 
+            .competencias 
+                p
+                    padding:0 .5em !important 
+    .banner
+        &-Container
+            &-Item
+                .back
+                    height: 530px;
+                .content
+                    .text
+                        margin: .3em !important
+                        font-size: 14px;
+                        p
+                            font-size: 30px !important
     .header
         background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
         position: absolute
@@ -1089,9 +1157,32 @@ body
             padding: 2em 1em;
             &-Logo
                 margin: 0
-            .menu
+            .menu-icon
+                display: block
+            .movil
+                display: block
+            .pre-menu
                 display: none
-                position: fixed!important;
+                position: absolute;
+                left: 0;
+            .filtro
+                background: linear-gradient(180deg, rgba(0, 240, 128, 0.8) 0%, rgba(0, 240, 128, 0) 51%, rgba(0, 240, 128, 0) 75%);
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                height: 15%;
+                top: 0;
+                left: 0;
+            .fa-times
+                position: absolute;
+                top: 0;
+                right: 0;
+                color: white;
+                font-size: 2em;
+                padding: .4em;
+                cursor: pointer;
+            .menu
+                position: fixed !important;
                 top: 0 !important;
                 background: #38023B !important;
                 width: 100% !important;
@@ -1127,6 +1218,32 @@ body
                     font-size: 30px !important
                 h3
                     font-size: 20px !important
+@media (max-width: 645px)
+    .planes-Container
+        display: none
+    .mes-movil
+    .jornada-movil
+        display: block !important
+        .plan-item
+            opacity: 1 !important
+            width: 50% !important
+            &:first-child
+                width: 50% !important
+    .tabs-Container 
+        font-size: 12px !important
+    .banner
+        &-Container
+            &-Item
+                .back
+                    height: 500px;
+                .content
+                    justify-content: center
+                    .text
+                        margin: .3em !important
+                        font-size: 12px;
+                        max-width: 250px !important
+                        p
+                            font-size: 20px !important
 @media (max-width: 400px)
     .modal-video
         .video-cont
