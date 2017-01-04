@@ -138,14 +138,14 @@
 				$(".tab-semanal").slideUp();
 				$(".tab-live").slideUp();
 				$(".live-calendar-container").slideUp();
-			}else if($(this).hasClass("tab_pre_live")){
+			} else if ($(this).hasClass("tab_pre_live")) {
 				$(".calendar-month-container").slideUp();
 				$(".calendar-weekend-container").slideUp();
 				$(".tab-mensual").slideUp();
 				$(".tab-semanal").slideUp();
 				$(".tab-live").slideDown();
 				$(".live-calendar-container").slideDown();
-				
+
 			}
 
 		});
@@ -234,37 +234,53 @@
 			var timeEnd = $(this).attr("data-time-end");
 			var timeStart = parseFloat(timeStart);
 			var timeEnd = parseFloat(timeEnd);
-			var Digital=new Date()
-			var actualHour=Digital.getHours();
-			var actualMin= Digital.getMinutes();
-			if (actualMin<=9)
-				actualMin="0"+actualMin
-			var actualHourString = actualHour+":"+actualMin;
-			var actualHourLive = actualHour+"."+actualMin;
-			var actualHourLive =parseFloat(actualHourLive);
-			var startLive = (actualHourLive * totalTimePix/totalHours)-hourPix;
+			var Digital = new Date()
+			var actualHour = Digital.getHours();
+			var actualMin = Digital.getMinutes();
+			if (actualMin <= 9) {
+				var actualHourString = actualHour + ":0" + actualMin;
+				actualMin = "0.0" + actualMin
+				actualMin = parseFloat(actualMin);
+				actualMin = actualMin * 1 /0.6;
+	
+				var actualHourLive = actualHour + actualMin;
+
+				
+			} else {
+				
+				var actualHourString = actualHour + ":" + actualMin;
+				actualMin = "0." + actualMin
+				actualMin = parseFloat(actualMin);
+				actualMin = actualMin * 1 /0.6;
+	
+				var actualHourLive = actualHour + actualMin;
+
+				var actualHourLive = parseFloat(actualHourLive);
+				
+				
+			}
+			var startLive = (actualHourLive * totalTimePix / totalHours) - hourPix;
 			$(".live-calendar .time").each(function (index) {
-				$(this).attr("style","left:-"+(startLive-500)+"px");
+				$(this).attr("style", "left:-" + (startLive - 500) + "px");
 			});
-			$(".live-calendar .time-now").attr("style","left:-"+startLive+"px");
-			$(".live-calendar .now").attr("style","left:"+(startLive+500)+"px");
+			$(".live-calendar .time-now").attr("style", "left:-" + startLive + "px");
+			$(".live-calendar .now").attr("style", "left:" + (startLive + 450) + "px");
 			$(".live-calendar .now .time-live").html(actualHourString);
-			
-			console.log("Start Live"+startLive);
-			if(timeStart>timeEnd){
+
+
+			if (timeStart > timeEnd) {
 				var error = true;
 			}
-			if(actualHourLive >=timeStart && actualHourLive<= timeEnd ){
+			if (actualHourLive >= timeStart && actualHourLive <= timeEnd) {
 				$(this).addClass("active-event")
-			}else{
+			} else {
 				$(this).removeClass("active-event")
 			}
-			startProgram = (timeStart * totalTimePix/totalHours)-hourPix;
-			finalProgram = (timeEnd * totalTimePix/totalHours)-hourPix;
+			startProgram = (timeStart * totalTimePix / totalHours) - hourPix;
+			finalProgram = (timeEnd * totalTimePix / totalHours) - hourPix;
 			widthProgram = finalProgram - startProgram;
-			$(this).attr("style","width: "+widthProgram+"px;left:"+startProgram+"px;")
-			console.log("Start Program: "+startProgram);
-			console.log("width Program: "+widthProgram);
+			$(this).attr("style", "width: " + widthProgram + "px;left:" + startProgram + "px;")
+
 
 		});
 		$('.banner-Container').slick({
