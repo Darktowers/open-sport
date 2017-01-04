@@ -121,76 +121,88 @@
 				$(this).attr('src', src);
 			});
 		});
-		$(".programacion .tab-programacion").on("click",function(){
+		$(".programacion .tab-programacion").on("click", function () {
 			$(".programacion .tab-programacion").removeClass("active")
 			$(this).addClass("active");
-			if($(this).hasClass("tab_pre_semanal")){
+			if ($(this).hasClass("tab_pre_semanal")) {
 				$(".calendar-weekend-container").slideDown();
 				$(".calendar-month-container").slideUp();
-				$(".tab-mensual").slideUp();	
-				$(".tab-semanal").slideDown();	
-			}else if($(this).hasClass("tab_pre_mensual")){
+				$(".tab-mensual").slideUp();
+				$(".tab-semanal").slideDown();
+				$(".tab-live").slideUp();
+				$(".live-calendar-container").slideUp();
+			} else if ($(this).hasClass("tab_pre_mensual")) {
 				$(".calendar-month-container").slideDown();
 				$(".calendar-weekend-container").slideUp();
-				$(".tab-mensual").slideDown();	
-				$(".tab-semanal").slideUp();				
+				$(".tab-mensual").slideDown();
+				$(".tab-semanal").slideUp();
+				$(".tab-live").slideUp();
+				$(".live-calendar-container").slideUp();
+			}else if($(this).hasClass("tab_pre_live")){
+				$(".calendar-month-container").slideUp();
+				$(".calendar-weekend-container").slideUp();
+				$(".tab-mensual").slideUp();
+				$(".tab-semanal").slideUp();
+				$(".tab-live").slideDown();
+				$(".live-calendar-container").slideDown();
+				
 			}
-			
+
 		});
-		
-		$(".programa-item .visible-item").on("click",function(){
+
+		$(".programa-item .visible-item").on("click", function () {
 			$(this).parent().find(".modal-item").slideDown();
 		});
-		$(".programa-item .fa-times").on("click",function(){
+		$(".programa-item .fa-times").on("click", function () {
 			$(this).parent().parent().slideUp();
 		});
-			$(".tab-mensual .tab-programacion").on("click",function(){
+		$(".tab-mensual .tab-programacion").on("click", function () {
 			var active = $(this).attr("data-active");
 			$(".tab-mensual .tab-programacion").removeClass("active");
 			$(this).addClass("active");
 			$(".calendar-month").slideUp();
-			$("."+active).slideDown();
+			$("." + active).slideDown();
 		});
-		$(".tab-semanal .tab-programacion").on("click",function(){
+		$(".tab-semanal .tab-programacion").on("click", function () {
 			var active = $(this).attr("data-active");
 			$(".tab-semanal .tab-programacion").removeClass("active");
 			$(this).addClass("active");
 			$(".calendar-weekend").slideUp();
-			$("."+active).slideDown();
+			$("." + active).slideDown();
 		});
-		days= ["L","M","X","J","V","S","D"]
+		days = ["L", "M", "X", "J", "V", "S", "D"]
 		$.getJSON("./datas.json", function (json) {
 			head = "";
-			contentHead ="";
-			c=0;
+			contentHead = "";
+			c = 0;
 			jsonx = json.weekend.yearsweek;
 			$.each(jsonx, function (i, item) {
 				$.each(item, function (i, item) {
 
 					$.each(item, function (i, item) {
 
-						head = head + "<a>" + item.titleMin+ "</a>";
-					$.each(item.days, function (i, item) {
+						head = head + "<a>" + item.titleMin + "</a>";
+						$.each(item.days, function (i, item) {
 
-						
-						
-						if(c!=7){
-							console.log("LELELE"+c);
-							console.log(item.dayNum);
-							contentHead+='<div class="segment-tab" class="'+item.dayNum+'">' +
-							'<p>'+days[c]+' <span class="number">'+item.dayNum+'<span></p>' +
-                			'</div>';
-							c++;
-						}else{
-						
-						}
-					
-					}) // end $.each() loop
+
+
+							if (c != 7) {
+								console.log("LELELE" + c);
+								console.log(item.dayNum);
+								contentHead += '<div class="segment-tab" class="' + item.dayNum + '">' +
+									'<p>' + days[c] + ' <span class="number">' + item.dayNum + '<span></p>' +
+									'</div>';
+								c++;
+							} else {
+
+							}
+
+						}) // end $.each() loop
 					}) // end $.each() loop
 
 				}) // end $.each() loop
 			}) // end $.each() loop
-			
+
 			$(".calendar-test .header-segment").append(contentHead);
 
 		});
@@ -198,7 +210,6 @@
 		// 	$('.back-desp').slideToggle();
 		// });
 		$(".span-menuM").on("click", function () {
-
 			$(".menuM").stop().slideDown();
 			$(".span-menuM").attr("style", "display:none !important;");
 			$(".span-menuM-Close").attr("style", "display:block !important;");
@@ -210,6 +221,52 @@
 			$(".span-menuM-Close").attr("style", "display:none !important;");
 		});
 
+
+		$(".pre-time .program").each(function (index) {
+			var totalTimePix = 5760;
+			var hourPix = 240;
+			var totalHours = 24;
+			var widthProgram = 0;
+			var startProgram = 0;
+			var finalProgram = 0;
+			var pixelDelay = 1000;
+			var timeStart = $(this).attr("data-time-start");
+			var timeEnd = $(this).attr("data-time-end");
+			var timeStart = parseFloat(timeStart);
+			var timeEnd = parseFloat(timeEnd);
+			var Digital=new Date()
+			var actualHour=Digital.getHours();
+			var actualMin= Digital.getMinutes();
+			if (actualMin<=9)
+				actualMin="0"+actualMin
+			var actualHourString = actualHour+":"+actualMin;
+			var actualHourLive = actualHour+"."+actualMin;
+			var actualHourLive =parseFloat(actualHourLive);
+			var startLive = (actualHourLive * totalTimePix/totalHours)-hourPix;
+			$(".live-calendar .time").each(function (index) {
+				$(this).attr("style","left:-"+(startLive-500)+"px");
+			});
+			$(".live-calendar .time-now").attr("style","left:-"+startLive+"px");
+			$(".live-calendar .now").attr("style","left:"+(startLive+500)+"px");
+			$(".live-calendar .now .time-live").html(actualHourString);
+			
+			console.log("Start Live"+startLive);
+			if(timeStart>timeEnd){
+				var error = true;
+			}
+			if(actualHourLive >=timeStart && actualHourLive<= timeEnd ){
+				$(this).addClass("active-event")
+			}else{
+				$(this).removeClass("active-event")
+			}
+			startProgram = (timeStart * totalTimePix/totalHours)-hourPix;
+			finalProgram = (timeEnd * totalTimePix/totalHours)-hourPix;
+			widthProgram = finalProgram - startProgram;
+			$(this).attr("style","width: "+widthProgram+"px;left:"+startProgram+"px;")
+			console.log("Start Program: "+startProgram);
+			console.log("width Program: "+widthProgram);
+
+		});
 		$('.banner-Container').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,

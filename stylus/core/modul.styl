@@ -528,14 +528,69 @@ body
                                 border-bottom:0;
             .live-calendar
                 overflow: hidden;
+                position: relative
+                padding-top: 3em
+                .time-now
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 5760px;//24 horas
+                    left: -2400px;//10 horas
+                    position: absolute
+                    height: 100%;
+                    .now
+                        position: relative;
+                        left: 2800px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        top: -1em;
+                        z-index: 2;
+                        p
+                            background: #00f080;
+                            color: white;
+                            padding: .5em;
+                            margin: 0;
+                        .line-across
+                            height: 100%;
+                            width: 3px;
+                            background: #00f080;
                 .time
                     display: flex;
                     flex-wrap: wrap;
-                    width: 488%;
-                    left: -60%;
+                    width: 5760px;//24 horas
+                    left: -2400px;//10 horas
                     position: relative;
                     .hour
                         width: 240px;
+                .pre-time
+                    display: flex;
+                    height: 115px;
+                    position: relative;
+                    .segment-channel
+                        width: 240px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: white;
+                        z-index: 2;
+                        img
+                            width: 100%
+                    .time
+                        position: absolute;
+                        height: 115px;
+                        top: 0;
+                        .program
+                            position: absolute;
+                            height: 100%;
+                            border: 1px solid #38023b;
+                            display: flex;
+                            align-items: flex-start;
+                            justify-content: flex-start;
+                            padding: 0 1em;
+                        .active-event
+                            border: 1px solid #dd1b71
+                            
+
                 .time-line
                     .line
                         display: flex;

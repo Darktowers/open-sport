@@ -67,7 +67,7 @@
                <p>PROGRAMACIÓN MENSUAL</p>
             </div>
          </div>
-         <div class="content-tab-calendar tab-live">
+         <div class="content-tab-calendar tab-live" style="display: none;">
             <div class="tab-programacion active" >
                <p>TODOS</p>
             </div>
@@ -1901,19 +1901,18 @@
                </div>
             </div>
          </div>
-         <div class="live-calendar-container" style="">
+         <div class="live-calendar-container" style="display: none">
             <div class="live-calendar">
                 <div class="time-now">
-                    <div class="time"><p>Ahora <span class="time">12:21</span></p></div>
-                    <div class="line-across"></div>
+                        <div class="now">
+                            <p>Ahora <span class="time-live">12:21</span></p>
+                            <div class="line-across"></div>
+                        </div>       
                 </div>
                 <div class="time-line">
                     <div class="line"><i class="fa fa-angle-left"></i><i class="fa fa-angle-right"></i></div>
                 </div>
                 <div class="time">
-                    <div class="hour">
-                        <p>00:00</p>
-                    </div>
                     <div class="hour">
                         <p>01:00</p>
                     </div>
@@ -1946,6 +1945,9 @@
                     </div>
                     <div class="hour">
                         <p>11:00</p>
+                    </div>
+                    <div class="hour">
+                        <p>12:00</p>
                     </div>
                     <div class="hour">
                         <p>13:00</p>
@@ -1981,7 +1983,83 @@
                         <p>23:00</p>
                     </div>
                     <div class="hour">
-                        <p>00:00</p>
+                        <p>24:00</p>
+                    </div>
+
+                </div>
+                <div class="pre-time">
+                    <div class="segment-channel">
+                        <div class="channel">
+                            <img src="img/channel.png" alt="">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="program" data-time-start="12"data-time-end="13" style="width: 240px;left: 2640px;">
+                            <p>Event Test</p>
+                        </div>
+                        <div class="program" data-time-start="13"data-time-end="14" style="width: 240px;left: 3360px;">
+                            <p>Event Test</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-time">
+                    <div class="segment-channel">
+                        <div class="channel">
+                            <img src="img/channel.png" alt="">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="program" data-time-start="12"data-time-end="12.5" style="width: 240px;left: 2880px;">
+                            <p>Event Test</p>
+                        </div>
+                        <div class="program" data-time-start="14"data-time-end="15.5" style="width: 120px;left: 3120px;">
+                            <p>Event Test</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-time">
+                    <div class="segment-channel">
+                        <div class="channel">
+                            <img src="img/channel.png" alt="">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="program" data-time-start="12"data-time-end="13" style="width: 240px;left: 2880px;">
+                            <p>Event Test</p>
+                        </div>
+                        <div class="program" data-time-start="11"data-time-end="12" style="width: 240px;left: 3360px;">
+                            <p>Event Test</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-time">
+                    <div class="segment-channel">
+                        <div class="channel">
+                            <img src="img/channel.png" alt="">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="program" data-time-start="12"data-time-end="13" style="width: 240px;left: 2880px;">
+                            <p>Event Test</p>
+                        </div>
+                        <div class="program" data-time-start="14"data-time-end="15" style="width: 240px;left: 3360px;">
+                            <p>Event Test</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pre-time">
+                    <div class="segment-channel">
+                        <div class="channel">
+                            <img src="img/channel.png" alt="">
+                        </div>
+                    </div>
+                    <div class="time">
+                        <div class="program" data-time-start="12"data-time-end="13" style="width: 240px;left: 2880px;">
+                            <p>Event Test</p>
+                        </div>
+                        <div class="program" data-time-start="14"data-time-end="15" style="width: 240px;left: 3360px;">
+                            <p>Event Test</p>
+                        </div>
                     </div>
                 </div>
             </div>
