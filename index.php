@@ -111,7 +111,7 @@
     <div class="precont noti">
         <div class="noticias">
             <div class="img">
-                <img class="back" src="img/alonzo.jpg" alt="">
+                <img class="back-noti" src="img/alonzo.jpg" alt="">
                 <div class="play">
                     <div class="prev-play">
                         <img src="img/play.svg" alt="">
