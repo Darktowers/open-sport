@@ -7,7 +7,7 @@
          </div>
          <div class="content">
             <div class="box">
-               <h1>VIVE EL PARTIDASO</h1>
+               <h1>VIVE EL PARTIDAZO</h1>
                <div class="text">
                   <h4>27 DE DICIEMBRE</h4>
                   <h5 class="t_green">21:00 H</h5>
@@ -23,7 +23,7 @@
          </div>
          <div class="content">
             <div class="box">
-               <h1>VIVE EL PARTIDASO</h1>
+               <h1>VIVE EL PARTIDAZO</h1>
                <div class="text">
                   <h4>27 DE DICIEMBRE</h4>
                   <h5 class="t_green">21:00 H</h5>

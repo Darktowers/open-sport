@@ -687,6 +687,7 @@ body
                             display: none
                             z-index: 1
                             color: #dd1b71
+                            left: 0
                             .encabezado
                                 display: flex;
                                 align-items: center;
@@ -710,7 +711,6 @@ body
                     .journe-empty
                         min-width: 27px;
                     .journe
-                        writing-mode: vertical-lr;
                         transform: rotate(180deg);
                         background: #56f8b3;
                         display: flex;
@@ -721,6 +721,10 @@ body
                         justify-content: center;
                         p
                             margin: 0
+                            -webkit-writing-mode: vertical-lr;
+                            -ms-writing-mode: tb-lr;
+                            writing-mode: vertical-lr;
+                            width: 20px;
                     .segment-tab
                         display: flex;
                         align-items: center;

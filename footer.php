@@ -43,7 +43,7 @@
 		</div>
 	</div>
 	<div class="disclaimer">
-		<p>Opensport 2016 (c) Todos los derechos reservados, un producto de OpenFutbol y OpenCable</p>
+		<p>Opensport 2017 (c) Todos los derechos reservados, un producto de OpenFutbol y OpenCable</p>
 	</div>
 </footer>
 <div class="rowUp"><img src="" alt=""></div>
