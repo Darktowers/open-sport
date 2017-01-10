@@ -64,13 +64,15 @@
        </div>
        <div class="programs-container">
            <div class="col">
-               <div class="item big">
-                   <div class="filtro filtro-morado"></div>
-                   <img src="img/futbol-bn.jpg" alt="">
-                   <div class="text">
-                       <p>FÚTBOL</p>
-                   </div>
-               </div>
+               <a target="_blanc" href="">
+                <div class="item big">
+                    <div class="filtro filtro-morado"></div>
+                    <img src="img/futbol-bn.jpg" alt="">
+                    <div class="text">
+                        <p>FÚTBOL</p>
+                    </div>
+                </div>
+               </a>
                <div class="item">
                    <div class="filtro filtro-morado"></div>
                    <img src="img/motogp-bn.jpg" alt="">

@@ -147,8 +147,8 @@
 <div class="device">
     <img src="img/phone.png" style="width: 140px;" alt=""></div>
 </div>
-<p><b>¿Qué necesito para ver OpenSport en mis dispositivos?</b></p>
-<p>Consulta la sección <b class="t_purple">dispositivos</b> para ver OpenSport desde cada dispositivo</p>
+<p><b>¿Qué necesito para ver Opensport en mis dispositivos?</b></p>
+<p>Consulta la sección <b class="t_purple">dispositivos</b> para ver Opensport desde cada dispositivo</p>
 
 </div>
 
@@ -180,10 +180,10 @@
                 <div class="segment">
                     <div class="plan-item empty"></div>
                     <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Jornada OpenSport</div>
+                        <div class="tab tab-jornada">Jornada Opensport</div>
                     </div>
                     <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes OpenSport</div>
+                        <div class="tab tab-mes tab-active">Mes Opensport</div>
                     </div>
                 </div>
                 <div class="segment">
@@ -272,7 +272,7 @@
                 <div class="segment">
                     <div class="plan-item empty"></div>
                     <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes OpenSport</div>
+                        <div class="tab tab-mes tab-active">Mes Opensport</div>
                     </div>
                 </div>
                 <div class="segment">
@@ -343,7 +343,7 @@
                 <div class="segment">
                     <div class="plan-item empty"></div>
                     <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Jornada OpenSport</div>
+                        <div class="tab tab-jornada">Jornada Opensport</div>
                     </div>
 
                 </div>

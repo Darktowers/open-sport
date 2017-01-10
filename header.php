@@ -62,7 +62,7 @@
 					<li><a href="programacion.php">PROGRAMACIÓN</a></li>
 					<li><a href="deportes.php">DEPORTES</a></li>
 					<li><a href="">CONTRÁTALO</a></li>
-					<li class="btn login"><a href="">INICIAR SESIÓN</a></li>
+					<li class="login"><a href="">INICIAR SESIÓN</a></li>
 				</ul>
 			</div>
 		</div>		
