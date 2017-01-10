@@ -168,6 +168,7 @@
 			$(".tab-semanal .tab-programacion").removeClass("active");
 			$(this).addClass("active");
 			$(".calendar-weekend").slideUp();
+			$(".calendar-weekend-movil").slideUp();
 			$("." + active).slideDown();
 		});
 		days = ["L", "M", "X", "J", "V", "S", "D"]

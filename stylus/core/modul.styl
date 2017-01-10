@@ -903,6 +903,7 @@ body
                 margin-right: .5em;
                 cursor: pointer;
                 transition: all .3s ease-in-out
+                text-align: center
                 &:hover
                     background: #38023b;
                     color: white;
@@ -1261,12 +1262,12 @@ body
         .col
             width: 50%;
             .big
-                width: 400px !important
-                height: 400px !important
+                width: 400px 
+                height: 400px 
                 float: left !important
             .large
-                width: 400px !important
-                height: 200px !important
+                width: 400px 
+                height: 200px 
             .item
                 width: 200px;
                 height: 200px;
@@ -1306,8 +1307,59 @@ body
                     -ms-transform: translate(-50%,-50%) !important;
                     transform: translate(-50%,-50%) !important;
                     z-index: -1;
+//Calendar movil
+.calendar-weekend-movil
+    display: none
+    .day-container
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        border-top: 1px solid #ece5ef;
+        padding: 1em .5em;
+        p
+         margin: 0
+        .day
+            width: 20%;
+            p
+            font-weight: bold;
+        .journex
+            width: 80%;
+            .journe-container
+                display: flex;
+                .journe-label
+                    width: 33.3%;
+                    margin: 0 .3em;
+                    p
+                        background: #56f8b3;
+                        text-align: center;
+                        padding: .4em;
+                        margin: 0;
+                .event-container
+                    width: 100%
+                    .event
+                        padding: .3em;
+                    .outstanding
+                        background: #dd1b71;
+                        color: white;
+                        font-weight: bold;
+                        margin-bottom: .3em;
 
+
+@media (min-width:1200px)
+    .calendar-weekend-movil
+        display: none !important
+    .more-sports
+        .programs-container
+            .col
+                .big
+                    width: 400px !important
+                    height: 400px !important
+                .large
+                    width: 400px !important
+                    height: 200px !important
 @media (max-width:1200px)
+    .desk-calendar
+        display: none !important
     .programs-container
         flex-direction: column
         .col
@@ -1395,6 +1447,20 @@ body
         
 
 @media (max-width:768px)
+    .content-tab 
+        .semanal 
+            .content
+                .tab-mensual
+                    justify-content: center
+                    .tab-programacion
+                        p
+                            width: 50px;
+                            -o-text-overflow: ellipsis;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+    .tab_pre_live
+        display: none !important
     .pre-col
         flex-direction: column
         justify-content: center
@@ -1535,6 +1601,23 @@ body
                         max-width: 250px !important
                         p
                             font-size: 20px !important
+@media (max-width:600px)
+    .content-tab 
+        .planes 
+            .super-plan
+                width: 100% !important
+    .programs-container
+        .col
+            min-width: 100% !important
+            .item
+                width: 33.333% !important;
+                height: 160px !important;
+            .big
+                width: 33.333% !important;
+                height: 160px !important;
+            .large
+                width: 33.333% !important;
+                height: 160px !important;
 @media (max-width: 400px)
     .modal-video
         .video-cont

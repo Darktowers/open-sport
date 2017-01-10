@@ -122,7 +122,399 @@
             </div>
          </div>
          <div class="calendar-weekend-container">
-            <div class="calendar-weekend first" >
+            <div class="calendar-weekend-movil first">
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-weekend-movil second">
+                <div class="day-container">
+                    <div class="day">
+                        <p>L21</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-weekend-movil third">
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-weekend-movil  fourth">
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="day-container">
+                    <div class="day">
+                        <p>L12</p>
+                    </div>
+                    <div class="journex">
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Mañana</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>Champions:<br>Bayern Múnich - Arsenal</p></div>
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Tarde</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event outstanding"><p>La Liga:<br>Real Madrid - FC Barcelona</p></div>
+                                <div class="event outstanding"><p>Copa del Rey:<br>Atl. Madrid - UD Las Palmas</p></div>                                
+                            </div>
+                        </div>
+                        <div class="journe-container">
+                            <div class="journe-label">
+                                <p>Noche</p>
+                            </div>
+                            <div class="event-container">
+                                <div class="event"><p>MMA:<br>Luchador 1 vs Luchador 2</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar-weekend first desk-calendar" >
                <div class="segment-journe header-segment">
                   <div class="journe-empty">
                   </div>
@@ -229,7 +621,7 @@
                   </div>
                </div>
             </div>
-            <div class="calendar-weekend second" style="display: none">
+            <div class="calendar-weekend second desk-calendar" style="display: none">
                <div class="segment-journe header-segment">
                   <div class="journe-empty">
                   </div>
@@ -336,7 +728,7 @@
                   </div>
                </div>
             </div>
-            <div class="calendar-weekend third" style="display: none">
+            <div class="calendar-weekend third desk-calendar" style="display: none">
                <div class="segment-journe header-segment">
                   <div class="journe-empty">
                   </div>
@@ -443,7 +835,7 @@
                   </div>
                </div>
             </div>
-            <div class="calendar-weekend fourth" style="display: none">
+            <div class="calendar-weekend fourth desk-calendar" style="display: none">
                <div class="segment-journe header-segment">
                   <div class="journe-empty">
                   </div>

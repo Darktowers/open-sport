@@ -158,8 +158,8 @@
         <img src="img/transparent-rectangles.png" alt="">
     </div>
     <div class="content">
-        <p class="message"><b>Comprueba tu conexión con <br> nuestro test de velosidad</b></p>
-        <a href="" class="btn btn-black">TEST DE VELOSIDAD</a>
+        <p class="message"><b>Comprueba tu conexión con <br> nuestro test de velocidad</b></p>
+        <a href="" class="btn btn-black">TEST DE VELOCIDAD</a>
     </div>
 </div>
 
