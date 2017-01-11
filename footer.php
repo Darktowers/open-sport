@@ -16,12 +16,12 @@
 					<ul class="menu">
 						<li><a href="">Aviso Legal</a></li>
 						<li><a href="">Politica de cookies</a></li>
-						<li><a href="">Preguntas frecuentes</a></li>
+						
 					</ul>
 					<ul class="menu">
 						<li><a href="">Preguntas frecuentes</a></li>
 						<li><a href="">Formas de pago</a></li>
-						<li><a href="">Condiciones del servicio</a></li>
+						
 					</ul>
 					<ul class="menu">
 						<li><a href="">Condiciones del servicio</a></li>
