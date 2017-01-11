@@ -36,14 +36,13 @@
 				<a href=""><i class="fa fa-twitter"></i></a>
 			</div>
 			<div class="apps">
-				<p>Nuestras Apps</p>
-				<a href=""><img src="img/itunes-app-store-logo.png" alt=""></a>
+				<a href="" ><img style="width: 155px !important"src="img/itunes-app-store-logo.png" alt=""></a>
 				<a href=""><img src="img/play-store.png" alt=""></a>
 			</div>
 		</div>
 	</div>
 	<div class="disclaimer">
-		<p>Opensport 2017 (c) Todos los derechos reservados, un producto de OpenFutbol y OpenCable</p>
+		<p>Opensport 2017 (c) Todos los derechos reservados, un producto de Openfutbol y Opencable</p>
 	</div>
 </footer>
 <div class="rowUp"><img src="" alt=""></div>

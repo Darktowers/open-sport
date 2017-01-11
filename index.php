@@ -14,32 +14,85 @@
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post1.jpg" alt="">
+                <img src="img/post1.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>DÉJALOS KO</p>
+                    <h4><span class="t_green">MMA</span> Y MÁS</h4>
+                    <h4>POR 9'99¤/MES</h4>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post2.jpg" alt="">
+                <img src="img/post2.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <h4>EL FUTURO ES HOY</h4>                    
+                    <p>WORLD <br>DRONE PRIX</p>
+                    <h4><span class="t_purple">E-SPORTS</span> Y MÁS</h4>
+                    <h4>POR 9'99¤/MES</h4>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post3.jpg" alt="">
+                <img src="img/post3.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>FORMULA E</p>
+                    <h4><span class="t_green">SIENTE LA DESCARGA</span></h4>
+                    <h4>DE VELOCIDAD</h4>
+                    <h4>Y MUCHO MÁS</h4>                    
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post4.jpg" alt="">
+                <img src="img/post4.png" alt="">
+            </div>
+        
+            <div class="content">
+                <div class="text">
+                    <h4>NO, NOS HEMOS VUELTO LOCOS, NI TU TAMPOCO</h4>
+                    <p class="t_purple">EL PARTIDAZO GRATIS</p>
+                    <h5>MADRID - BARÇA</h5>
+                    <h5>22-23 ABRIL</h5>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post5.jpg" alt="">
+                <img src="img/post5.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>SE SIEMPRE <br> EL PRIMERO</p>
+                    
+                    <h4>EN <span class="t_green">MOTOGP</span> Y MÁS</h5>
+                    <h4>POR 9'99¤/MES</h4>
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post6.jpg" alt="">
+                <img src="img/post6.png" alt="">
+            </div>
+            <div class="content">
+                <div class="text">
+                    <p>RELÁJATE</p>
+                    <h4><span class="t_green">UN MES GRATIS</span> CON</h4>
+                    <h4>YOGA Y MUCHO MÁS</h4>        
+                    <a href="" class="btn btn-purple">PRUEBA UN MES GRATIS</a>
+                </div>
             </div>
         </div>
     </div>
@@ -60,6 +113,7 @@
         </div>
     </div>
 </section>
+<div class="container-contentx">
 <section class="content-tab cont-1" style="display: block">
     <div class="gratis">
         <img class="back" src="img/real-vs-madrid.png" alt="">
@@ -68,7 +122,7 @@
                 <img src="img/logo-open-sport-purple.svg" alt="">
             </div>
             <p><b>Opensport</b> es la única plataforma en españa que te permitirá ver <br>
-                <b>donde quieras y sin compromisos El Partidazo, la F1, Moto GP, MMA, E-Sports</b> y <br> todos el deporte
+                <b>donde quieras y sin compromisos El Partidazo, la Formula E, Moto GP, MMA, E-Sports</b> y <br> todos el deporte
                 en directo que siempre has buscado y nunca has encontrado.</p>
             <h2>Disfruta gratis un mes</h2>
             <h3>sin compromiso de permanencia</h3>
@@ -81,52 +135,57 @@
             <h3>Disfruta de todas estas competiciones y mucho más</h3>
             <div class="competiciones">
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/laliga-santander-v-300x300.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/laliga-123-v-300x300.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/2000px-Moto_Gp_logo.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/formula-e.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/mxgp.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/americas_cup.png" alt="">
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel massa consectetur, finibus dolor vitae,
-                <b>efficitur nisl. Sed sollicitudin velit ut dui ultrices</b> ullamcorper. Cum sociis natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Además podrás ver en vivo los mejores combates de <B>kickboxing, MMA, deportes extremos como surf, skate, bmx y esquí, competiciones de eSports, buceo</B> y mucho más</p>
             <a href="" class="btn btn-purple">CONOCE TODA NUESTRA PROGRAMACIÓN</a>
         </div>
     </div>
     <div class="precont noti">
         <div class="noticias">
             <div class="img">
-                <img class="back-noti" src="img/alonzo.jpg" alt="">
+                <!--<img class="back-noti" src="img/alonzo.jpg" alt=""> -->
+                <video class="video" width="1200" height="700" >
+                    <source src="video/open_sport_app.mp4" type="video/mp4">
+                </video>
+                <div class="pause" style="display:none;">
+                    <div class="prev-pause">
+                        <i class="fa fa-pause" aria-hidden="true"></i>
+                    </div>
+                </div>
                 <div class="play">
                     <div class="prev-play">
                         <img src="img/play.svg" alt="">
                     </div>
-                </div>
+                </div> <!--
                 <div class="filtro">
                     <img src="img/transparent-rectangles.png" alt="">
-                </div>
-            </div>
+                </div>-->
+            </div> 
+            <!--
             <div class="content">
                 <div class="text">
                     <div class="btn btn-purple">G.P. MALASIA</div>
                     <h3>ALONSO LE <span class="t_green">QUITA <br> LAS PEGATINAS</span> A VETTEL</h3>
                 </div>
             </div>
+           -->
         </div>
     </div>
 </section>
@@ -139,16 +198,46 @@
             <div class="devices">
                 <div class="device">
                     <img src="img/smartTV.png" style="width: 315px;" alt="">
-</div>
-<div class="device">
-    <img src="img/pc.png" style="width: 195px;" alt=""></div>
-<div class="device">
-    <img src="img/tablet.png" style="width: 92px;" alt=""></div>
-<div class="device">
-    <img src="img/phone.png" style="width: 140px;" alt=""></div>
-</div>
-<p><b>¿Qué necesito para ver Opensport en mis dispositivos?</b></p>
-<p>Consulta la sección <b class="t_purple">dispositivos</b> para ver Opensport desde cada dispositivo</p>
+                    <p class="label">Disfruta de <b>Opensport</b> en tu televisor de diferentes formas: Conecta con un cable HDMI al televisor la salida HDMI de tu PC o Mac, dispositivo Android o iOS o bien mediante un Chromecast o el Airplay en Apple TV. </p>
+                </div>
+                <div class="device">
+                    <img src="img/pc.png" style="width: 195px;" alt="">
+                    <p class="label">Accede online a través de www.<b>opensport</b>.es desde los navegadores Chrome, Firefox, Safari, Internet Explorer, Edge y Opera en PC o Mac.</p>                    
+                    </div>
+                <div class="device">
+                    <img src="img/tablet.png" style="width: 92px;" alt="">
+                                        <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
+                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
+                        </p>
+                    </div>
+
+                <div class="device">
+                    <img src="img/phone.png" style="width: 140px;" alt="">
+                                        <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
+                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="devices" style="padding-top: 0;">
+                                    <div class="device">
+                    <img src="img/androidtv.png" style="width: 300px;" alt="">
+                    <p class="label">Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p>
+                </div>
+                <div class="device">
+                    <img src="img/chromecast.png" style="width: 300px;" alt="">
+                    <p class="label"><b>Opensport</b> está disponible en Chromecast y Chromecast Ultra.</p>
+                </div>
+                <div class="device">
+                    <img src="img/appletv.png" style="width: 300px;" alt="">
+                    <p class="label">Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
+                </div>
+                    </div>
+                    <div class="labelcontent">
+                        <p>Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
+                    </div>
+                <p><b>¿Qué necesito para ver <b>Opensport</b> en mis dispositivos?</b></p>
+                <p>Consulta la sección <b class="t_purple">dispositivos</b> para ver <b>Opensport</b> desde cada dispositivo</p>
 
 </div>
 
@@ -413,32 +502,29 @@
             <h3>Disfruta de todas estas competiciones y mucho más</h3>
             <div class="competiciones">
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/laliga-santander-v-300x300.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/laliga-123-v-300x300.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/2000px-Moto_Gp_logo.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/formula-e.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/mxgp.png" alt="">
                 </div>
                 <div class="item">
-                    <img src="img/la-liga.png" alt="">
+                    <img src="img/americas_cup.png" alt="">
                 </div>
-                <div class="item">
-                    <img src="img/la-liga.png" alt="">
-                </div>
+
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel massa consectetur, finibus dolor vitae,
-                <b>efficitur nisl. Sed sollicitudin velit ut dui ultrices</b> ullamcorper. Cum sociis natoque penatibus et
-                magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Además podrás ver en vivo los mejores combates de kickboxing, MMA, deportes extremos como surf, skate, bmx y esquí, competiciones de eSports, buceo y mucho más</p>
             <a href="" class="btn btn-purple">CONOCE TODA NUESTRA PROGRAMACIÓN</a>
         </div>
     </div>
 </section>
+</div>
 <?php include("footer.php");?>

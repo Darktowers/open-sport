@@ -147,7 +147,7 @@ body
                     position: absolute;
                     transform: scale(1.0);
                     height: auto !important;
-                    width: 100% !important;
+                    width: 100% ;
                     top: 0;
         &-Item
             position: relative
@@ -1038,7 +1038,7 @@ body
         position: relative;
         .img
             position: relative;
-            height: 600px;
+            height: 675px;
             overflow: hidden;
             .back-noti
                 position: absolute;
@@ -1050,6 +1050,32 @@ body
                 height: 100%;
                 width: 100%;
                 top: 0;
+            video
+                position: absolute;
+                width: 100%;
+                top: -13px
+            .pause
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 3;
+                .prev-pause
+                    color: white;
+                    opacity: 0.3;
+                    background: #c3a9b5;
+                    border: 1em solid #c3a9b5;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: all .3s ease-in-out
+                    &:hover
+                        opacity: 1;
+                        background: #dd1b71;
+                        border: 1.5em solid #dd1b71;
+                    i
+                        font-size: 1.5em
             .play
                 position: absolute;
                 width: 100%;
@@ -1109,6 +1135,14 @@ body
                         border: 1px solid #dd1b71
                 h3
                     margin: 0
+.label
+    display: none
+.labelcontent
+    p
+        padding: 1em 2em;
+        border: 1px solid #00f080;
+        margin: 1em !important;
+        max-width: 900px
 .cont-2
     position: relative;
     .back
@@ -1219,6 +1253,7 @@ body
             align-items: center;
             flex-direction: column;
             .social
+                margin-bottom: 1em
                 a
                     display: inline-block
                     i
@@ -1392,7 +1427,13 @@ body
                     top: 50% !important;
                     height: 100% !important;
                     width: auto !important;
-                    transform: translate(-50%,-50%)!important;          
+                    transform: translate(-50%,-50%)!important;
+                .video
+                    left: 50% !important;
+                    top: 50% !important;
+                    height: 100% !important;
+                    width: auto !important;
+                    transform: translate(-50%,-50%)!important;
         .gratis
             .back
                 position: absolute;
@@ -1407,7 +1448,9 @@ body
                     font-size: 40px
                 h3
                     font-size: 20px
+
 @media (max-width:930px)
+
     .banner
         &-Container
             &-Item
@@ -1448,6 +1491,12 @@ body
         
 
 @media (max-width:768px)
+    .sitemap
+        flex-direction: column;
+        text-align: left;
+        margin: 1em;
+        .menu
+            width: 80%
     .content-tab 
         .semanal 
             .content
@@ -1495,11 +1544,16 @@ body
                 .back
                     height: 530px;
                 .content
+                    justify-content: center
                     .text
                         margin: .3em !important
                         font-size: 14px;
                         p
                             font-size: 30px !important
+                        h4
+                            font-size: 25px !important
+                        h5
+                            font-size: 20px !important
     .header
         background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
         position: absolute
@@ -1602,6 +1656,11 @@ body
                         max-width: 250px !important
                         p
                             font-size: 20px !important
+                        h4
+                            font-size: 15px !important
+                        h5
+                            font-size: 10px !important
+
 @media (max-width:600px)
     .content-tab 
         .planes 

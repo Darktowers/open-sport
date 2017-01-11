@@ -163,7 +163,7 @@
                    <div class="filtro filtro-morado"></div>
                    <img src="img/formula1-bn.jpg" alt="">
                    <div class="text">
-                       <p>FORMULA 1</p>
+                       <p>FORMULA E</p>
                    </div>
                </div>
                <div class="item">
