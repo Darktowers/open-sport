@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 		stylus:{
 			compile: {
 				options: {
-					compress: true,
+					compress: false,
 					sourcemap: {
 						comment:true,
 						inline: true,

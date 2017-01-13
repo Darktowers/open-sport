@@ -121,9 +121,9 @@
             <div class="img">
                 <img src="img/logo-open-sport-purple.svg" alt="">
             </div>
-            <p><b>Opensport</b> es la única plataforma en españa que te permitirá ver <br>
-                <b>donde quieras y sin compromisos El Partidazo, la Formula E, Moto GP, MMA, E-Sports</b> y <br> todos el deporte
-                en directo que siempre has buscado y nunca has encontrado.</p>
+            <p><b>Opensport</b> es la única plataforma en España que te permitirá ver <br>
+                <b>donde quieras y sin compromisos El Partidazo, la Formula E, Moto GP, MMA,<br> e-Sports</b> y  todo el deporte
+                en directo que siempre has buscado y <br>nunca has encontrado.</p>
             <h2>Disfruta gratis un mes</h2>
             <h3>sin compromiso de permanencia</h3>
             <a href="" class="btn btn-purple">¡LO QUIERO YA!</a>
