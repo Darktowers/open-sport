@@ -1,94 +1,47 @@
-/*
- * Viewport - jQuery selectors for finding elements in viewport
- *
- * Copyright (c) 2008-2009 Mika Tuupola
- *
- * Licensed under the MIT license:
- *   http://www.opensource.org/licenses/mit-license.php
- *
- * Project home:
- *  http://www.appelsiini.net/projects/viewport
- *
- */
-(function($) {
-    
-    $.belowthefold = function(element, settings) {
-        var fold = $(window).height() + $(window).scrollTop();
-        return fold <= $(element).offset().top - settings.threshold;
-    };
-
-    $.abovethetop = function(element, settings) {
-        var top = $(window).scrollTop();
-        return top >= $(element).offset().top + $(element).height() - settings.threshold;
-    };
-    
-    $.rightofscreen = function(element, settings) {
-        var fold = $(window).width() + $(window).scrollLeft();
-        return fold <= $(element).offset().left - settings.threshold;
-    };
-    
-    $.leftofscreen = function(element, settings) {
-        var left = $(window).scrollLeft();
-        return left >= $(element).offset().left + $(element).width() - settings.threshold;
-    };
-    
-    $.inviewport = function(element, settings) {
-        return !$.rightofscreen(element, settings) && !$.leftofscreen(element, settings) && !$.belowthefold(element, settings) && !$.abovethetop(element, settings);
-    };
-    
-    $.extend($.expr[':'], {
-        "below-the-fold": function(a, i, m) {
-            return $.belowthefold(a, {threshold : 0});
-        },
-        "above-the-top": function(a, i, m) {
-            return $.abovethetop(a, {threshold : 0});
-        },
-        "left-of-screen": function(a, i, m) {
-            return $.leftofscreen(a, {threshold : 0});
-        },
-        "right-of-screen": function(a, i, m) {
-            return $.rightofscreen(a, {threshold : 0});
-        },
-        "in-viewport": function(a, i, m) {
-            return $.inviewport(a, {threshold : 0});
-        }
-    });
-
-    
-})(jQuery);
-
 (function ($) {
-
-
-
 	jQuery(document).ready(function ($) {
-		$(".device").hover(function(){
-			var l = $(this).find(".label").html();
-			$(".labelcontent").html("<p>"+l+"</p>");
-		});
-/*	
-		$(window).scroll(function () {
-			$('video').each(function () {
-				if ($(this).is(":in-viewport")) {
-					$(this)[0].play();
-				} else {
-					$(this)[0].pause();
+		if ($(".tabs").length) {
+			var waypoint2 = new Waypoint({
+				element: document.getElementById('tabs'),
+				handler: function (direction) {
+					if (direction == "down") {
+						console.log('Scrolled to waypoint!');
+						$(".tabs").addClass("fixed");
+					} else if (direction == "up") {
+						$(".tabs").removeClass("fixed");
+					}
 				}
 			})
-		});  */
-		$(".play").on("click",function(){
-				$('.video').each(function () {
-					$(this)[0].play();
-					})
-					$(this).fadeOut();
-					$(".pause").show();
+		}
+		$(".device").hover(function () {
+			$(this).find(".label").show()
+
+		},function(){
+			$(this).find(".label").fadeOut()
 		});
-			$(".pause").on("click",function(){
-				$('.video').each(function () {
-					$(this)[0].pause();
+		/*	
+				$(window).scroll(function () {
+					$('video').each(function () {
+						if ($(this).is(":in-viewport")) {
+							$(this)[0].play();
+						} else {
+							$(this)[0].pause();
+						}
 					})
-					$(this).fadeOut();
-					$(".play").show();
+				});  */
+		$(".play").on("click", function () {
+			$('.video').each(function () {
+				$(this)[0].play();
+			})
+			$(this).fadeOut();
+			$(".pause").show();
+		});
+		$(".pause").on("click", function () {
+			$('.video').each(function () {
+				$(this)[0].pause();
+			})
+			$(this).fadeOut();
+			$(".play").show();
 		});
 
 		$(document).on("scroll", function () {
@@ -257,7 +210,7 @@
 			$(".calendar-weekend").slideUp();
 			$(".calendar-weekend-movil").slideUp();
 			$("." + active).slideDown();
-		});
+	});/*
 		days = ["L", "M", "X", "J", "V", "S", "D"]
 		$.getJSON("./datas.json", function (json) {
 			head = "";
@@ -308,14 +261,14 @@
 			$(".span-menuM").attr("style", "display:block !important;");
 			$(".span-menuM-Close").attr("style", "display:none !important;");
 		});
-//Menu
-	$(".menu-icon").on("click",function(){
-		$(".pre-menu").show("fade");
-	});
-	$(".pre-menu .fa-times").on("click",function(){
-		$(".pre-menu").hide("fade");
-	});
-//Logica Time Line
+		//Menu
+		$(".menu-icon").on("click", function () {
+			$(".pre-menu").show("fade");
+		});
+		$(".pre-menu .fa-times").on("click", function () {
+			$(".pre-menu").hide("fade");
+		});
+		//Logica Time Line
 		$(".pre-time .program").each(function (index) {
 			var totalTimePix = 5760;
 			var hourPix = 240;
@@ -335,23 +288,23 @@
 				var actualHourString = actualHour + ":0" + actualMin;
 				actualMin = "0.0" + actualMin
 				actualMin = parseFloat(actualMin);
-				actualMin = actualMin * 1 /0.6;
-	
+				actualMin = actualMin * 1 / 0.6;
+
 				var actualHourLive = actualHour + actualMin;
 
-				
+
 			} else {
-				
+
 				var actualHourString = actualHour + ":" + actualMin;
 				actualMin = "0." + actualMin
 				actualMin = parseFloat(actualMin);
-				actualMin = actualMin * 1 /0.6;
-	
+				actualMin = actualMin * 1 / 0.6;
+
 				var actualHourLive = actualHour + actualMin;
 
 				var actualHourLive = parseFloat(actualHourLive);
-				
-				
+
+
 			}
 			var startLive = (actualHourLive * totalTimePix / totalHours) - hourPix;
 			$(".live-calendar .time").each(function (index) {
@@ -376,7 +329,7 @@
 			$(this).attr("style", "width: " + widthProgram + "px;left:" + startProgram + "px;")
 
 
-		});
+		});*/
 		$('.banner-Container').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,

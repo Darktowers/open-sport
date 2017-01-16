@@ -18,6 +18,11 @@
     color #dd1b71
 .wrapper
     overflow: hidden
+.fixed
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;    
 body
     font-family: "Gotham"
     font-size: 16px
@@ -1137,12 +1142,17 @@ body
                     margin: 0
 .label
     display: none
+    position: absolute;
+    width: 300px;
+    background: #38023b;
+    padding: 1em;
+    color: #dd1b71;
+    top: 0;
+    z-index: 1;
 .labelcontent
-    p
-        padding: 1em 2em;
-        border: 1px solid #00f080;
-        margin: 1em !important;
-        max-width: 900px
+    position: relative;
+    width: 300px;
+    z-index: 3;
 .cont-2
     position: relative;
     .back
@@ -1151,7 +1161,7 @@ body
         top: 0;
         width: 300px;
     .disfruta
-        max-width: 1200px;
+        max-width: 1400px;
         margin: 0 auto;
         position: relative;
         padding: 2em 0
@@ -1174,11 +1184,16 @@ body
                 padding: 3em 0;
                 flex-wrap: wrap
                 .device
+                    position: relative
+                    min-width: 200px
+                    height: 300px
+                    transition: all .3s ease-in-out
+                    align-items: center
+                    display flex
+                    justify-content: center
+                    flex-direction: column
                     img
-                        transform: scale(1.0);
-                        transition: all .3s ease-in-out
-                        &:hover    
-                            transform: scale(1.1);
+                        padding-bottom: 1em
     .test-speed
         background: #00f080;
         padding: 4em 0;

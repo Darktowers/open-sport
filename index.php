@@ -97,7 +97,7 @@
         </div>
     </div>
 </section>
-<section class="tabs">
+<section class="tabs" id="tabs">
     <div class="tabs-Container">
         <div class="tab active tab1">
             <img src="img/sin-compromiso.svg" alt="">
@@ -127,7 +127,6 @@
             <h2>Disfruta gratis un mes</h2>
             <h3>sin compromiso de permanencia</h3>
             <a href="" class="btn btn-purple">¡LO QUIERO YA!</a>
-            <p>Empieza a ver el deporte que quieras <b>en menos de 5 minutos.</b></p>
         </div>
     </div>
     <div class="precont">
@@ -157,7 +156,7 @@
             <a href="" class="btn btn-purple">CONOCE TODA NUESTRA PROGRAMACIÓN</a>
         </div>
     </div>
-    <div class="precont noti">
+    <div class="precont noti " >
         <div class="noticias">
             <div class="img">
                 <!--<img class="back-noti" src="img/alonzo.jpg" alt=""> -->
@@ -194,50 +193,63 @@
     <div class="disfruta">
         <div class="content">
             <h2>Disfruta del contenido en todos los dispositivos</h2>
-            <a href="" class="btn btn-green">PRUEBA UN MES GRATIS SIN COMPROMISO DE PERMANENCIA</a>
+            <p>Empieza a ver el deporte que quieras <b>en menos de 5 minutos.</b></p>            
+                            <p><b>¿Qué necesito para ver <b>Opensport</b> en mis dispositivos?</b></p>
+                <p>Consulta la sección <b class="t_purple">dispositivos</b> para ver <b>Opensport</b> desde cada dispositivo</p>
             <div class="devices">
                 <div class="device">
                     <img src="img/smartTV.png" style="width: 315px;" alt="">
-                    <p class="label">Disfruta de <b>Opensport</b> en tu televisor de diferentes formas: Conecta con un cable HDMI al televisor la salida HDMI de tu PC o Mac, dispositivo Android o iOS o bien mediante un Chromecast o el Airplay en Apple TV. </p>
+                    <div class="labelcontent">
+                        <p class="label">Disfruta de <b>Opensport</b> en tu televisor de diferentes formas: Conecta con un cable HDMI al televisor la salida HDMI de tu PC o Mac, dispositivo Android o iOS o bien mediante un Chromecast o el Airplay en Apple TV. </p>                        
+                    </div>
                 </div>
                 <div class="device">
                     <img src="img/pc.png" style="width: 195px;" alt="">
+                    <div class="labelcontent">
                     <p class="label">Accede online a través de www.<b>opensport</b>.es desde los navegadores Chrome, Firefox, Safari, Internet Explorer, Edge y Opera en PC o Mac.</p>                    
+                   </div>
                     </div>
                 <div class="device">
                     <img src="img/tablet.png" style="width: 92px;" alt="">
+                    <div class="labelcontent">
                                         <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
                         •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
                         </p>
+                        </div>
                     </div>
 
                 <div class="device">
                     <img src="img/phone.png" style="width: 140px;" alt="">
+                    <div class="labelcontent">
                                         <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
                         •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
                         </p>
+                        </div>
                     </div>
 
                 </div>
                 <div class="devices" style="padding-top: 0;">
                                     <div class="device">
                     <img src="img/androidtv.png" style="width: 300px;" alt="">
+                    <div class="labelcontent">
                     <p class="label">Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p>
+                    </div>
                 </div>
                 <div class="device">
                     <img src="img/chromecast.png" style="width: 300px;" alt="">
+                    <div class="labelcontent">
                     <p class="label"><b>Opensport</b> está disponible en Chromecast y Chromecast Ultra.</p>
+                    </div>
                 </div>
                 <div class="device">
                     <img src="img/appletv.png" style="width: 300px;" alt="">
+                    <div class="labelcontent">
                     <p class="label">Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
+                    </div>
                 </div>
                     </div>
-                    <div class="labelcontent">
-                        <p>Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
-                    </div>
-                <p><b>¿Qué necesito para ver <b>Opensport</b> en mis dispositivos?</b></p>
-                <p>Consulta la sección <b class="t_purple">dispositivos</b> para ver <b>Opensport</b> desde cada dispositivo</p>
+
+            <a href="" class="btn btn-green">PRUEBA UN MES GRATIS SIN COMPROMISO DE PERMANENCIA</a>
 
 </div>
 
@@ -499,7 +511,7 @@
     </div>
     <div class="precont">
         <div class="competencias">
-            <h3>Disfruta de todas estas competiciones y mucho más</h3>
+            <h3>Disfruta de las mejores competiciones a nivel nacional e internacional</h3>
             <div class="competiciones">
                 <div class="item">
                     <img src="img/laliga-santander-v-300x300.png" alt="">

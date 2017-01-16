@@ -34,6 +34,7 @@ module.exports = function (grunt) {
 						'node_modules/owl-carousel-2/owl.carousel.min.js',
 						'js/slick.min.js',
 						'js/jquery.fittext.js',
+						'node_modules/waypoints/lib/noframework.waypoints.js',
 						'js/main.js'
 					]
 				}]
