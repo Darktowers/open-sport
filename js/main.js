@@ -14,10 +14,10 @@
 			})
 		}
 		$(".device").hover(function () {
-			$(this).find(".label").show()
+			$(this).find(".label").css("display","flex");
 
 		},function(){
-			$(this).find(".label").fadeOut()
+			$(this).find(".label").fadeOut();
 		});
 		/*	
 				$(window).scroll(function () {
@@ -81,10 +81,23 @@
 				$(".mes .btn-purple").addClass("active");
 			}
 		});
-		$(".tab").on("click", function () {
+
+		$(".open-cont3").on("click", function (e) {
+				e.preventDefault();
+				$(".tab").removeClass("active");
+				$(".tab3").addClass("active");
+				$(".cont-3").slideDown();
+				$(".cont-2").slideUp();
+				$(".cont-1").slideUp();
+			
+		});
+		$(".tabs-Container .tab").on("click", function () {
 			console.log("ready2");
 			$(".tab").removeClass("active");
 			$(this).addClass("active");
+				$('html, body').animate({
+					scrollTop: $("#tabs").offset().top - 50
+				}, 1000);
 			if ($(this).hasClass("tab1")) {
 				$(".cont-1").slideDown();
 				$(".cont-2").slideUp();
@@ -246,7 +259,7 @@
 
 			$(".calendar-test .header-segment").append(contentHead);
 
-		});
+		});*/
 		// $('.desp').on('mouseover', function(){
 		// 	$('.back-desp').slideToggle();
 		// });
@@ -268,7 +281,7 @@
 		$(".pre-menu .fa-times").on("click", function () {
 			$(".pre-menu").hide("fade");
 		});
-		//Logica Time Line
+		/*Logica Time Line
 		$(".pre-time .program").each(function (index) {
 			var totalTimePix = 5760;
 			var hourPix = 240;

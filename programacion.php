@@ -52,19 +52,19 @@
    </div>
 </section>
 <section class="content-tab cont-3" style="display: block">
-   <img class="back" src="img/rectangles-purple.png" alt="">
-   <div class="semanal">
+    <img class="back" src="img/rectangles-purple.png" alt="">
+    <div class="semanal">
       <div class="content">
-         <h2 class="title">PROGRAMACIÓN SEMANAL</h2>
+         <h2 class="title">PROXIMOS EVENTOS</h2>
          <div class="content-tab-calendar programacion">
-            <div class=" tab-programacion tab_pre_live">
+            <!--<div class=" tab-programacion tab_pre_live">
                <p><i class="fa fa-circle" aria-hidden="true"></i>EN DIRECTO</p>
-            </div>
+            </div>-->
             <div class="active tab-programacion tab_pre_semanal">
-               <p>PROGRAMACIÓN SEMANAL</p>
+               <p>SEMANA</p>
             </div>
             <div class="tab-programacion tab_pre_mensual">
-               <p>PROGRAMACIÓN MENSUAL</p>
+               <p>MES</p>
             </div>
          </div>
          <div class="content-tab-calendar tab-live" style="display: none;">
@@ -81,7 +81,7 @@
                <p>LUCHA</p>
             </div>
             <div class="tab-programacion" >
-               <p>OLYMPIADAS</p>
+               <p>OLIMPIADAS</p>
             </div>
             <div class="tab-programacion" >
                <p>VELA</p>
@@ -2460,213 +2460,48 @@
             </div>
          </div>
          <div class="deportes">
-            <h2>¿QUÉ DEPORTES PUEDES VER?</h2>
+            <h2>Disfruta de todo el deporte en streaming dónde y cuándo quieras... en tu TV, PC, Mac, móvil, tableta y más dispositivos. Empieza ahora con un mes gratis</h2>
             <p>Disfruta de todo el deporte en streaming dónde y cuándo quieras... en tu smartTV, consola, PC, Mac, móvil, tableta y
                 más dispositivos. Empieza ahora con un mes gratis</p>
 
                 <div class="programas">
                     <div class="programa-item">
                         <div class="visible-item">
-                        <p>FÚTBOL</p>
+                        <p>Fútbol</p>
                         <i class="fa fa-angle-down"></i>
                         </div>
                         <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
+                            <div class="encabezado"><p>Fútbol</p><i class="fa fa-times"></i></div>
+                            <a href=""><p>Liga Santander</p></a>
+                            <a href=""><p>Liga 1,2,3</p></a>
                         </div>
                     </div>
                     <div class="programa-item">
                         <div class="visible-item">
-                        <p>FÚTBOL</p>
+                        <p>Motociclismo</p>
                         <i class="fa fa-angle-down"></i>
                         </div>
                                         <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
+                            <div class="encabezado"><p>Motociclismo</p><i class="fa fa-times"></i></div>
+                            <a href=""><p>Moto GP</p></a>
+                            <a href=""><p>Campeonato Mundial de Motocross</p></a>
                         </div>
 
                         
                     </div>
                     <div class="programa-item">
                         <div class="visible-item">
-                        <p>FÚTBOL</p>
+                        <p>Automovilismo</p>
                         <i class="fa fa-angle-down"></i>
                         </div>
                                         <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
+                            <div class="encabezado"><p>Automovilismo</p><i class="fa fa-times"></i></div>
+                            <a href=""><p>Fórmula E</p></a>
                         </div>
 
                         
                     </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
 
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
-                    <div class="programa-item">
-                        <div class="visible-item">
-                        <p>FÚTBOL</p>
-                        <i class="fa fa-angle-down"></i>
-                        </div>
-                                        <div class="modal-item">
-                            <div class="encabezado"><p>FÚTBOL</p><i class="fa fa-times"></i></div>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                            <a href=""><p>Liga Adelante: F.C. Barcelona - Real Madrid</p></a>
-                        </div>
-
-                        
-                    </div>
                 </div>
          </div>
 

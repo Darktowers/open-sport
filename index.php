@@ -105,7 +105,7 @@
         </div>
         <div class="tab tab2">
             <img src="img/donde-quieras.svg" alt="">
-            <p>DÓNDE QUIERAS</p>
+            <p>DONDE QUIERAS</p>
         </div>
         <div class="tab tab3">
             <img src="img/elige-tu-precio.svg" alt="">
@@ -126,7 +126,7 @@
                 en directo que siempre has buscado y <br>nunca has encontrado.</p>
             <h2>Disfruta gratis un mes</h2>
             <h3>sin compromiso de permanencia</h3>
-            <a href="" class="btn btn-purple">¡LO QUIERO YA!</a>
+            <a href="" class="btn open-cont3 btn-purple">¡LO QUIERO YA!</a>
         </div>
     </div>
     <div class="precont">
@@ -161,7 +161,7 @@
             <div class="img">
                 <!--<img class="back-noti" src="img/alonzo.jpg" alt=""> -->
                 <video class="video" width="1200" height="700" >
-                    <source src="video/open_sport_app.mp4" type="video/mp4">
+                    <source src="video/open_sport_new.mp4" type="video/mp4">
                 </video>
                 <div class="pause" style="display:none;">
                     <div class="prev-pause">
@@ -200,30 +200,30 @@
                 <div class="device">
                     <img src="img/smartTV.png" style="width: 315px;" alt="">
                     <div class="labelcontent">
-                        <p class="label">Disfruta de <b>Opensport</b> en tu televisor de diferentes formas: Conecta con un cable HDMI al televisor la salida HDMI de tu PC o Mac, dispositivo Android o iOS o bien mediante un Chromecast o el Airplay en Apple TV. </p>                        
+                        <div class="label"><p>Disfruta de <b>Opensport</b> en tu televisor de diferentes formas: Conecta con un cable HDMI al televisor la salida HDMI de tu PC o Mac, dispositivo Android o iOS o bien mediante un Chromecast o el Airplay en Apple TV. </p></div>                        
                     </div>
                 </div>
                 <div class="device">
                     <img src="img/pc.png" style="width: 195px;" alt="">
                     <div class="labelcontent">
-                    <p class="label">Accede online a través de www.<b>opensport</b>.es desde los navegadores Chrome, Firefox, Safari, Internet Explorer, Edge y Opera en PC o Mac.</p>                    
+                    <div class="label"><p>Accede online a través de www.<b>opensport</b>.es desde los navegadores Chrome, Firefox, Safari, Internet Explorer, Edge y Opera en PC o Mac.</p></div>                    
                    </div>
                     </div>
                 <div class="device">
                     <img src="img/tablet.png" style="width: 92px;" alt="">
                     <div class="labelcontent">
-                                        <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
-                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
-                        </p>
+                                        <div class="label"><p>•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
+                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.</p>
+                        </div>
                         </div>
                     </div>
 
                 <div class="device">
                     <img src="img/phone.png" style="width: 140px;" alt="">
                     <div class="labelcontent">
-                                        <p class="label">•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
-                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.
-                        </p>
+                                        <div class="label"><p>•Teléfonos y tabletas Android. Descárgate la app <b>Opensport</b> en Google Play. Es válida desde la versión del sistema operativo Android 4.3 <br>
+                                        •Teléfonos y tabletas Apple. Descárgate la app <b>Opensport</b> en Apple Store. Disponible para todos los dispositivos con sistema operativo iOS 8.0 en adelante.</p>
+                        </div>
                         </div>
                     </div>
 
@@ -232,24 +232,24 @@
                                     <div class="device">
                     <img src="img/androidtv.png" style="width: 300px;" alt="">
                     <div class="labelcontent">
-                    <p class="label">Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p>
+                    <div class="label"><p>Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p></div>
                     </div>
                 </div>
                 <div class="device">
                     <img src="img/chromecast.png" style="width: 300px;" alt="">
                     <div class="labelcontent">
-                    <p class="label"><b>Opensport</b> está disponible en Chromecast y Chromecast Ultra.</p>
+                    <div class="label"><p><b>Opensport</b> está disponible en Chromecast y Chromecast Ultra.</p></div>
                     </div>
                 </div>
                 <div class="device">
                     <img src="img/appletv.png" style="width: 300px;" alt="">
                     <div class="labelcontent">
-                    <p class="label">Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
+                    <div class="label"><p>Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p></div>
                     </div>
                 </div>
                     </div>
 
-            <a href="" class="btn btn-green">PRUEBA UN MES GRATIS SIN COMPROMISO DE PERMANENCIA</a>
+            <a href="" class="btn open-cont3 btn-green">PRUEBA UN MES GRATIS, SIN COMPROMISO DE PERMANENCIA</a>
 
 </div>
 
@@ -280,100 +280,108 @@
             <div class="planes-Container">
                 <div class="segment">
                     <div class="plan-item empty"></div>
-                    <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Jornada Opensport</div>
-                    </div>
+
                     <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes Opensport</div>
+                        <div class="tab tab-mes tab-active">Mes</div>
+                    </div>
+                    <div class="plan-item jornada">
+                        <div class="tab tab-jornada">Semana</div>
                     </div>
                 </div>
                 <div class="segment">
                     <div class="plan-item">
                         <p>Precio</p>
                     </div>
-                    <div class="plan-item jornada">
-                        <p class="number">4’<span class="cents">99¤</span></p>
-                    </div>
-                    <div class="plan-item mes active">
+                                        <div class="plan-item mes active">
                         <p class="number">9’<span class="cents">99¤</span></p>
                         <a href="" class="btn-black btn-green">PRIMER MES GRATIS*</a>
                     </div>
+                    <div class="plan-item jornada">
+                        <p class="number">4’<span class="cents">99¤</span></p>
+                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item">
                         <p>Duración</p>
+                    </div>
+                                        <div class="plan-item mes active">
+                        <p>1 mes <i class="fa fa-question-circle-o"></i></p>
                     </div>
                     <div class="plan-item jornada">
                         <p>1 semana <i class="fa fa-question-circle-o"></i></p>
                     </div>
-                    <div class="plan-item mes active">
-                        <p>4 semanas <i class="fa fa-question-circle-o"></i></p>
-                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item">
                         <p>Calidad HD</p>
+                    </div>
+                    <div class="plan-item mes active">
+                        <p><i class="fa fa-check"></i></p>
                     </div>
                     <div class="plan-item jornada">
                         <p><i class="fa fa-check"></i></p>
                     </div>
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item">
                         <p>Calidad HD</p>
+                    </div>
+                    <div class="plan-item mes active">
+                        <p><i class="fa fa-check"></i></p>
                     </div>
                     <div class="plan-item jornada">
                         <p><i class="fa fa-times"></i></p>
                     </div>
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>2 dispositivos</p>
+                        <p>Dispositivos</p>
                     </div>
                     <div class="plan-item mes active">
                         <p>4 dispositivos</p>
                     </div>
+                    <div class="plan-item jornada">
+                        <p>2 dispositivos</p>
+                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item">
                         <p>Duración</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
-                            y mucho más</p>
-                        <a href="" class="">Ver toda la programación</a>
                     </div>
                     <div class="plan-item mes active">
                         <p>Los 4 Partidazos de La Liga, 4 jornadas de Champions, todo el motor, canal de lucha, deportes extremos
                             y mucho más</p>
                         <a href="" class="">Ver toda la programación</a>
                     </div>
+                    <div class="plan-item jornada">
+                        <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
+                            y mucho más</p>
+                        <a href="" class="">Ver toda la programación</a>
+                    </div>
+
                 </div>
                 <div class="segment">
                     <div class="plan-item empty">
                     </div>
-                    <div class="plan-item jornada">
-                        <a href="" class="btn-purple inactive">EMPEZAR</a>
-                    </div>
                     <div class="plan-item mes active">
                         <a href="" class="btn-purple active">EMPEZAR</a>
                     </div>
+                    <div class="plan-item jornada">
+                        <a href="" class="btn-purple inactive">EMPEZAR</a>
+                    </div>
+
                 </div>
             </div>
             <div class="jornada-movil">
                 <div class="segment">
                     <div class="plan-item empty"></div>
                     <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes Opensport</div>
+                        <div class="tab tab-mes tab-active">Mes</div>
                     </div>
                 </div>
                 <div class="segment">
@@ -444,7 +452,7 @@
                 <div class="segment">
                     <div class="plan-item empty"></div>
                     <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Jornada Opensport</div>
+                        <div class="tab tab-jornada">Semana</div>
                     </div>
 
                 </div>
