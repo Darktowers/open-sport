@@ -15,7 +15,7 @@
 .t_green
     color: #00f080;
 .t_purple
-    color #dd1b71
+    color #dd1b71 !important
 .wrapper
     overflow: hidden
 .fixed
@@ -1071,7 +1071,7 @@ body
                 z-index: 3;
                 .prev-pause
                     color: white;
-                    opacity: 0.3;
+                    opacity: 0;
                     background: #c3a9b5;
                     border: 1em solid #c3a9b5;
                     border-radius: 50%;
@@ -1472,7 +1472,7 @@ footer
             padding: .4em 0;
         .btn-purple
             font-size: .8em;
-            padding: .5em 1em;
+            padding: 1em 1em;
             color: #dd1b71 !important
             display: inline-block;
             position: relative
@@ -1481,19 +1481,49 @@ footer
             transition: all .3s ease-in-out
             background: white
             border: 1px solid #dd1b71
+            margin-bottom: 1em
+            text-align: center
             &:hover
                 color white !important
                 background: #dd1b71
         .facturacion
             display: flex;
             .colx
-                width: 60%
+                width: 100%
                 .data
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    color: #9E9E9E;
+                    .input
+                        width: 45%
+                        form
+                            input[type=text]
+                            input[type=number]
+                            input[type=email]
+                            input[type=password]                                                                             
+                                padding: .5em 1em;
+                                width: 100%;
+                                border: 1px solid #dd1b71;
+                    
+                    .black
+                        color: black;
+                        font-weight: bold;
+                        p
+                            max-width: 230px
+                    .card
+                        display: flex;
+                        width: 40%
+                        justify-content: space-between
+                        p                                         
+                            font-size: 20px;
+                            text-align: center
+                            img
+                                display: inline-block
                     .link
                         color #dd1b71 !important
+                        a
+                            text-decoration: underline;
             .principal
                 width: 40%
                 p
@@ -1525,6 +1555,76 @@ footer
                     width: 100%;
                     display: flex;
                     align-items: center;
+.premodal
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none
+.modal
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.94);
+    z-index: 199;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .formul
+        max-width: 400px;
+        padding: 1em 1em;
+        background: #e8e8e8;
+        width: 100%;
+        display: none
+        form
+            display: flex;
+            flex-direction: column
+            position: relative
+            .doublecolumn
+                display: flex;
+                justify-content: space-between;
+                .column
+                    width: 48%;
+            .fa-times
+                position: absolute;
+                right: 0;
+                top: 0;
+                font-size: 1.4em;
+                cursor: pointer
+            h3
+                font-size: 20px;
+            label
+                color: black;
+                font-size: 14px;
+                font-weight: bold;
+            input[type=text]
+            input[type=number]
+            input[type=email]
+            input[type=password]
+            select
+                padding: .5em 1em;
+                border: 0;
+                font-size: 20px;
+                margin: .5em 0;
+                color: #00f080;
+                width: 100%
+            .buttons
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .btn-gray
+                    background: #808080;
+                    padding: 1em;
+                    color: white !important;
+                    font-weight: bold;
+                    min-width: 130px;
+                .btn-green
+                    padding: 1em;
+                    min-width: 130px;
 .user
     a
         font-size: 20px;
@@ -1546,6 +1646,15 @@ footer
                     width: 400px !important
                     height: 200px !important
 @media (max-width:1200px)
+    .profile
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        &-Box
+            min-width: 360px;
+        &-Account
+            width: 100%;
+            padding: 0 1em;
     .desk-calendar
         display: none !important
     .programs-container
@@ -1640,7 +1749,15 @@ footer
                     img
                         display: inline-block
 
-        
+@media (max-width:800px)
+    .profile
+        &-Account
+            .facturacion
+                flex-direction: column;
+                align-items: center;
+                .principal
+                    width: 100% !important
+                    text-align: center;
 
 @media (max-width:768px)
     .sitemap
@@ -1712,7 +1829,7 @@ footer
         background: linear-gradient(180deg, #38023b 0%, rgba(56, 2, 59, 0.56) 51%, rgba(56, 2, 59, 0) 75%);
         position: absolute
         width: 100%
-        z-index: 1
+        z-index: 99
         &-Container
             max-width: 980px;
             width: 100%;

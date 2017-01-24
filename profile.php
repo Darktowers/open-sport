@@ -85,27 +85,167 @@
         <div class="colx principal"><p>SUSCRIPCIÓN Y FACTURACIÓN</p><a href="" class="btn btn-purple">CANCELAR SUSCRIPCIÓN</a></div>
         <div class="colx">
             <div class="data">
-                <div class="info"><p>manugarcia@gmail.com</p></div>
-                <div class="link"><a href="">Cambiar correo</a></div>
+                <div class="info black"><p>manugarcia@gmail.com</p></div>
+                <div class="link"><a href="" class="openform" alt="email">Cambiar correo</a></div>
             </div>
             <div class="data">
                 <div class="info pass"><p>Contraseña:********</p></div>
-                <div class="link"><a href="">Cambiar contraseña</a></div>
+                <div class="link"><a href="" class="openform" alt="contra">Cambiar contraseña</a></div>
             </div>
             <div class="data">
                 <div class="info pass"><p>Telefono:8218213</p></div>
-                <div class="link"><a href="">Cambiar nº de teléfono</a></div>
+                <div class="link"><a href="" class="openform" alt="telefono">Cambiar nº de teléfono</a></div>
+            </div>
+            <div class="data" style="border-top: 1px solid #dfd0d7;">
+                <div class="info card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
+                <div class="link"><a href="" class="openform" alt="pago">Actualizar metodo de pago</a></div>
             </div>
             <div class="data">
-                <div class="info pass"><p>Contraseña:********</p></div>
-                <div class="link"><a href="">Cambiar contraseña</a></div>
+                <div class="info pass"><p>&nbsp;</p></div>
+                <div class="link"><a href="" class="openform" alt="facturacion">Datos de facturación</a></div>
             </div>
-            <div class="data">
-                <div class="info pass"><p>Telefono:8218213</p></div>
-                <div class="link"><a href="">Cambiar nº de teléfono</a></div>
+            <div class="data" style="border-top: 1px solid #dfd0d7;">
+                <div class="info black"><p>Canjear tarjeta de regalo o codigo Opensport</p></div>
+                <div class="link"><a href="">Tarjeta de regalo Opensport</a></div>
+            </div>
+			<div class="data">
+                <div class="info input">
+					<form action="">
+						<input type="text" placeholder="Introducir código Opensport">
+						<input type="submit" class="btn-green" value="CANJEAR">
+					</form>
+				</div>
+                <div class="link">&nbsp;</div>
             </div>
         </div>
     </div>
+    <div class="facturacion" style="border-top: 1px solid #dfd0d7;">
+        <div class="colx principal"><p>SERVICIO Y CONFIGURACIÓN</p></div>
+        <div class="colx">
+			<div class="data"> 
+                <div class="info card"><p>SEMANA OPENSPORT <br> 4 dispositivos + <img src="img/HD.svg" alt=""></p></div>
+                <div class="link"><a href="">Cambiar a MES Opensport</a></div>
+            </div>
+
+
+        </div>
     </div>
+	<a href="" class="btn btn-purple">CERRAR SESIÓN EN TODOS LOS DISPOSITIVOS</a>
+    </div>
+</div>
+<div class="premodal" >
+	<div class="modal">
+		<div class="formul email" >
+			<form action="">
+				<i class="fa fa-times"></i>
+				<h3 class="t_purple">CAMBIAR CORREO</h3>
+				<label for="">Nueva dirección de correo electrónico</label>
+				<input type="email" name="email">
+				<label for="">Verificar dirección de correo electrónico</label>
+				<input type="email"name="reemail" >
+				<div class="buttons">
+					<a href="#" class="cancelar btn-gray">CANCELAR</a>
+					<input type="submit" value="GUARDAR" class="btn-green">
+				</div>
+			</form>
+		</div>
+		<div class="formul contra">
+			<form action="">
+				<i class="fa fa-times"></i>
+				<h3 class="t_purple">CAMBIAR CONTRASEÑA</h3>
+				<label for="">Contraseña actual</label>
+				<input type="password" name="pass">
+				<label for="">Nueva contraseña</label>
+				<input type="password"name="repass" >
+				<div class="buttons">
+					<a href="#" class="cancelar btn-gray">CANCELAR</a>
+					<input type="submit" value="GUARDAR" class="btn-green">
+				</div>
+			</form>
+		</div>
+		<div class="formul facturacion">
+			<form action="">
+				<i class="fa fa-times"></i>
+				<h3 class="t_purple">DATOS DE FACTURACIÓN</h3>
+				<label for="">Nombres y apellidos</label>
+				<input type="text" name="nombres">
+				<label for="">Dirección de facturación</label>
+				<input type="text"name="direccion" >
+				<div class="doublecolumn">
+					<div class="column">
+						<label for="">Ciudad</label>
+						<input type="text"name="city" >
+					</div>
+					<div class="column">
+						<label for="">Provincia / Región</label>
+						<input type="text"name="region" >
+					</div>
+				</div>
+				<div class="doublecolumn">
+					<div class="column">
+						<label for="">Codigo postal</label>
+						<input type="text"name="postal" >
+					</div>
+					<div class="column">
+						<label for="">Pais</label>
+						<select name="pais" id="">
+							<option value="0">Paises...</option>
+							<option value="0">España</option>
+							<option value="0">Colombia</option>
+							<option value="0">USA</option>
+							
+						</select>
+					</div>
+				</div>
+				<label for="">Telefono</label>
+				<input type="text"name="telefono" >
+				<div class="buttons">
+					<a href="#" class="cancelar btn-gray">CANCELAR</a>
+					<input type="submit" value="GUARDAR" class="btn-green">
+				</div>
+			</form>
+		</div>
+		<div class="formul pago" >
+			<form action="">
+				<i class="fa fa-times"></i>
+				<h3 class="t_purple">ACTUALIZAR MÉTODO DE PAGO</h3>
+				<label for="">Nombres y apellidos</label>
+				<input type="text" name="nombres">
+				<label for="">Número de la tarjeta</label>
+				<input type=text pattern="[0-9]{13,16}" name="creditcard">
+
+				<div class="doublecolumn">
+					<div class="column">
+						<label for="">Fecha de caducidad</label>
+						<input type="text"name="date" placeholder="mm/aa">
+					</div>
+					<div class="column">
+						<label for="">Código de seguridad</label>
+						<input type="text" name="codigose" placeholder="***">
+					</div>
+				</div>
+				<a href="" class="t_purple">Más información sobre métodos de pago</a>
+				<div class="buttons">
+					<a href="#" class="cancelar btn-gray">CANCELAR</a>
+					<input type="submit" value="GUARDAR" class="btn-green">
+				</div>
+			</form>
+		</div>
+		<div class="formul telefono" >
+			<form action="">
+				<i class="fa fa-times"></i>
+				<h3 class="t_purple">CAMBIAR TELÉFONO</h3>
+				<label for="">Nueva número de teléfono</label>
+				<input type="text" name="telefono">
+				<div class="buttons">
+					<a href="#" class="cancelar btn-gray">CANCELAR</a>
+					<input type="submit" value="GUARDAR" class="btn-green">
+				</div>
+			</form>
+		</div>
+		<div class="formul"></div>
+		<div class="formul"></div>
+		<div class="formul"></div>
+	</div>
 </div>
 <?php include("footer.php");?>

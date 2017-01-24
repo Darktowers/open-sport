@@ -53,7 +53,7 @@
                 </div>
             </div>
         </div>
-        <div class="banner-Container-Item">
+        <div class="banner-Container-Item" >
             <div class="back">
                 <img src="img/post4.png" alt="">
             </div>
@@ -97,7 +97,8 @@
         </div>
     </div>
 </section>
-<section class="tabs" id="tabs">
+<div id="tabs"></div>
+<section class="tabs">
     <div class="tabs-Container">
         <div class="tab active tab1">
             <img src="img/sin-compromiso.svg" alt="">
