@@ -187,7 +187,7 @@
           <!--  <div class="mes-gratis">
                     <div class="plan-item mes active">
                         <div class="tab tab-mes tab-active">Mes OpenSport</div>
-                        <a href="" class="btn-black btn-green">PRIMER MES GRATIS*</a>                        
+                        <a href="" class="btn-black btn-green">PRIMER MES GRATIS</a>                        
                     </div>
                 </div>
         <div class="pre-col">
@@ -253,242 +253,235 @@
         </div>
 -->
             <div class="planes-Container">
-                <div class="segment">
-                    <div class="plan-item empty"></div>
-
-                    <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes </div>
-                    </div>
-                    <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Semana </div>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Precio</p>
-                    </div>
-                                        <div class="plan-item mes active">
-                        <p class="number">9’<span class="cents">99¤</span></p>
-                        <a href="" class="btn-black btn-green">PRIMER MES GRATIS*</a>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p class="number">4’<span class="cents">99¤</span></p>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                                        <div class="plan-item mes active">
-                        <p>1 mes <i class="fa fa-question-circle-o"></i></p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>1 semana <i class="fa fa-question-circle-o"></i></p>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p><i class="fa fa-times"></i></p>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item mes active">
-                        <p>4 dispositivos</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>2 dispositivos</p>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item mes active">
-                        <p>Los 4 Partidazos de La Liga, 4 jornadas de Champions, todo el motor, canal de lucha, deportes extremos
-                            y mucho más</p>
-                        <a href="" class="">Ver toda la programación</a>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
-                            y mucho más</p>
-                        <a href="" class="">Ver toda la programación</a>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item empty">
-                    </div>
-                    <div class="plan-item mes active">
-                        <a href="" class="btn-purple active">EMPEZAR</a>
-                    </div>
-                    <div class="plan-item jornada">
-                        <a href="" class="btn-purple inactive">EMPEZAR</a>
-                    </div>
-
-                </div>
+               <div class="segment">
+                  <div class="plan-item empty"></div>
+                  <div class="plan-item mes active">
+                     <div class="tab tab-mes tab-active">Mes</div>
+                  </div>
+                  <div class="plan-item jornada">
+                     <div class="tab tab-jornada">Semana</div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Precio</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p class="number">9’<span class="cents">99¤</span></p>
+                     <a href="" class="btn-black btn-green">PRIMER MES GRATIS</a>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p class="number">4’<span class="cents">99¤</span></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item mes active questionco">
+                     <p>1 mes <i class="fa fa-question-circle-o"></i></p>
+                     <div class="question"><p>30 días en adelante</p></div>
+                  </div>
+                  <div class="plan-item jornada questionco">
+                     <p>1 semana <i class="fa fa-question-circle-o"></i></p>
+                     <div class="question"><p>semana actual de lunes a domingo ambos incluidos</p></div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p><i class="fa fa-times"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Dispositivos</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p>4 dispositivos</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p>2 dispositivos</p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p>Los 4 Partidazos de La Liga, 4 jornadas de Champions, todo el motor, canal de lucha, deportes extremos
+                        y mucho más
+                     </p>
+                     <a href="" class="">Ver toda la programación</a>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
+                        y mucho más
+                     </p>
+                     <a href="" class="">Ver toda la programación</a>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item empty">
+                  </div>
+                  <div class="plan-item mes active">
+                     <a href="" class="btn-purple active">EMPEZAR</a>
+                  </div>
+                  <div class="plan-item jornada">
+                     <a href="" class="btn-purple inactive">EMPEZAR</a>
+                  </div>
+               </div>
             </div>
             <div class="jornada-movil">
-                <div class="segment">
-                    <div class="plan-item empty"></div>
-                    <div class="plan-item mes active">
-                        <div class="tab tab-mes tab-active">Mes </div>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Precio</p>
-                    </div>
-
-                    <div class="plan-item mes active">
-                        <p class="number">9’<span class="cents">99¤</span></p>
-                        <a href="" class="btn-black btn-green">PRIMER MES GRATIS*</a>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-
-                    <div class="plan-item mes active">
-                        <p>4 semanas <i class="fa fa-question-circle-o"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-
-                    <div class="plan-item mes active">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-
-                    <div class="plan-item mes active">
-                        <p>4 dispositivos</p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item mes active">
-                        <p>Los 4 Partidazos de La Liga, 4 jornadas de Champions, todo el motor, canal de lucha, deportes extremos
-                            y mucho más</p>
-                        <a href="" class="">Ver toda la programación</a>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item empty">
-                    </div>
-                    <div class="plan-item mes active">
-                        <a href="" class="btn-purple active">EMPEZAR</a>
-                    </div>
-                </div>
+               <div class="segment">
+                  <div class="plan-item empty"></div>
+                  <div class="plan-item mes active">
+                     <div class=" tab-mes tab-active">Mes</div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Precio</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p class="number">9’<span class="cents">99¤</span></p>
+                     <a href="" class="btn-black btn-green">PRIMER MES GRATIS</a>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item mes active questionco">
+                     <p>1 mes <i class="fa fa-question-circle-o"></i></p>
+                     <div class="question"><p>30 días en adelante</p></div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p>4 dispositivos</p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item mes active">
+                     <p>Los 4 Partidazos de La Liga, 4 jornadas de Champions, todo el motor, canal de lucha, deportes extremos
+                        y mucho más
+                     </p>
+                     <a href="" class="">Ver toda la programación</a>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item empty">
+                  </div>
+                  <div class="plan-item mes active">
+                     <a href="" class="btn-purple active">EMPEZAR</a>
+                  </div>
+               </div>
             </div>
             <div class="mes-movil">
-                <div class="segment">
-                    <div class="plan-item empty"></div>
-                    <div class="plan-item jornada">
-                        <div class="tab tab-jornada">Semana</div>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Precio</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p class="number">4’<span class="cents">99¤</span></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>1 semana <i class="fa fa-question-circle-o"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p><i class="fa fa-check"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Calidad HD</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p><i class="fa fa-times"></i></p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>2 dispositivos</p>
-                    </div>
-                </div>
-                <div class="segment">
-                    <div class="plan-item">
-                        <p>Duración</p>
-                    </div>
-                    <div class="plan-item jornada">
-                        <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
-                            y mucho más</p>
-                        <a href="" class="">Ver toda la programación</a>
-                    </div>
-
-                </div>
-                <div class="segment">
-                    <div class="plan-item empty">
-                    </div>
-                    <div class="plan-item jornada">
-                        <a href="" class="btn-purple active">EMPEZAR</a>
-                    </div>
-                </div>
+               <div class="segment">
+                  <div class="plan-item empty"></div>
+                  <div class="plan-item jornada active">
+                     <div class=" tab-jornada tab-active">Semana</div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Precio</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p class="number">4’<span class="cents">99¤</span></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item jornada questionco">
+                     <p>1 semana <i class="fa fa-question-circle-o"></i></p>
+                     <div class="question"><p>semana actual de lunes a domingo ambos incluidos</p></div>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p><i class="fa fa-check"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Calidad HD</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p><i class="fa fa-times"></i></p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p>2 dispositivos</p>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item">
+                     <p>Duración</p>
+                  </div>
+                  <div class="plan-item jornada">
+                     <p>El Partidazo del fin de semana, la jornada de Champions, todo el motor, canal lucha, deportes extremos
+                        y mucho más
+                     </p>
+                     <a href="" class="">Ver toda la programación</a>
+                  </div>
+               </div>
+               <div class="segment">
+                  <div class="plan-item empty">
+                  </div>
+                  <div class="plan-item jornada">
+                     <a href="" class="btn-purple active">EMPEZAR</a>
+                  </div>
+               </div>
             </div>
     </div>
 

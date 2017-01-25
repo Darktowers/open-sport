@@ -81,7 +81,11 @@
 				$(".mes .btn-purple").addClass("active");
 			}
 		});
-
+		$(".questionco").hover(function () {
+			$(this).find(".question").show();
+		},function(){
+			$(this).find(".question").fadeOut();
+		});
 		$(".open-cont3").on("click", function (e) {
 				e.preventDefault();
 				$(".tab").removeClass("active");

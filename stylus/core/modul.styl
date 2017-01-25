@@ -608,6 +608,8 @@ body
                         position: relative
                         background: #dd1b71
                         color white
+                        padding: .5em 1.5em;
+                        font-size: 20px;
                         &:before
                             content: "";
                             border: 1px solid #dd1b71;
@@ -1145,6 +1147,28 @@ body
 footer
     .fa-phone
         margin-right: .3em;
+.questionco
+    position: relative
+.question
+    position: absolute;
+    top: 57px;
+    background: #dd1b71;
+    color: white;
+    padding: 0 1em;
+    max-width: 210px;
+    left: 4em;
+    display: none
+    &:before
+        border-left: 2em solid transparent;
+        border-right: 2em solid transparent;
+        top: -0.5em;
+        content: '';
+        left: 34px;
+        margin: 0 auto;
+        right: 0;
+        position: absolute;
+        width: 0;
+        border-bottom: 1em solid #dd1b71;
 .label
     display: none
     position: absolute;
@@ -1189,9 +1213,10 @@ footer
                 display: flex;
                 align-items: flex-end;
                 width: 100%;
-                justify-content: space-around;
-                padding: 3em 0;
+                justify-content: center;
+                padding: .5em 0;
                 flex-wrap: wrap
+                position: relative
                 .device
                     position: relative
                     min-width: 200px
@@ -1201,6 +1226,7 @@ footer
                     display flex
                     justify-content: center
                     flex-direction: column
+                    width: 300px;
                     img
                         padding-bottom: 1em
     .test-speed
@@ -1224,6 +1250,19 @@ footer
             flex-direction: column;
             position: relative;
             z-index: 1;
+.lines
+    width: 45%;
+    height: 27px;
+    display: flex;
+    border-top: 1px solid;
+    position: absolute;
+    top: 0;
+    color: #ccc;
+    .line
+        border-left: 1px solid;
+        width: 50%
+        &:nth-child(2)
+            border-right: 1px solid;
 .btn-black
     font-weight: bold;
     border: 1px solid;
@@ -1971,6 +2010,22 @@ footer
                             font-size: 10px !important
 
 @media (max-width:600px)
+    .super-plan
+    .mes-movil
+    .jornada-movil
+    .planes-Container
+        font-size: 14px;
+        .segment
+            padding: .5em 0 !important
+            &:first-child
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            &:last-child
+                justify-content: center;
+                align-items: center;
+                flex-direction: column
+                border-bottom: 0 !important;
     .content-tab 
         .precont 
             .competencias 
