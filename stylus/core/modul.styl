@@ -1760,6 +1760,11 @@ footer
                     text-align: center;
 
 @media (max-width:768px)
+    .footer
+        .container
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
     .sitemap
         flex-direction: column;
         text-align: left;
@@ -1929,6 +1934,11 @@ footer
                         margin: .3em !important
                         font-size: 12px;
                         max-width: 250px !important
+                        min-width: 250px;
+                        min-height: 180px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
                         p
                             font-size: 20px !important
                         h4
@@ -1937,6 +1947,23 @@ footer
                             font-size: 10px !important
 
 @media (max-width:600px)
+    .content-tab 
+        .precont 
+            .competencias 
+                .btn-purple
+                    font-size: 0.8em;
+    .btn-green
+        font-size: 0.8em;
+        text-align: center;
+        margin: 0 1em;
+    .cont-2 
+        .disfruta 
+            .content
+                padding: 0 1em
+                h2
+                    text-align: center;
+                    font-size: 22px;
+                    margin-bottom: 1em;
     .content-tab 
         .planes 
             .super-plan

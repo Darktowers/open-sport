@@ -162,7 +162,7 @@
             <div class="img">
                 <!--<img class="back-noti" src="img/alonzo.jpg" alt=""> -->
                 <video class="video" width="1200" height="700" >
-                    <source src="video/open_sport_new.mp4" type="video/mp4">
+                    <source src="video/open-sport-video-v3.mp4" type="video/mp4">
                 </video>
                 <div class="pause" style="display:none;">
                     <div class="prev-pause">

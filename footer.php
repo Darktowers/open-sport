@@ -10,7 +10,7 @@
 		<div class="col1">
 				<h4>¿Tienes preguntas? <br>	
 				<i class="fa fa-phone"></i>   Llama a 902 101 886<br> <i class="fa fa-envelope-o" aria-hidden="true"></i> O escribe a <b><a href="">sistemas@opensport.es</a></b><br>
-				<a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> O através de nuestro chat</a>
+				<a href=""><i class="fa fa-comment-o" aria-hidden="true"></i> O a través de nuestro chat</a>
 				</h4>
 				<div class="sitemap">
 					<div class="logo">
