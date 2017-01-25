@@ -115,7 +115,7 @@
                    </div>
                </div>
            </div>
-           <div class="rever">               
+           <div class="col">               
                                          <div class="item big">
                    <div class="filtro filtro-morado"></div>
                    <img src="img/mma-bn.jpg" alt="">
