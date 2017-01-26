@@ -115,6 +115,8 @@
 </section>
 <div class="container-contentx">
    <section class="content-tab cont-1" style="display: block">
+   <div class="pregratis">
+    <div class="filtro"></div>
       <div class="gratis">
          <img class="back" src="img/real-vs-madrid.png" alt="">
          <div class="content">
@@ -129,6 +131,7 @@
             <h3>sin compromiso de permanencia</h3>
             <a href="" class="btn open-cont3 btn-purple">¡LO QUIERO YA!</a>
          </div>
+      </div>
       </div>
       <div class="precont">
          <div class="competencias">
@@ -162,7 +165,7 @@
             <div class="img">
                <!--<img class="back-noti" src="img/alonzo.jpg" alt=""> -->
                <video class="video" width="1200" height="700" >
-                  <source src="video/open-sport-video-v3.mp4" type="video/mp4">
+                  <source src="video/open-sport-video-v5.mp4" type="video/mp4">
                </video>
                <div class="pause" style="display:none;">
                   <div class="prev-pause">
@@ -244,16 +247,8 @@
                <div class="line"></div>
                <div class="line"></div>
             </div>
-               <div class="device">
-                  <img src="img/androidtv.png" style="width: 240px;" alt="">
-                  <div class="labelcontent">
-                     <div class="label">
-                        <p>Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="device">
-                  <img src="img/chromecast.png" style="width: 240px;" alt="">
+                <div class="device">
+                  <img src="img/chromecast.png" style="width: 240px;position:relative;top:-14px;" alt="">
                   <div class="labelcontent">
                      <div class="label">
                         <p><b>Opensport</b> está disponible en Chromecast y Chromecast Ultra.</p>
@@ -261,7 +256,16 @@
                   </div>
                </div>
                <div class="device">
-                  <img src="img/appletv.png" style="width: 240px;" alt="">
+                  <img src="img/androidtv.png" style="width: 240px;position:relative;top:-14px;" alt="">
+                  <div class="labelcontent">
+                     <div class="label">
+                        <p>Descárgate la app <b>Opensport</b> en Google Play para smart TVs y decodificadores certificados Android TV como: Xiaomi Mi Box, Sony BRAVIA y Sharp AQUOS.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="device">
+                  <img src="img/appletv.png" style="width: 240px;position:relative;top:-14px;" alt="">
                   <div class="labelcontent">
                      <div class="label">
                         <p>Descárgate la app <b>Opensport</b> en la Apple Store para Apple TV.</p>
