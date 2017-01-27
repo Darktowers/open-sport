@@ -3,7 +3,7 @@
    <div class="banner-Container">
       <div class="banner-Container-Item programa">
          <div class="back">
-            <img src="img/programacion-1.jpg" alt="">
+            <img src="img/futbol.jpg" alt="">
          </div>
          <div class="content">
             <div class="box">

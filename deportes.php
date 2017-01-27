@@ -3,7 +3,7 @@
    <div class="banner-Container">
       <div class="banner-Container-Item programa">
          <div class="back">
-            <img src="img/alonzo.jpg" alt="">
+            <img src="img/motoGP.jpg" alt="">
          </div>
          <div class="content">
             <div class="box">

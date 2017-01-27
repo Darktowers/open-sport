@@ -178,16 +178,23 @@ body
                 justify-content: flex-start;
                 align-items: center;
                 .text
-                    background: #38023b;
-                    color: white;
-                    padding: 3em 2em;
-                    max-width: 464px;
+                    background: rgba(56, 2, 59, 0.53);
+                    color: #fff;
+                    padding: 1em 1em;
                     position: relative;
                     margin-left: 6em;
                     p
                         font-size: 40px;
                         margin: 0;
                         font-weight: bold;
+                    h1
+                        font-size: 6em;
+                        margin: 0;
+                        margin-top: .2em;
+                    h2
+                        margin: 0;
+                        font-size: 32px;
+                        margin-top: 2em;
                     h3
                     h4
                     h5
@@ -1250,14 +1257,20 @@ footer
             z-index: 1;
 .pregratis
     padding: 3em 0;
+.preline
+    width: 100%;
+    position: absolute;
+    height: 27px;
+    top: 0;
+    left: 0;
 .lines
     width: 34.5%;
     height: 27px;
     display: flex;
     border-top: 1px solid;
-    position: absolute;
     top: 0;
     color: #ccc;
+    margin: 0 auto
     .line
         border-left: 1px solid;
         width: 50%
@@ -1770,12 +1783,18 @@ footer
         &-Container
             &-Item
                 .back
+                    display: flex
+                    justify-content: center
+                    align-items: center
                     img
-                        left: 50% !important;
-                        top: 50% !important;
-                        height: 100% !important;
-                        width: auto !important;
-                        transform: translate(-50%,-50%)!important;
+                        width: 100%
+                        height: auto !important
+                        top: inherit;
+                        //left: 50% !important;
+                        //top: 50% !important;
+                        //height: 100% !important;
+                        //width: auto !important;
+                        //transform: translate(-50%,-50%)!important;
     .content-tab
         .noticias
             max-width: 1200px;
@@ -1811,12 +1830,28 @@ footer
                     font-size: 40px
                 h3
                     font-size: 20px
+@media(max-width:1044px)
+    .banner
+        &-Container
+            &-Item
+                .content
+                    .text
+                        h1
+                            font-size: 4em !important
+                        h2
+                            font-size: 2em !important    
 
 @media (max-width:930px)
 
     .banner
         &-Container
             &-Item
+                .content
+                    .text
+                        h1
+                            font-size: 4em !important
+                        h2
+                            font-size: 2em !important
                 .back
                     height: 580px;
     .header
@@ -2065,6 +2100,10 @@ footer
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
+                        h1
+                            font-size: 2em !important
+                        h2
+                            font-size: 1em !important
                         p
                             font-size: 20px !important
                         h4
