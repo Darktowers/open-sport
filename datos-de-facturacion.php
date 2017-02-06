@@ -80,62 +80,103 @@
         </div>
     </div>
     <div class="profile-Account">
-		<div class="titlex">
-			<h1 class="title">MI CUENTA</h1>
-		</div>
-    
+    <div class="titlex">
+     <h1 class="title">MI CUENTA</h1>
+<a href="profile.php"><p><i class="fa fa-angle-left"></i>VOLVER</p></a>
+    </div>
+
     <div class="facturacion">
-        <div class="colx principal"><p>SUSCRIPCIÓN Y FACTURACIÓN</p><a href="" class="btn btn-purple">CANCELAR SUSCRIPCIÓN</a></div>
+        <div class="colx principal"><p>DATOS DE FACTURACIÓN</p></div>
         <div class="colx">
-            <div class="data">
-                <div class="info black"><p>manugarcia@gmail.com</p></div>
-                <div class="link"><a href="cambiar-correo.php" class="" alt="email">Cambiar correo</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Contraseña:********</p></div>
-                <div class="link"><a href="cambiar-pass.php" class="" alt="contra">Cambiar contraseña</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Telefono:8218213</p></div>
-                <div class="link"><a href="cambiar-telefono.php" class="" alt="telefono">Añadir nº de teléfono</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
-                <div class="link"><a href="medio-de-pago.php" class="" alt="pago">Actualizar medio de pago</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>&nbsp;</p></div>
-                <div class="link"><a href="datos-de-facturacion.php" class="" alt="facturacion">Información de facturación</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info black"><p>Canjear tarjeta de regalo o codigo Opensport</p></div>
-                <div class="link"><a href="tarjeta-de-regalo.php">Información sobre las <br> Tarjetas de regalo Opensport</a></div>
-            </div>
-			<div class="data">
-                <div class="info input">
-					<form action="">
-						<input type="text" placeholder="Introducir código Opensport">
-						<input type="submit" class="btn-green" value="CANJEAR">
-					</form>
-				</div>
-                <div class="link">&nbsp;</div>
-            </div>
+            
+            <div class="formul formulx contra">
+				<div class="precontent" style="padding-bottom: 1em;">
+                    <div class="tabpa ">
+                        <p><b>Mi suscripción</b></p>
+                    </div>
+                    <div class="contentpa" style="display:block;">
+						<p style="font-size:large;margin:0;"><span class="t_purple" ><b>MES OPENSPORT - 9.99¤</b></span> (IVA incluido)</p>
+						<div class="data"> 
+							<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal"><b>4 dispositivos +</b><img src="img/HD.svg" alt=""><b>+</b> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
+						</div>
+					</div>
+                </div>
+				<div class="precontent" style="padding: 1em 0;">
+                    <div class="contentpa" style="display:block;">
+						<p style="font-size:large;margin:0;">Próxima fecha de facturación <b>23 de Enero de 2017</b></p>
+						<p style="font-size:large;">El coste de la suscripcción se factura al comienzo de cada período y puede tardarunos días en aparecer en tu cuenta después de la fecha de facturación.</p>
+					</div>
+                </div>
+				<div class="precontent" style="padding: 1em 0;">
+                    <div class="contentpa" style="display:block;">
+						<table>
+							<thead>
+								<tr>
+									<th>Fecha</th>
+									<th>Descripción</th>
+									<th>Periodo</th>
+									<th style="width: 30%;">Pago</th>
+									<th>Precio s/IVA</th>
+									<th>Precio c/IVA</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+								<tr>
+									<td>23/12/2016</td>
+									<td>Mes Openspot</td>
+									<td>23/12/2016-22/01/2017</td>
+									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td>8,26€</td>
+									<td>9,99€</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+                </div>
+		    </div>
         </div>
     </div>
-    <div class="facturacion" style="border-top: 1px solid #dfd0d7;">
-        <div class="colx principal"><p>SERVICIO Y CONFIGURACIÓN</p></div>
-        <div class="colx">
-		<div class="data"> 
-				<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal">4 dispositivos +<img src="img/HD.svg" alt=""> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
-					
-                <div class="link"><a href="">Configuración de comunicación</a></div>
-            </div>
 
-
-        </div>
-    </div>
-	<a href="" class="btn btn-purple">CERRAR SESIÓN EN TODOS LOS DISPOSITIVOS</a>
-    </div>
 </div>
 <!--<div class="premodal" >
 	<div class="modal">
@@ -252,4 +293,5 @@
 		<div class="formul"></div>
 	</div>
 </div>-->
+
 <?php include("footer.php");?>

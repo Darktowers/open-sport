@@ -32,6 +32,7 @@ module.exports = function (grunt) {
 					'js/app.min.js': [
 						'node_modules/jquery/dist/jquery.min.js',
 						'node_modules/owl-carousel-2/owl.carousel.min.js',
+						'node_modules/card/dist/jquery.card.js',
 						'js/slick.min.js',
 						'js/jquery.fittext.js',
 						'node_modules/waypoints/lib/noframework.waypoints.js',

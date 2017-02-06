@@ -80,62 +80,89 @@
         </div>
     </div>
     <div class="profile-Account">
-		<div class="titlex">
-			<h1 class="title">MI CUENTA</h1>
-		</div>
-    
+    <div class="titlex">
+     <h1 class="title">MI CUENTA</h1>
+<a href="profile.php"><p><i class="fa fa-angle-left"></i>VOLVER</p></a>
+    </div>
+
     <div class="facturacion">
-        <div class="colx principal"><p>SUSCRIPCIÓN Y FACTURACIÓN</p><a href="" class="btn btn-purple">CANCELAR SUSCRIPCIÓN</a></div>
-        <div class="colx">
-            <div class="data">
-                <div class="info black"><p>manugarcia@gmail.com</p></div>
-                <div class="link"><a href="cambiar-correo.php" class="" alt="email">Cambiar correo</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Contraseña:********</p></div>
-                <div class="link"><a href="cambiar-pass.php" class="" alt="contra">Cambiar contraseña</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Telefono:8218213</p></div>
-                <div class="link"><a href="cambiar-telefono.php" class="" alt="telefono">Añadir nº de teléfono</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
-                <div class="link"><a href="medio-de-pago.php" class="" alt="pago">Actualizar medio de pago</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>&nbsp;</p></div>
-                <div class="link"><a href="datos-de-facturacion.php" class="" alt="facturacion">Información de facturación</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info black"><p>Canjear tarjeta de regalo o codigo Opensport</p></div>
-                <div class="link"><a href="tarjeta-de-regalo.php">Información sobre las <br> Tarjetas de regalo Opensport</a></div>
-            </div>
-			<div class="data">
-                <div class="info input">
-					<form action="">
-						<input type="text" placeholder="Introducir código Opensport">
-						<input type="submit" class="btn-green" value="CANJEAR">
-					</form>
+        <div class="colx principal"><p>ACTUALIZAR MEDIO DE PAGO</p>
+			<div class="seguro">
+				<img src="img/seguro.svg" alt="">
+				<div class="segurocont">
+					<p>Servicio Seguro</p>
+					<a href="" class="t_purple">Más información</a>
 				</div>
-                <div class="link">&nbsp;</div>
-            </div>
-        </div>
-    </div>
-    <div class="facturacion" style="border-top: 1px solid #dfd0d7;">
-        <div class="colx principal"><p>SERVICIO Y CONFIGURACIÓN</p></div>
+			</div>
+		</div>
         <div class="colx">
-		<div class="data"> 
-				<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal">4 dispositivos +<img src="img/HD.svg" alt=""> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
-					
-                <div class="link"><a href="">Configuración de comunicación</a></div>
-            </div>
+            
+            <div class="formul formulx contra">
+                <p>Se aplicará tu nuevo método de pago a tu siguiente ciclo de facturación. <br> Tu suscripción mensual se factura el primer día de cada periodo de facturación.</p>                
+                <div class="precontent">
+                    <div class="tabpa ">
+                        <p><b>Tarjeta de crédito o débito</b></p>
+                        <div class="iconspago">
+                            <img src="img/visa.svg" alt="">
+                            <img src="img/mastercard.svg" alt="">
+                            <img src="img/angle-up.svg" alt="" class="contentdown">
+                        </div>
+                    </div>
+                    <div class="contentpa">
+                        <div class="pago" >
+							 <div class="card-wrapper"></div>
+                            <form action="">
+                                <div class="doublecolumn">
+                                    <div class="column">
+                                        <label for="">Nombres</label>
+										<input id="column-left" type="text" name="first-name" />
+                                       
+                                    </div>
+                                    <div class="column">
+                                        <label for="">Apellidos</label>
+										<input id="column-right" type="text" name="last-name" />                                    
+                                    </div>
+                                </div>
+                                <label for="">Número de la tarjeta</label>
+								<input id="input-field" type="text" name="number" placeholder="**** **** **** ****"/>
+                                <div class="doublecolumn">
+                                    <div class="column">
+                                        <label for="">Fecha de caducidad</label>
+          								<input id="column-left" type="text" name="expiry" placeholder="MM / YY"/>      
+                                    </div>
+                                    <div class="column">
+                                        <label for="">Código de seguridad</label>
+                                        <input id="column-right" type="text" name="cvc" placeholder="CCV"/>
+                                    </div>
+                                </div>
+                                <div class="buttons">
+                                    <input type="submit" value="ACTUALIZAR INFORMACIÓN TARJETA" class="btn-green">
+									<img src="img/norton.png" alt="">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="precontent">
+                    <div class="tabpa">
+                        <p><b>PayPal</b></p>
+                        <div class="iconspago">
+                            <img class="paypal" src="img/paypal.svg" alt="">
+                            <img src="img/angle-up.svg" alt="" class="contentdown">
+                        </div>
 
-
+                    </div>
+                    <div class="contentpa">
+						<p>Para completar la suscripción, haz clic en el botón “Continuar en PayPal” e incia sesión en PayPal contu correo y contraseña.</p>
+						<a href="" class="btn-green">Continuar en PayPal</a>
+                    </div>
+					<a href="" class="t_purple">Canjear una tarjeta o código Opensport</a>
+                </div>
+				
+		    </div>
         </div>
     </div>
-	<a href="" class="btn btn-purple">CERRAR SESIÓN EN TODOS LOS DISPOSITIVOS</a>
-    </div>
+
 </div>
 <!--<div class="premodal" >
 	<div class="modal">
@@ -252,4 +279,5 @@
 		<div class="formul"></div>
 	</div>
 </div>-->
+
 <?php include("footer.php");?>

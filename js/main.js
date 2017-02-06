@@ -95,16 +95,30 @@
 				$(".cont-1").slideUp();
 			
 		});
-		$(".cancelar,.fa-times").on("click",function(e){
-			e.preventDefault();
-			$(".formul").slideUp();
-			$(".premodal").slideUp();
-		});
+			$(".contentdown").on("click",function(){
+				 x = $(this).parent().parent().parent();
+				x.toggleClass("active");
+				$(x).find(".contentpa").stop().slideToggle();
+			})
+			$('.pago form').card({
+				container: '.card-wrapper',
+				width: 280,
+
+				formSelectors: {
+					nameInput: 'input[name="first-name"], input[name="last-name"]'
+				},    placeholders: {
+        number: '•••• •••• •••• ••••',
+        name: 'Nombre Completo',
+        expiry: '••/••',
+        cvc: '•••'
+    },
+			});
+/*
 				$(".cancelar,.fa-times").on("click",function(e){
 			e.preventDefault();
 			$(".formul").slideUp();
 			$(".premodal").slideUp();
-		});
+		});*/
 		$(".openform").on("click",function(e){
 			e.preventDefault();			
 			var form=$(this).attr("alt");

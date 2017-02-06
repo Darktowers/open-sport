@@ -80,62 +80,39 @@
         </div>
     </div>
     <div class="profile-Account">
-		<div class="titlex">
-			<h1 class="title">MI CUENTA</h1>
-		</div>
-    
+    <div class="titlex">
+     <h1 class="title">MI CUENTA</h1>
+<a href="profile.php"><p><i class="fa fa-angle-left"></i>VOLVER</p></a>
+    </div>
+
     <div class="facturacion">
-        <div class="colx principal"><p>SUSCRIPCIÓN Y FACTURACIÓN</p><a href="" class="btn btn-purple">CANCELAR SUSCRIPCIÓN</a></div>
+        <div class="colx principal"><p>Nº TÉLEFONO</p></div>
         <div class="colx">
-            <div class="data">
-                <div class="info black"><p>manugarcia@gmail.com</p></div>
-                <div class="link"><a href="cambiar-correo.php" class="" alt="email">Cambiar correo</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Contraseña:********</p></div>
-                <div class="link"><a href="cambiar-pass.php" class="" alt="contra">Cambiar contraseña</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>Telefono:8218213</p></div>
-                <div class="link"><a href="cambiar-telefono.php" class="" alt="telefono">Añadir nº de teléfono</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
-                <div class="link"><a href="medio-de-pago.php" class="" alt="pago">Actualizar medio de pago</a></div>
-            </div>
-            <div class="data">
-                <div class="info pass"><p>&nbsp;</p></div>
-                <div class="link"><a href="datos-de-facturacion.php" class="" alt="facturacion">Información de facturación</a></div>
-            </div>
-            <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info black"><p>Canjear tarjeta de regalo o codigo Opensport</p></div>
-                <div class="link"><a href="tarjeta-de-regalo.php">Información sobre las <br> Tarjetas de regalo Opensport</a></div>
-            </div>
-			<div class="data">
-                <div class="info input">
-					<form action="">
-						<input type="text" placeholder="Introducir código Opensport">
-						<input type="submit" class="btn-green" value="CANJEAR">
-					</form>
-				</div>
-                <div class="link">&nbsp;</div>
-            </div>
+            
+            <div class="formul formulx contra">
+                <p>Se utilizará tu número de teléfono en caso de que olvides tu contraseña, <br> o para enviarte mensajes importantes de la cuenta.</p>                
+                <form action="">
+                    <label for="">Nº de movil</label>
+                    <input type="text" name="actel">
+                    <label for="">Contraseña</label>
+                    <input type="password"name="pass" >
+                    <div class="required">
+                        <div class="check">
+                            <input type="checkbox" name="suscribed" checked="checked" />
+                            <label for=""></label>
+                        </div>
+                        <p>Si, me gustaría recibir mensajes de futuros eventos <br> y las ofertas especiales de Opensport</p>
+                    </div>
+                    <p>Una vez hecho, se enviará un código de verificación a tu móvil para comprobar <br> que es tu número. Podrían aplicarse las tarifas por mensaje de texto.</p>
+                    <div class="buttons">
+                        <a href="#" class="cancelar btn-gray">CANCELAR</a>
+                        <input type="submit" value="GUARDAR" class="btn-green">
+                    </div>
+                </form>
+		    </div>
         </div>
     </div>
-    <div class="facturacion" style="border-top: 1px solid #dfd0d7;">
-        <div class="colx principal"><p>SERVICIO Y CONFIGURACIÓN</p></div>
-        <div class="colx">
-		<div class="data"> 
-				<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal">4 dispositivos +<img src="img/HD.svg" alt=""> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
-					
-                <div class="link"><a href="">Configuración de comunicación</a></div>
-            </div>
 
-
-        </div>
-    </div>
-	<a href="" class="btn btn-purple">CERRAR SESIÓN EN TODOS LOS DISPOSITIVOS</a>
-    </div>
 </div>
 <!--<div class="premodal" >
 	<div class="modal">
