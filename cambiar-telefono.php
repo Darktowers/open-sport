@@ -92,7 +92,7 @@
             <div class="formul formulx contra">
                 <p>Se utilizará tu número de teléfono en caso de que olvides tu contraseña, <br> o para enviarte mensajes importantes de la cuenta.</p>                
                 <form action="">
-                    <label for="">Nº de movil</label>
+                    <label for="">Nº de móvil</label>
                     <input type="text" name="actel">
                     <label for="">Contraseña</label>
                     <input type="password"name="pass" >

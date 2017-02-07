@@ -105,16 +105,16 @@
                         <div class="iconspago">
                             <img src="img/visa.svg" alt="">
                             <img src="img/mastercard.svg" alt="">
-                            <img src="img/angle-up.svg" alt="" class="contentdown">
+                            <img src="img/angle-up.svg" alt="" class="contentdownx">
                         </div>
                     </div>
                     <div class="contentpa">
                         <div class="pago" >
 							 <div class="card-wrapper"></div>
-                            <form action="">
+                            <form action="" method="get">
                                 <div class="doublecolumn">
                                     <div class="column">
-                                        <label for="">Nombres</label>
+                                        <label for="">Nombre</label>
 										<input id="column-left" type="text" name="first-name" />
                                        
                                     </div>
@@ -128,7 +128,7 @@
                                 <div class="doublecolumn">
                                     <div class="column">
                                         <label for="">Fecha de caducidad</label>
-          								<input id="column-left" type="text" name="expiry" placeholder="MM / YY"/>      
+          								<input id="column-left" type="text" name="expiry" placeholder="MM / YY"   maxlength="7"/>      
                                     </div>
                                     <div class="column">
                                         <label for="">Código de seguridad</label>
@@ -144,19 +144,19 @@
                     </div>
                 </div>
                 <div class="precontent">
-                    <div class="tabpa">
+                    <div class="tabpa" >
                         <p><b>PayPal</b></p>
                         <div class="iconspago">
                             <img class="paypal" src="img/paypal.svg" alt="">
-                            <img src="img/angle-up.svg" alt="" class="contentdown">
+                            <img src="img/angle-up.svg" alt="" class="contentdownx">
                         </div>
 
                     </div>
                     <div class="contentpa">
-						<p>Para completar la suscripción, haz clic en el botón “Continuar en PayPal” e incia sesión en PayPal contu correo y contraseña.</p>
-						<a href="" class="btn-green">Continuar en PayPal</a>
+						<p>Para completar la suscripción, haz clic en el botón “Continuar en PayPal” e incia sesión en PayPal con tu correo y contraseña.</p>
+						<a href="" style=" padding: 1em;display: inline-block;    border: 1px solid transparent;" class="btn-black">Continuar en PayPal</a>
                     </div>
-					<a href="" class="t_purple">Canjear una tarjeta o código Opensport</a>
+					<a href="" style="display: inline-block;padding-top: 1.5em;font-size: 12px;"class="link t_purple">Canjear una tarjeta o código Opensport</a>
                 </div>
 				
 		    </div>

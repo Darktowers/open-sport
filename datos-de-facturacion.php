@@ -96,15 +96,15 @@
                     </div>
                     <div class="contentpa" style="display:block;">
 						<p style="font-size:large;margin:0;"><span class="t_purple" ><b>MES OPENSPORT - 9.99¤</b></span> (IVA incluido)</p>
-						<div class="data"> 
-							<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal"><b>4 dispositivos +</b><img src="img/HD.svg" alt=""><b>+</b> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
+						<div class="data" style="padding:0;"> 
+							<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal"><b>4 dispositivos +</b><img src="img/HD.svg" alt=""><img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
 						</div>
 					</div>
                 </div>
 				<div class="precontent" style="padding: 1em 0;">
                     <div class="contentpa" style="display:block;">
-						<p style="font-size:large;margin:0;">Próxima fecha de facturación <b>23 de Enero de 2017</b></p>
-						<p style="font-size:large;">El coste de la suscripcción se factura al comienzo de cada período y puede tardarunos días en aparecer en tu cuenta después de la fecha de facturación.</p>
+						<p style="margin:0;font-size: large;">Próxima fecha de facturación <b>23 de Enero de 2017</b></p>
+						<p >El coste de la suscripcción se factura al comienzo de cada período y puede tardarunos días en aparecer en tu cuenta después de la fecha de facturación.</p>
 					</div>
                 </div>
 				<div class="precontent" style="padding: 1em 0;">
@@ -113,7 +113,7 @@
 							<thead>
 								<tr>
 									<th>Fecha</th>
-									<th>Descripción</th>
+									<th style="width: 20%;">Descripción</th>
 									<th>Periodo</th>
 									<th style="width: 30%;">Pago</th>
 									<th>Precio s/IVA</th>
@@ -125,7 +125,7 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
@@ -133,7 +133,7 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
@@ -141,7 +141,7 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
@@ -149,7 +149,7 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
@@ -157,7 +157,7 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
@@ -165,12 +165,13 @@
 									<td>23/12/2016</td>
 									<td>Mes Openspot</td>
 									<td>23/12/2016-22/01/2017</td>
-									<td><img src="img/visa.svg" alt="">**** **** **** 0768</td>
+									<td><img src="img/visa.svg" alt=""><p>**** **** **** 0768</p>	</td>
 									<td>8,26€</td>
 									<td>9,99€</td>
 								</tr>
 							</tbody>
 						</table>
+						<p>NOTA: Solo se muestra el último año del historial de facturación</p>
 					</div>
                 </div>
 		    </div>

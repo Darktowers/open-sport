@@ -76,7 +76,10 @@
             <div class="tile email"><i class="fa fa-user"></i><p>manugarcia@gmail.com</p></div>
             <div class="tile"><a href=""><i class="fa fa-cog"></i><p>Mi cuenta</p></a></div>
             <div class="tile"><a href=""><i class="fa fa fa-question-circle-o"></i><p>Ayuda</p></a></div>
-            <div class="tile"><a href=""><i class="fa fa-power-off"></i><p>Cerrar Sesión en <b>Opensport</b></p></a></div>            
+            <div class="tile"><a href=""><i class="fa fa-power-off"></i><p>Cerrar Sesión en <b>Opensport</b></p></a></div> 
+			<div class="logo" >
+						<img src="img/logo-open-sport-single.svg" alt="" >
+					</div>           
         </div>
     </div>
     <div class="profile-Account">
@@ -92,15 +95,15 @@
                 <div class="link"><a href="cambiar-correo.php" class="" alt="email">Cambiar correo</a></div>
             </div>
             <div class="data">
-                <div class="info pass"><p>Contraseña:********</p></div>
+                <div class="info pass"><p>Contraseña: ********</p></div>
                 <div class="link"><a href="cambiar-pass.php" class="" alt="contra">Cambiar contraseña</a></div>
             </div>
             <div class="data">
-                <div class="info pass"><p>Telefono:8218213</p></div>
+                <div class="info pass"><p>Teléfono: 8218213</p></div>
                 <div class="link"><a href="cambiar-telefono.php" class="" alt="telefono">Añadir nº de teléfono</a></div>
             </div>
             <div class="data" style="border-top: 1px solid #dfd0d7;">
-                <div class="info card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
+                <div class="card"><img src="img/visa.svg" alt=""><p>**** **** **** 5674</p></div>
                 <div class="link"><a href="medio-de-pago.php" class="" alt="pago">Actualizar medio de pago</a></div>
             </div>
             <div class="data">
@@ -118,7 +121,7 @@
 						<input type="submit" class="btn-green" value="CANJEAR">
 					</form>
 				</div>
-                <div class="link">&nbsp;</div>
+                <div class="link"></div>
             </div>
         </div>
     </div>
@@ -126,11 +129,14 @@
         <div class="colx principal"><p>SERVICIO Y CONFIGURACIÓN</p></div>
         <div class="colx">
 		<div class="data"> 
-				<div class="info card" style="width: 100%;"><p style="margin:0;" class="t_normal">4 dispositivos +<img src="img/HD.svg" alt=""> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
+				<div class="info card" style="width: 50%;"><p style="margin:0;" class="t_purple"><b>SEMANA OPENSPORT</b><p><p style="margin:0;" class="t_normal"><b>4 dispositivos +</b><img src="img/HD.svg" alt=""> <img src="img/4k.svg" style="margin-top: .2em;" alt=""></b></p></div>
 					
-                <div class="link"><a href="">Configuración de comunicación</a></div>
+                <div class="link"><a href="">Cambiar a MES OPENSPORT</a></div>
             </div>
-
+			<div class="data" style="padding: 0;">
+                <div class="info pass"><p>&nbsp;</p></div>
+                <div class="link"><a href="datos-de-facturacion.php" class="" alt="facturacion">Configuración de Comunicación</a></div>
+            </div>
 
         </div>
     </div>

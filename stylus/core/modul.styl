@@ -12,6 +12,8 @@
     font-style: normal;
 @import "nib"
 @import "nib/vendor"
+.link
+    text-decoration: underline
 .t_normal
     color #38023b !important
 .t_green
@@ -1285,6 +1287,7 @@ footer
     border: 1px solid;
     padding: .5em 1em;
     transition: all .3s ease-in-out
+    background: #00f080;
     &:hover
         background: #38023b
         color #00f080 !important
@@ -1521,16 +1524,19 @@ footer
     padding-bottom: 6em;
     .seguro
         display: flex;
-        align-items: center;
         justify-content: flex-start;
+        align-items: flex-start;
         .segurocont
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
             padding-left: 1em;
             p
                 margin: 0;
                 font-size: 1em !important
+            a
+                font-size: 12px;
+                text-decoration: underline
     table
         thead
             tr
@@ -1545,19 +1551,27 @@ footer
                     padding: .5em;
                     border-top: 1px solid #dfd0d7;
                     font-size: .77em !important;
+                    font-weight: bold
                     img
                         display: inline-block
                         margin-right: .4em
                         width: 30px
+                    p
+                        display: inline-block;
+                        margin: 0;
+                        font-size: 12px;
+                        position: relative;
+                        top: -5px;
                     
                     
-    .info 
+    .info
+        flex-direction: column
         p
             margin: 0;
             display: flex;
             align-items: center;
             img 
-                width: 50px;
+                width: 40px;
     &-Account
         width: 70%;
         padding: 0 0 0 2em;
@@ -1615,6 +1629,7 @@ footer
                                 padding: .5em 1em;
                                 width: 100%;
                                 border: 1px solid #dd1b71;
+                                font-size: 0.9em
                     
                     .black
                         color: black;
@@ -1626,7 +1641,7 @@ footer
                         width: 40%
                         justify-content: space-between
                         p                                         
-                            font-size: 20px;
+                            font-size: 16px;
                             text-align: center
                             img
                                 display: inline-block
@@ -1635,11 +1650,13 @@ footer
                         text-align: right;
                         a
                             text-decoration: underline;
+                            font-size: 12px
             .principal
                 width: 40%
+                margin-right: 1.5em;
                 p
                     font-weight: bold;
-                    font-size: 22px;
+                    font-size: 17px;
                     
                 
     &-Box
@@ -1649,6 +1666,13 @@ footer
             color: white;
             max-width: 300px;
             margin: 0 auto;
+            .logo
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 1em;
+                img
+                    width: 50px;
             .email
                 background: #521855;
                 padding: 1em;
@@ -1676,6 +1700,10 @@ footer
 .formulx
     max-width: 100% !important;
     padding: 0 !important
+    ol
+    ul
+    p
+        font-size: 14px
     .required
         max-width: 450px
         align-items: center;
@@ -1690,6 +1718,7 @@ footer
         .tabpa
             .iconspago
                 .contentdown
+                .contentdownx
                     transform: rotate(360deg) !important
                     transition: all .3s ease-in-out
 
@@ -1722,6 +1751,7 @@ footer
                     width: 40px;
                     margin: .1em;
                 .contentdown
+                .contentdownx
                     transition: all .3s ease-in-out
                     transform: rotate(180deg);
                     &:last-child

@@ -117,7 +117,7 @@
 								<div class="contentpa">
 									<p>Para canjear tu Tarjeta Regalo Opensort:</p>
 									<ol>
-										<li>Dirígite a <a href="" class="t_purple">opensport.es/tarjeta_regalo</a>
+										<li>Dirígite a <a href="" class="link link t_purple">opensport.es/tarjeta_regalo</a>
 										</li>
 										<li>Introduce el código que viene en la Tarjeta Regalo o que te haya facilitado el comercio en el ticket de compra.
 										</li>
@@ -136,7 +136,7 @@
 									</div>
 								</div>
 								<div class="contentpa">
-									<p>Sí, puedes canjear más de una Tarjeta Regalo. Introduce sus códigos en opensport.es/tarjetas_regalo y tu saldo aumentará con cada código que añadas. Consulta el saldo disponible en la página <a class="t_purple" href="https://opensport.es/micuenta">www.opensport.es/micuenta</a></p>
+									<p>Sí, puedes canjear más de una Tarjeta Regalo. Introduce sus códigos en opensport.es/tarjetas_regalo y tu saldo aumentará con cada código que añadas. Consulta el saldo disponible en la página <a class="link t_purple" href="https://opensport.es/micuenta">www.opensport.es/micuenta</a></p>
 								</div>
 							</div>
 							<div class="precontent">
@@ -147,7 +147,7 @@
 									</div>
 								</div>
 								<div class="contentpa">
-									<p>No, solo tienes que visitar <a href="" class="t_purple">opensport.es/tarjeta_regalo</a>, e introducir el código que te hayan facilitado en el comercio en el que adquiriste la Tarjeta Regalo. Si ya tienes una cuenta, puedes añadir el valor de la Tarjeta Regalo a tu saldo en la página <a href="" class="t_purple">www.opensport.es/micuenta</a>, y siguiendo las instrucciones incluidas a tal fin.</p>
+									<p>No, solo tienes que visitar <a href="" class="link t_purple">opensport.es/tarjeta_regalo</a>, e introducir el código que te hayan facilitado en el comercio en el que adquiriste la Tarjeta Regalo. Si ya tienes una cuenta, puedes añadir el valor de la Tarjeta Regalo a tu saldo en la página <a href="" class="link t_purple">www.opensport.es/micuenta</a>, y siguiendo las instrucciones incluidas a tal fin.</p>
 									<p>Si eres nuevo en Opensport, registrarte te resultará fácil. Todo lo que necesitas para empezar a disfrutar del mejor deporte es una Tarjeta Regalo, una dirección de correo electrónico y una contraseña.</p>
 								</div>
 							</div>
@@ -184,7 +184,7 @@
 									</div>
 								</div>
 								<div class="contentpa">
-									<p>Sí. Puedes visitar <a href="" class="t_purple">opensport.es/tarjeta_regalo</a> para canjear tu Tarjeta Regalo Opensport. Una vez canjeada la Tarjeta Regalo, el saldo disponible en Tu Cuenta tiene que ser suficiente para comprar una Suscrición a la Semana o el Mes Opensport. Si tienes problemas al intentar canjear tu Tarjeta Regalo, puedes ponerte en contacto con nuestro departamento de Servicio de Atención al Cliente accediendo a ayuda.opensport.es y haciendo clic en "Llámanos" o en "Iniciar chat en directo". Nuestro agente de Servicio al cliente te ayudará a canjear tu Tarjeta Regalo.</p>
+									<p>Sí. Puedes visitar <a href="" class="link t_purple">opensport.es/tarjeta_regalo</a> para canjear tu Tarjeta Regalo Opensport. Una vez canjeada la Tarjeta Regalo, el saldo disponible en Tu Cuenta tiene que ser suficiente para comprar una Suscrición a la Semana o el Mes Opensport. Si tienes problemas al intentar canjear tu Tarjeta Regalo, puedes ponerte en contacto con nuestro departamento de Servicio de Atención al Cliente accediendo a ayuda.opensport.es y haciendo clic en "Llámanos" o en "Iniciar chat en directo". Nuestro agente de Servicio al cliente te ayudará a canjear tu Tarjeta Regalo.</p>
 								</div>
 							</div>
 
@@ -198,7 +198,7 @@
 		<div class="formul email" >
 			<form action="">
 				<i class="fa fa-times"></i>
-				<h3 class="t_purple">CAMBIAR CORREO</h3>
+				<h3 class="link t_purple">CAMBIAR CORREO</h3>
 				<label for="">Nueva dirección de correo electrónico</label>
 				<input type="email" name="email">
 				<label for="">Verificar dirección de correo electrónico</label>
@@ -212,7 +212,7 @@
 		<div class="formul contra">
 			<form action="">
 				<i class="fa fa-times"></i>
-				<h3 class="t_purple">CAMBIAR CONTRASEÑA</h3>
+				<h3 class="link t_purple">CAMBIAR CONTRASEÑA</h3>
 				<label for="">Contraseña actual</label>
 				<input type="password" name="pass">
 				<label for="">Nueva contraseña</label>
@@ -226,7 +226,7 @@
 		<div class="formul facturacion">
 			<form action="">
 				<i class="fa fa-times"></i>
-				<h3 class="t_purple">DATOS DE FACTURACIÓN</h3>
+				<h3 class="link t_purple">DATOS DE FACTURACIÓN</h3>
 				<label for="">Nombres y apellidos</label>
 				<input type="text" name="nombres">
 				<label for="">Dirección de facturación</label>
@@ -268,7 +268,7 @@
 		<div class="formul pago" >
 			<form action="">
 				<i class="fa fa-times"></i>
-				<h3 class="t_purple">ACTUALIZAR MÉTODO DE PAGO</h3>
+				<h3 class="link t_purple">ACTUALIZAR MÉTODO DE PAGO</h3>
 				<label for="">Nombres y apellidos</label>
 				<input type="text" name="nombres">
 				<label for="">Número de la tarjeta</label>
@@ -284,7 +284,7 @@
 						<input type="text" name="codigose" placeholder="***">
 					</div>
 				</div>
-				<a href="" class="t_purple">Más información sobre métodos de pago</a>
+				<a href="" class="link t_purple">Más información sobre métodos de pago</a>
 				<div class="buttons">
 					<a href="#" class="cancelar btn-gray">CANCELAR</a>
 					<input type="submit" value="GUARDAR" class="btn-green">
@@ -294,7 +294,7 @@
 		<div class="formul telefono" >
 			<form action="">
 				<i class="fa fa-times"></i>
-				<h3 class="t_purple">CAMBIAR TELÉFONO</h3>
+				<h3 class="link t_purple">CAMBIAR TELÉFONO</h3>
 				<label for="">Nueva número de teléfono</label>
 				<input type="text" name="telefono">
 				<div class="buttons">

@@ -95,11 +95,27 @@
 				$(".cont-1").slideUp();
 			
 		});
+
+		// 	$(".contentdownx").on("click",function(){
+		// 		 x = $(this).parent().parent().parent();
+		// 		$(".precontent .contentpa").slideUp();
+		// 		x.toggleClass("active");
+		// 		$(x).find(".contentpa").stop().slideToggle();	
+		// })
+		$('.contentdownx').on('click',function(event){
+			event.preventDefault();
+			var $focus = $(this).parents('.precontent');
+			$($focus).toggleClass('active');
+			$($focus).find('.contentpa').stop().slideToggle('300');
+			$($focus).siblings('.precontent').removeClass('active');
+			$($focus).siblings('.precontent').find('.contentpa').stop().slideUp('300');
+		});
 			$(".contentdown").on("click",function(){
 				 x = $(this).parent().parent().parent();
 				x.toggleClass("active");
 				$(x).find(".contentpa").stop().slideToggle();
 			})
+
 			$('.pago form').card({
 				container: '.card-wrapper',
 				width: 280,
@@ -107,11 +123,11 @@
 				formSelectors: {
 					nameInput: 'input[name="first-name"], input[name="last-name"]'
 				},    placeholders: {
-        number: '•••• •••• •••• ••••',
-        name: 'Nombre Completo',
-        expiry: '••/••',
-        cvc: '•••'
-    },
+					number: '•••• •••• •••• ••••',
+					name: 'Nombre Completo',
+					expiry: '••/••',
+					cvc: '•••'
+				},
 			});
 /*
 				$(".cancelar,.fa-times").on("click",function(e){

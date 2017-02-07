@@ -92,7 +92,7 @@
                 <form action="">
                     <label for="">Contraseña actual</label>
                     <input type="password" name="acpass">
-                    <label for="">Contraseña nueva (4-10 carácteres)</label>
+                    <label for="">Contraseña nueva (4-10 caracteres)</label>
                     <input type="password"name="newpass" >
                     <label for="">Confirmar contraseña nueva</label>
                     <input type="password"name="repass" >
