@@ -20,17 +20,17 @@
 		<img src="img/transparent-rectangles-small.png" alt="" class="mosaico">
 		<div class="wrap slidex">
 			<div class="notifi">
-				
+
 				<p><b>EN VIVO:</b> Barça vs Real Madrid, desde el Estadio Santiago Bernabéu</p>
 				<a href="" class="btn btn-b_black">VER</a>
 			</div>
 			<div class="notifi">
-		
+
 				<p><b>EN VIVO:</b> Atletico Madrid vs Galicia desde el Estadio Santiago Bernabéu</p>
 				<a href="" class="btn btn-b_black">VER</a>
 			</div>
 			<div class="notifi">
-				
+
 				<p><b>EN VIVO:</b> Formula 1 G.P. MALASIA</p>
 				<a href="" class="btn btn-b_black">VER</a>
 			</div>
@@ -40,73 +40,79 @@
 
 		<div class="header-Container wrap">
 			<a href="index.php">
-			<div class="header-Container-Logo">
-				<img src="img/logo-open-sport.svg" alt="">
-			</div>
+				<div class="header-Container-Logo">
+					<img src="img/logo-open-sport.svg" alt="">
+				</div>
 			</a>
 			<div class="menu-icon">
 				<i class="fa fa-bars" aria-hidden="true"></i>
 			</div>
-		<div class="pre-menu">
-			<div class="menu">
-				<div class="filtro"></div>
-				<i class="fa fa-times movil"></i>
-				<a href="index.php">
-				<div class="header-Container-Logo movil">
-					<center>
-						<img  style="display:inline-block"src="img/logo-open-sport.svg" alt="">
-					</center>
+			<div class="pre-menu">
+				<div class="menu">
+					<div class="filtro"></div>
+					<i class="fa fa-times movil"></i>
+					<a href="index.php">
+						<div class="header-Container-Logo movil">
+							<center>
+								<img style="display:inline-block" src="img/logo-open-sport.svg" alt="">
+							</center>
+						</div>
+					</a>
+					<ul>
+						<li><a href="programacion.php">PRÓXIMOS EVENTOS</a></li>
+						<li><a href="deportes.php">DEPORTES</a></li>
+						<li><a href="">CONTRÁTALO</a></li>
+						<li class="login user"><a href=""><i class="fa fa-user"></i><p>Manuel</p></a></li>
+					</ul>
 				</div>
-				</a>
-				<ul>
-					<li><a href="programacion.php">PRÓXIMOS EVENTOS</a></li>
-					<li><a href="deportes.php">DEPORTES</a></li>
-					<li><a href="">CONTRÁTALO</a></li>
-                    <li class="login user"><a href=""><i class="fa fa-user"></i><p>Manuel</p></a></li>
-				</ul>
 			</div>
-		</div>		
 		</div>
 	</header>
 	<div class="wrapper">
-<div class="preheader"></div>
-<div class="profile">
-    <div class="profile-Box">
-        <div class="box">
-            <div class="tile email"><i class="fa fa-user"></i><p>manugarcia@gmail.com</p></div>
-            <div class="tile"><a href=""><i class="fa fa-cog"></i><p>Mi cuenta</p></a></div>
-            <div class="tile"><a href=""><i class="fa fa fa-question-circle-o"></i><p>Ayuda</p></a></div>
-            <div class="tile"><a href=""><i class="fa fa-power-off"></i><p>Cerrar Sesión en <b>Opensport</b></p></a></div>            
-        </div>
-    </div>
-    <div class="profile-Account">
-    <div class="titlex">
-     <h1 class="title">MI CUENTA</h1>
-<a href="profile.php"><p><i class="fa fa-angle-left"></i>VOLVER</p></a>
-    </div>
+		<div class="preheader"></div>
+		<div class="profile">
+			<div class="profile-Box">
+				<div class="box">
+					<div class="tile email"><i class="fa fa-user"></i>
+						<p>manugarcia@gmail.com</p>
+					</div>
+					<div class="tile"><a href=""><i class="fa fa-cog"></i><p>Mi cuenta</p></a></div>
+					<div class="tile"><a href=""><i class="fa fa fa-question-circle-o"></i><p>Ayuda</p></a></div>
+					<div class="tile"><a href=""><i class="fa fa-power-off"></i><p>Cerrar Sesión en <b>Opensport</b></p></a></div>
+				</div>
+			</div>
+			<div class="profile-Account">
+				<div class="titlex">
+					<h1 class="title">MI CUENTA</h1>
+					<a href="profile.php">
+						<p><i class="fa fa-angle-left"></i>VOLVER</p>
+					</a>
+				</div>
 
-    <div class="facturacion">
-        <div class="colx principal"><p>CAMBIAR CORREO</p></div>
-        <div class="colx">
-            <div class="formul contra">
-                <form action="">
-                    <label for="">Dirección de correo actual</label>
-                    <p><b>manugarcia@gmail.com</b></p>
-                    <label for="">Introducir nueva dirección de correo</label>
-                    <input type="email"name="newemail" required >
-                    <label for="">Contraseña </label>
-                    <input type="password"name="repass" >
-                    <div class="buttons">
-                        <a href="#" class="cancelar btn-gray">CANCELAR</a>
-                        <input type="submit" value="GUARDAR" class="btn-green">
-                    </div>
-                </form>
-		    </div>
-        </div>
-    </div>
+				<div class="facturacion">
+					<div class="colx principal">
+						<p>CAMBIAR CORREO</p>
+					</div>
+					<div class="colx">
+						<div class="formul contra">
+							<form action="">
+								<label for="">Dirección de correo actual</label>
+								<p><b>manugarcia@gmail.com</b></p>
+								<label for="">Introducir nueva dirección de correo</label>
+								<input type="email" name="newemail" required>
+								<label for="">Contraseña </label>
+								<input type="password" name="repass">
+								<div class="buttons">
+									<a href="#" class="cancelar btn-gray">CANCELAR</a>
+									<input type="submit" value="GUARDAR" class="btn-green">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 
-</div>
-<!--<div class="premodal" >
+			</div>
+			<!--<div class="premodal" >
 	<div class="modal">
 		<div class="formul email" >
 			<form action="">
@@ -221,4 +227,4 @@
 		<div class="formul"></div>
 	</div>
 </div>-->
-<?php include("footer.php");?>
+			<?php include("footer.php");?>

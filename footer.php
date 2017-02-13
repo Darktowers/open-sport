@@ -23,13 +23,10 @@
 					</ul>
 					<ul class="menu">
 						<li><a href="">Preguntas frecuentes</a></li>
-						<li><a href="">Formas de pago</a></li>
 						
 					</ul>
 					<ul class="menu">
-						<li><a href="">Condiciones del servicio</a></li>
-						<li><a href="">Pruebas de velocidad</a></li>
-						<li><a href="">Dispositivos</a></li>
+
 					</ul>
 				</div>
 		</div>

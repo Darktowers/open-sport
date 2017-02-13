@@ -19,6 +19,10 @@
 		},function(){
 			$(this).find(".label").fadeOut();
 		});
+		$(".loginx").on("click",function(e){
+			e.preventDefault();
+			$(this).find(".spandable").stop().slideToggle();
+		});
 		/*	
 				$(window).scroll(function () {
 					$('video').each(function () {
@@ -418,6 +422,41 @@
 				},
 				{
 					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+
+		});
+		$('.slideevents').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			autoplay: false,
+			autoplaySpeed: 3000,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 890,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 540,
 					settings: {
 						slidesToShow: 1,
 						slidesToScroll: 1

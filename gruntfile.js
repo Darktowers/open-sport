@@ -15,6 +15,7 @@ module.exports = function (grunt) {
 				files: {
 					'css/main.css' : 'stylus/core/main.styl',
 					'css/other-styles.css' : 'stylus/other-styles.styl',
+					
 				}
 			}
 		},

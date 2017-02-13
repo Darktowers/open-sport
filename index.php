@@ -14,7 +14,7 @@
         </div>
         <div class="banner-Container-Item">
             <div class="back">
-                <img src="img/post1.png" alt="">
+                <img src="img/newc1.jpg" alt="">
             </div>
 
         </div>
