@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/other-styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="http://vjs.zencdn.net/5.16.0/video-js.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,7 +39,7 @@
 					</a>
 					<ul>
 						<li><a href="programacion.php">PRÓXIMOS EVENTOS</a></li>
-						<li><a href="deportes.php">EN EMICIÓN</a></li>
+						<li><a href="deportes.php">EN EMISIÓN</a></li>
 						<div class="loginx">	
 							<i class="fa fa-bell-o"></i>
 							<li class=""><a href=""><p>usuario@gmail.com</p><span class="fa fa-angle-down"></span></a></li>

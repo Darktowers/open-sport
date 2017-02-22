@@ -1,0 +1,421 @@
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/gotham-bold-webfont.woff2") format('woff2'), url("../fonts/gotham-bold-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/gotham-light-webfont.woff2") format('woff2'), url("../fonts/gotham-light-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'Gotham';
+  font-weight: normal;
+  margin: 0;
+}
+
+.modalvideo {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: #38023b;
+  display: none;
+}
+.modalvideo a{
+  text-decoration: none;
+  color:inherit;
+}
+.modalvideo .containerVideo {
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.modalvideo .containerVideo #Video {
+  position: relative;
+  width: 100%;
+  max-width: 1729px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.modalvideo .containerVideo #Video .preheadervideo {
+  position: absolute;
+  padding: 1em 2em;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: -webkit-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -moz-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -o-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -ms-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0));
+}
+.modalvideo .containerVideo #Video .headervideo {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.modalvideo .containerVideo #Video video {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 1000px;
+}
+.modalvideo .containerVideo #Video .backclose {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #fff;
+  min-width: 155px;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  background: rgba(67,29,69,0.73);
+  padding: 0 2em;
+  border-radius: 0.5em 1em 1em 0.5em;
+  position: relative;
+}
+.modalvideo .containerVideo #Video .backclose:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgba(67,29,69,0.73);
+  left: -0.6em;
+}
+.modalvideo .containerVideo #Video .backclose:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.modalvideo .containerVideo #Video .backclose .img img {
+  width: 50px;
+}
+.modalvideo .containerVideo #Video .backclose p {
+  margin-left: 1em;
+  font-size: 20px;
+}
+.modalvideo .containerVideo #Video .control {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -moz-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -o-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: -ms-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0));
+  background: linear-gradient(360deg, rgba(19,17,19,0.35), rgba(19,17,19,0));
+  padding: 1em;
+}
+.modalvideo .containerVideo #Video .control .mainvideo {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls {
+  color: #fff;
+  padding: 1em 0.5em;
+  background: rgba(67,29,69,0.73);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco .cont {
+  position: relative;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco .cont img {
+  margin: 0 0.2em;
+  width: 40px;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco .cont .data-action {
+  display: none;
+  position: absolute;
+  background: #37213d;
+  min-height: 50px;
+  bottom: 3em;
+  min-width: 100px;
+  text-align: center;
+  left: -1.5em;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco .cont .data-action .actions {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  background: #37213d;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .blockco .cont .data-action .actions:hover {
+  background: #16ff8f;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .playbtn i {
+  font-size: 1.5em;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .playbtn .fa-pause-circle-o {
+  display: block !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .playbtn .fa-play-circle-o {
+  display: none !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .paused .fa-pause-circle-o {
+  display: none !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .paused .fa-play-circle-o {
+  display: block !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn {
+  position: relative;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .prevolume {
+  position: absolute;
+  top: -7em;
+  background: #37213d;
+  padding: 1em;
+  left: 0.5em;
+  display: none;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .sound .fa-volume-off {
+  display: none !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .sound .fa-volume-up {
+  display: block !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .muted .fa-volume-off {
+  display: block !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .muted .fa-volume-up {
+  display: none !important;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .volume {
+  position: relative;
+  cursor: pointer;
+  width: 6px;
+  height: 70px;
+  background: rgba(146,151,160,0.3);
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .volume .volumeBar {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #00f084;
+  z-index: 10;
+  border-radius: 10px;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .volume .volumeBar .pointervideo {
+  position: absolute;
+  right: -0.3em;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  top: -0.3em;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .controls .volumebtn .volume .volumeBar .pointervideo:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressTime {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0.3em 0;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressTime span {
+  font-size: 12px;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressBar {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: rgba(146,151,160,0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressBar .bufferBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(204,204,204,0.4);
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressBar .timeBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #00f084;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  border-radius: 10px;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressBar .timeBar .pointervideo {
+  position: absolute;
+  right: -0.3em;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  top: -0.3em;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.modalvideo .containerVideo #Video .control .mainvideo .progressbarcont .progressBar .timeBar .pointervideo:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -12,8 +12,6 @@
     font-style: normal;
 @import "nib"
 @import "nib/vendor"
-.link
-    text-decoration: underline
 .t_normal
     color #38023b !important
 .t_green
@@ -136,6 +134,8 @@ body
                             border: 1px solid #00f080
 .banner
     background: #38023b;
+    a
+        outline: 0
     &-Container
         max-width: 1400px;
         margin: 0 auto;
@@ -169,8 +169,8 @@ body
                 img
                     transform: scale(1.0);
                     height: 100%;
-                    top: 0;
                     margin: 0 auto
+                    top: 0;
             .content
                 position: absolute;
                 width: 100%;
@@ -263,16 +263,16 @@ body
         &-Item
             position: relative
             .back
+                max-width: 1400px;
                 height: 600px;
                 overflow: hidden;
                 position: relative
-                margin: 0 auto
                 img
                     position: absolute;
                     transform: scale(1.0);
                     height: 100%;
+                    width: 100%;
                     top: 0;
-                    margin: 0 auto
             .content
                 position: absolute;
                 width: 100%;
@@ -942,6 +942,8 @@ body
             h2
                 margin: 0;
                 font-size: 40px
+                padding-left 15px
+                padding-right 15px
             .wrap
                 display: flex;
                 align-items: center;
@@ -1287,7 +1289,6 @@ footer
     border: 1px solid;
     padding: .5em 1em;
     transition: all .3s ease-in-out
-    background: #00f080;
     &:hover
         background: #38023b
         color #00f080 !important
@@ -1524,19 +1525,16 @@ footer
     padding-bottom: 6em;
     .seguro
         display: flex;
+        align-items: center;
         justify-content: flex-start;
-        align-items: flex-start;
         .segurocont
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
             padding-left: 1em;
             p
                 margin: 0;
                 font-size: 1em !important
-            a
-                font-size: 12px;
-                text-decoration: underline
     table
         thead
             tr
@@ -1551,27 +1549,19 @@ footer
                     padding: .5em;
                     border-top: 1px solid #dfd0d7;
                     font-size: .77em !important;
-                    font-weight: bold
                     img
                         display: inline-block
                         margin-right: .4em
                         width: 30px
-                    p
-                        display: inline-block;
-                        margin: 0;
-                        font-size: 12px;
-                        position: relative;
-                        top: -5px;
                     
                     
-    .info
-        flex-direction: column
+    .info 
         p
             margin: 0;
             display: flex;
             align-items: center;
             img 
-                width: 40px;
+                width: 50px;
     &-Account
         width: 70%;
         padding: 0 0 0 2em;
@@ -1629,7 +1619,6 @@ footer
                                 padding: .5em 1em;
                                 width: 100%;
                                 border: 1px solid #dd1b71;
-                                font-size: 0.9em
                     
                     .black
                         color: black;
@@ -1641,7 +1630,7 @@ footer
                         width: 40%
                         justify-content: space-between
                         p                                         
-                            font-size: 16px;
+                            font-size: 20px;
                             text-align: center
                             img
                                 display: inline-block
@@ -1650,13 +1639,11 @@ footer
                         text-align: right;
                         a
                             text-decoration: underline;
-                            font-size: 12px
             .principal
                 width: 40%
-                margin-right: 1.5em;
                 p
                     font-weight: bold;
-                    font-size: 17px;
+                    font-size: 22px;
                     
                 
     &-Box
@@ -1666,13 +1653,6 @@ footer
             color: white;
             max-width: 300px;
             margin: 0 auto;
-            .logo
-                display: flex;
-                align-items: center;
-                justify-content: flex-end;
-                padding: 1em;
-                img
-                    width: 50px;
             .email
                 background: #521855;
                 padding: 1em;
@@ -1700,10 +1680,6 @@ footer
 .formulx
     max-width: 100% !important;
     padding: 0 !important
-    ol
-    ul
-    p
-        font-size: 14px
     .required
         max-width: 450px
         align-items: center;
@@ -1718,7 +1694,6 @@ footer
         .tabpa
             .iconspago
                 .contentdown
-                .contentdownx
                     transform: rotate(360deg) !important
                     transition: all .3s ease-in-out
 
@@ -1751,7 +1726,6 @@ footer
                     width: 40px;
                     margin: .1em;
                 .contentdown
-                .contentdownx
                     transition: all .3s ease-in-out
                     transform: rotate(180deg);
                     &:last-child
@@ -1918,211 +1892,897 @@ footer
                             z-index: -1
 .ever
     justify-content:  center !important
-//Usuario proximos eventos
+/*Back*/
+.user
+    a
+        font-size 20px
+        -webkit-box-pack distribute
+        -moz-box-pack distribute
+        -o-box-pack distribute
+        -ms-flex-pack distribute
+        -webkit-justify-content space-around
+        justify-content space-around
+        min-width 149px
+        p
+            margin 0
+
+.semanal
+    .eventos
+        display -webkit-box
+        display -moz-box
+        display -webkit-flex
+        display -ms-flexbox
+        display box
+        display flex
+        -webkit-box-pack center
+        -moz-box-pack center
+        -o-box-pack center
+        -ms-flex-pack center
+        -webkit-justify-content center
+        justify-content center
+        -webkit-box-align center
+        -moz-box-align center
+        -o-box-align center
+        -ms-flex-align center
+        -webkit-align-items center
+        align-items center
+        -webkit-box-lines multiple
+        -moz-box-lines multiple
+        -o-box-lines multiple
+        -webkit-flex-wrap wrap
+        -ms-flex-wrap wrap
+        flex-wrap wrap
+        .eventob
+            display -webkit-box
+            display -moz-box
+            display -webkit-flex
+            display -ms-flexbox
+            display box
+            display flex
+            width 590px
+            -webkit-box-align center
+            -moz-box-align center
+            -o-box-align center
+            -ms-flex-align center
+            -webkit-align-items center
+            align-items center
+            -webkit-box-pack justify
+            -moz-box-pack justify
+            -o-box-pack justify
+            -ms-flex-pack justify
+            -webkit-justify-content space-between
+            justify-content space-between
+            margin 1em 0
+            height 240px
+            padding-bottom 2em
+            border-bottom 1px solid #ccc
+            .coleve
+                max-width 270px
+                width 100%
+                .img
+                    width 300px
+                    height 168px
+                    position relative
+                    overflow hidden
+                    img
+                        position absolute
+                        width 100%
+                .text
+                    .btn-purple
+                        background #dd1b71
+                        padding 0.5em 1em
+                        font-weight bold
+                        font-size 18px
+                        color #fff !important
+                        display inline-block
+                        position relative
+                        text-decoration none !important
+                        border 1px solid transparent
+                        -webkit-transition all 0.3s ease-in-out
+                        -moz-transition all 0.3s ease-in-out
+                        -o-transition all 0.3s ease-in-out
+                        -ms-transition all 0.3s ease-in-out
+                        transition all 0.3s ease-in-out
+                        &:hover
+                            background #fff
+                            color #dd1b71 !important
+                            border 1px solid #dd1b71
+                        &:before
+                            content ""
+                            border 1px solid #dd1b71
+                            position absolute
+                            width 100%
+                            height 100%
+                            right -0.5em
+                            top 0.5em
+                            z-index -1
+
+.semanal .eventos .eventob .coleve .text h3,
+.semanal .eventos .eventob .coleve .text h4
+    margin 0
+    font-size 18px
+
+.ever
+    -webkit-box-pack center
+    -moz-box-pack center
+    -o-box-pack center
+    -ms-flex-pack center
+    -webkit-justify-content center
+    justify-content center
+
+.modalvideo
+    position fixed
+    top 0
+    z-index 9999
+    width 100%
+    height 100%
+    background #38023b
+    display none
+    a
+        text-decoration none
+        color inherit
+    .containerVideo
+        height 100%
+        display -webkit-box
+        display -moz-box
+        display -webkit-flex
+        display -ms-flexbox
+        display box
+        display flex
+        -webkit-box-align center
+        -moz-box-align center
+        -o-box-align center
+        -ms-flex-align center
+        -webkit-align-items center
+        align-items center
+        -webkit-box-pack center
+        -moz-box-pack center
+        -o-box-pack center
+        -ms-flex-pack center
+        -webkit-justify-content center
+        justify-content center
+        #Video
+            position relative
+            width 100%
+            max-width 1729px
+            display -webkit-box
+            display -moz-box
+            display -webkit-flex
+            display -ms-flexbox
+            display box
+            display flex
+            -webkit-box-align center
+            -moz-box-align center
+            -o-box-align center
+            -ms-flex-align center
+            -webkit-align-items center
+            align-items center
+            -webkit-box-orient vertical
+            -moz-box-orient vertical
+            -o-box-orient vertical
+            -webkit-flex-direction column
+            -ms-flex-direction column
+            flex-direction column
+            -webkit-box-pack center
+            -moz-box-pack center
+            -o-box-pack center
+            -ms-flex-pack center
+            -webkit-justify-content center
+            justify-content center
+            .preheadervideo
+                position absolute
+                padding 1em 2em
+                right 0
+                left 0
+                top 0
+                background -webkit-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -moz-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -o-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -ms-linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background linear-gradient(rgba(19,17,19,0.35), rgba(19,17,19,0))
+            .headervideo
+                display -webkit-box
+                display -moz-box
+                display -webkit-flex
+                display -ms-flexbox
+                display box
+                display flex
+            video
+                display -webkit-box
+                display -moz-box
+                display -webkit-flex
+                display -ms-flexbox
+                display box
+                display flex
+                -webkit-box-align center
+                -moz-box-align center
+                -o-box-align center
+                -ms-flex-align center
+                -webkit-align-items center
+                align-items center
+                -webkit-box-pack center
+                -moz-box-pack center
+                -o-box-pack center
+                -ms-flex-pack center
+                -webkit-justify-content center
+                justify-content center
+                margin 0 auto
+                width 100%
+                max-height 1000px
+            .backclose
+                display -webkit-box
+                display -moz-box
+                display -webkit-flex
+                display -ms-flexbox
+                display box
+                display flex
+                -webkit-box-align center
+                -moz-box-align center
+                -o-box-align center
+                -ms-flex-align center
+                -webkit-align-items center
+                align-items center
+                color #fff
+                min-width 155px
+                -webkit-box-pack distribute
+                -moz-box-pack distribute
+                -o-box-pack distribute
+                -ms-flex-pack distribute
+                -webkit-justify-content space-around
+                justify-content space-around
+                cursor pointer
+                -webkit-transition all 0.3s ease-in-out
+                -moz-transition all 0.3s ease-in-out
+                -o-transition all 0.3s ease-in-out
+                -ms-transition all 0.3s ease-in-out
+                transition all 0.3s ease-in-out
+                z-index 99
+                opacity 0.8
+                
+                
+                background rgba(67,29,69,0.73)
+                padding 0 2em
+                border-radius 0.5em 1em 1em 0.5em
+                position relative
+                &:after
+                    content ""
+                    position absolute
+                    width 0
+                    height 0
+                    border-top 10px solid transparent
+                    border-bottom 10px solid transparent
+                    border-right 10px solid rgba(67,29,69,0.73)
+                    left -0.6em
+                &:hover
+                    -webkit-transform scale(1.1)
+                    -moz-transform scale(1.1)
+                    -o-transform scale(1.1)
+                    -ms-transform scale(1.1)
+                    transform scale(1.1)
+                    opacity 1
+                    -ms-filter none
+                    filter none
+                .img
+                    img
+                        width 50px
+                p
+                    margin-left 1em
+                    font-size 20px
+            .control
+                position absolute
+                bottom 0
+                left 0
+                right 0
+                background -webkit-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -moz-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -o-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background -ms-linear-gradient(90deg, rgba(19,17,19,0.35), rgba(19,17,19,0))
+                background linear-gradient(360deg, rgba(19,17,19,0.35), rgba(19,17,19,0))
+                padding 1em
+                .mainvideo
+                    max-width 1200px
+                    margin 0 auto
+                    .controls
+                        color #fff
+                        padding 1em 0.5em
+                        background rgba(67,29,69,0.73)
+                        display -webkit-box
+                        display -moz-box
+                        display -webkit-flex
+                        display -ms-flexbox
+                        display box
+                        display flex
+                        -webkit-box-align center
+                        -moz-box-align center
+                        -o-box-align center
+                        -ms-flex-align center
+                        -webkit-align-items center
+                        align-items center
+                        -webkit-box-pack justify
+                        -moz-box-pack justify
+                        -o-box-pack justify
+                        -ms-flex-pack justify
+                        -webkit-justify-content space-between
+                        justify-content space-between
+                        .blockco
+                            display -webkit-box
+                            display -moz-box
+                            display -webkit-flex
+                            display -ms-flexbox
+                            display box
+                            display flex
+                            .cont
+                                position relative
+                                img
+                                    margin 0 0.2em
+                                    width 40px
+                                .data-action
+                                    display none
+                                    position absolute
+                                    background #37213d
+                                    min-height 50px
+                                    bottom 3em
+                                    min-width 100px
+                                    text-align center
+                                    left -1.5em
+                                    .actions
+                                        display block
+                                        width 100%
+                                        padding 0.5em
+                                        background #37213d
+                                        -webkit-transition all 0.3s ease-in-out
+                                        -moz-transition all 0.3s ease-in-out
+                                        -o-transition all 0.3s ease-in-out
+                                        -ms-transition all 0.3s ease-in-out
+                                        transition all 0.3s ease-in-out
+                                        &:hover
+                                            background #16ff8f
+                        .playbtn
+                            i
+                                font-size 1.5em
+                            .fa-pause-circle-o
+                                display block !important
+                            .fa-play-circle-o
+                                display none !important
+                        .paused
+                            .fa-pause-circle-o
+                                display none !important
+                            .fa-play-circle-o
+                                display block !important
+                        .volumebtn
+                            position relative
+                            .prevolume
+                                position absolute
+                                top -7em
+                                background #37213d
+                                padding 1em
+                                left 0.5em
+                                display none
+                            .sound
+                                .fa-volume-off
+                                    display none !important
+                                .fa-volume-up
+                                    display block !important
+                            .muted
+                                .fa-volume-off
+                                    display block !important
+                                .fa-volume-up
+                                    display none !important
+                            .volume
+                                position relative
+                                cursor pointer
+                                width 6px
+                                height 70px
+                                background rgba(146,151,160,0.3)
+                                .volumeBar
+                                    display block
+                                    height 100%
+                                    width 100%
+                                    position absolute
+                                    bottom 0
+                                    left 0
+                                    background-color #00f084
+                                    z-index 10
+                                    border-radius 10px
+                                    .pointervideo
+                                        position absolute
+                                        right -0.3em
+                                        width 15px
+                                        height 15px
+                                        background #fff
+                                        border-radius 50%
+                                        top -0.3em
+                                        -webkit-transition all 0.1s ease-in-out
+                                        -moz-transition all 0.1s ease-in-out
+                                        -o-transition all 0.1s ease-in-out
+                                        -ms-transition all 0.1s ease-in-out
+                                        transition all 0.1s ease-in-out
+                                        &:hover
+                                            -webkit-transform scale(1.1)
+                                            -moz-transform scale(1.1)
+                                            -o-transform scale(1.1)
+                                            -ms-transform scale(1.1)
+                                            transform scale(1.1)
+                                            cursor pointer
+                    .progressbarcont
+                        .progressTime
+                            display -webkit-box
+                            display -moz-box
+                            display -webkit-flex
+                            display -ms-flexbox
+                            display box
+                            display flex
+                            -webkit-box-pack justify
+                            -moz-box-pack justify
+                            -o-box-pack justify
+                            -ms-flex-pack justify
+                            -webkit-justify-content space-between
+                            justify-content space-between
+                            color #fff
+                            margin 0.3em 0
+                            span
+                                font-size 12px
+                        .progressBar
+                            position relative
+                            width 100%
+                            height 6px
+                            background rgba(146,151,160,0.3)
+                            border-radius 10px
+                            cursor pointer
+                            .bufferBar
+                                position absolute
+                                top 0
+                                left 0
+                                width 0
+                                height 100%
+                                background-color rgba(204,204,204,0.4)
+                                -webkit-transition all 0.1s ease-in-out
+                                -moz-transition all 0.1s ease-in-out
+                                -o-transition all 0.1s ease-in-out
+                                -ms-transition all 0.1s ease-in-out
+                                transition all 0.1s ease-in-out
+                                border-radius 10px
+                            .timeBar
+                                position absolute
+                                top 0
+                                left 0
+                                width 0
+                                height 100%
+                                background-color #00f084
+                                -webkit-transition all 0.1s ease-in-out
+                                -moz-transition all 0.1s ease-in-out
+                                -o-transition all 0.1s ease-in-out
+                                -ms-transition all 0.1s ease-in-out
+                                transition all 0.1s ease-in-out
+                                border-radius 10px
+                                .pointervideo
+                                    position absolute
+                                    right -0.3em
+                                    width 15px
+                                    height 15px
+                                    background #fff
+                                    border-radius 50%
+                                    top -0.3em
+                                    -webkit-transition all 0.1s ease-in-out
+                                    -moz-transition all 0.1s ease-in-out
+                                    -o-transition all 0.1s ease-in-out
+                                    -ms-transition all 0.1s ease-in-out
+                                    transition all 0.1s ease-in-out
+                                    &:hover
+                                        -webkit-transform scale(1.1)
+                                        -moz-transform scale(1.1)
+                                        -o-transform scale(1.1)
+                                        -ms-transform scale(1.1)
+                                        transform scale(1.1)
+                                        cursor pointer
+
+.wrapperx
+    background #38023b
+
+main
+    &.wrapperx
+        background #38023b
+        .content
+            margin 0 2em
+            .title
+                font-size 2em
+                color #fff
+                margin-top 0
+                margin-bottom 0
+
+.premenuexp
+    position absolute
+    left 0
+    left 16em
+    width 368px
+    display none
+    top 50%
+    -webkit-transform translate(0, -50%)
+    -moz-transform translate(0, -50%)
+    -o-transform translate(0, -50%)
+    -ms-transform translate(0, -50%)
+    transform translate(0, -50%)
+    .menuexpand
+        display -webkit-box
+        display -moz-box
+        display -webkit-flex
+        display -ms-flexbox
+        display box
+        display flex
+        list-style none
+        width 100%
+        -webkit-box-pack distribute
+        -moz-box-pack distribute
+        -o-box-pack distribute
+        -ms-flex-pack distribute
+        -webkit-justify-content space-around
+        justify-content space-around
+        li
+            color #fff
+            border-bottom 1px solid transparent !important
+            -webkit-transition all 0.3s ease-in-out
+            -moz-transition all 0.3s ease-in-out
+            -o-transition all 0.3s ease-in-out
+            -ms-transition all 0.3s ease-in-out
+            transition all 0.3s ease-in-out
+            padding 0.5em 0
+            &:hover
+                border-bottom 1px solid #00f080 !important
+
+.gallery-netflix
+    display block
+    width 100%
+    padding 0 60px
+    margin 4% 0
+    position relative
+    .btn-left
+        position absolute
+        top 0
+        left 0
+        font-size 50px
+        color #fff
+        width 60px
+        height 100%
+        opacity 0.5
+        cursor pointer
+        background rgba(56,2,59,0.71)
+        -webkit-transition all 0.3s ease-in-out
+        -moz-transition all 0.3s ease-in-out
+        -o-transition all 0.3s ease-in-out
+        -ms-transition all 0.3s ease-in-out
+        transition all 0.3s ease-in-out
+        &:before
+            content "\f104"
+            font normal normal normal 14px/1 FontAwesome
+            font-size inherit
+            text-rendering auto
+            -webkit-font-smoothing antialiased
+            -moz-osx-font-smoothing grayscale
+            display block
+            position absolute
+            top 50%
+            left 50%
+            -webkit-transform translate(-50%, -50%)
+            -moz-transform translate(-50%, -50%)
+            -o-transform translate(-50%, -50%)
+            -ms-transform translate(-50%, -50%)
+            transform translate(-50%, -50%)
+            -webkit-transition all 0.3s ease-in-out
+            -moz-transition all 0.3s ease-in-out
+            -o-transition all 0.3s ease-in-out
+            -ms-transition all 0.3s ease-in-out
+            transition all 0.3s ease-in-out
+        &:hover
+            opacity 1
+            -ms-filter none
+            filter none
+            &:before
+                color #00f080
+    .btn-right
+        position absolute
+        top 0
+        right 0
+        font-size 50px
+        color #fff
+        width 60px
+        height 100%
+        background rgba(56,2,59,0.71)
+        opacity 0.5
+        
+        
+        cursor pointer
+        -webkit-transition all 0.3s ease-in-out
+        -moz-transition all 0.3s ease-in-out
+        -o-transition all 0.3s ease-in-out
+        -ms-transition all 0.3s ease-in-out
+        transition all 0.3s ease-in-out
+        &:before
+            content "\f105"
+            font normal normal normal 14px/1 FontAwesome
+            font-size inherit
+            text-rendering auto
+            -webkit-font-smoothing antialiased
+            -moz-osx-font-smoothing grayscale
+            display block
+            position absolute
+            top 50%
+            left 50%
+            -webkit-transform translate(-50%, -50%)
+            -moz-transform translate(-50%, -50%)
+            -o-transform translate(-50%, -50%)
+            -ms-transform translate(-50%, -50%)
+            transform translate(-50%, -50%)
+            -webkit-transition all 0.3s ease-in-out
+            -moz-transition all 0.3s ease-in-out
+            -o-transition all 0.3s ease-in-out
+            -ms-transition all 0.3s ease-in-out
+            transition all 0.3s ease-in-out
+        &:hover
+            opacity 1
+            -ms-filter none
+            filter none
+            &:before
+                color #00f080
+    .gallery-inner
+        display block
+        white-space nowrap
+        zoom 1
+        &:after
+            clear both
+    .slide
+        display inline-block
+        width 16.6666%
+        min-width 350px
+        -webkit-transition all 0.4s ease-in-out
+        -moz-transition all 0.4s ease-in-out
+        -o-transition all 0.4s ease-in-out
+        -ms-transition all 0.4s ease-in-out
+        transition all 0.4s ease-in-out
+        -webkit-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -moz-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -ms-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -o-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -webkit-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -moz-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -o-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        -ms-transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        transition-timing-function cubic-bezier(0.5, 0, 0.1, 1)
+        position relative
+        &:hover
+            -webkit-transform scale(1.5)
+            -moz-transform scale(1.5)
+            -o-transform scale(1.5)
+            -ms-transform scale(1.5)
+            transform scale(1.5)
+            z-index 4
+        .containerevent
+            position relative
+            min-width 350px
+            min-height 197px
+            -webkit-transition all 0.4s ease-in-out
+            -moz-transition all 0.4s ease-in-out
+            -o-transition all 0.4s ease-in-out
+            -ms-transition all 0.4s ease-in-out
+            transition all 0.4s ease-in-out
+            img
+                display block
+                width 100%
+                position absolute
+                top 0
+                -webkit-transition all 0.4s ease-in-out
+                -moz-transition all 0.4s ease-in-out
+                -o-transition all 0.4s ease-in-out
+                -ms-transition all 0.4s ease-in-out
+                transition all 0.4s ease-in-out
+            .first
+                opacity 1
+                -ms-filter none
+                filter none
+            .second
+                opacity 0
+            &:hover
+                .first
+                    opacity 0
+                .second
+                    opacity 1
+                    -ms-filter none
+                    filter none
+
+.gallery-netflix .gallery-inner:before,
+.gallery-netflix .gallery-inner:after
+    content ""
+    display table
+
 .eventosx
-    max-width: 1400px !important
+    max-width 1400px !important
     h2
-        color white !important
-        font-size: 26px !important
+        color #fff !important
+        font-size 26px !important
     .slideevents
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        .slick-prev:before
-        .slick-next:before
-            color: #00f080 !important
+        display -webkit-box
+        display -moz-box
+        display -webkit-flex
+        display -ms-flexbox
+        display box
+        display flex
+        -webkit-box-align center
+        -moz-box-align center
+        -o-box-align center
+        -ms-flex-align center
+        -webkit-align-items center
+        align-items center
+        -webkit-box-pack center
+        -moz-box-pack center
+        -o-box-pack center
+        -ms-flex-pack center
+        -webkit-justify-content center
+        justify-content center
         .slide
-            margin: 0 .8em;
+            margin 0 0.8em
             .img
-                transition: all .3s ease-in-out
+                -webkit-transition all 0.3s ease-in-out
+                -moz-transition all 0.3s ease-in-out
+                -o-transition all 0.3s ease-in-out
+                -ms-transition all 0.3s ease-in-out
+                transition all 0.3s ease-in-out
                 img
-                    transition: all .3s ease-in-out
-                    width: 100%
+                    -webkit-transition all 0.3s ease-in-out
+                    -moz-transition all 0.3s ease-in-out
+                    -o-transition all 0.3s ease-in-out
+                    -ms-transition all 0.3s ease-in-out
+                    transition all 0.3s ease-in-out
+                    width 100%
                     &:hover
-                        transform: scale(1.1);
-                        z-index: 1
-                        cursor: pointer
+                        -webkit-transform scale(1.1)
+                        -moz-transform scale(1.1)
+                        -o-transform scale(1.1)
+                        -ms-transform scale(1.1)
+                        transform scale(1.1)
+                        z-index 1
+                        cursor pointer
+
+.eventosx .slideevents .slick-prev:before,
+.eventosx .slideevents .slick-next:before
+    color #00f080 !important
 
 .header-user
     position relative !important
-    background: #38023b !important
+    background #38023b !important
+    .header-Container
+        position relative
+        -webkit-box-pack justify
+        -moz-box-pack justify
+        -o-box-pack justify
+        -ms-flex-pack justify
+        -webkit-justify-content space-between
+        justify-content space-between
+        max-width 1200px
     .loginx
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: space-around;
-        padding-left: 1.5em;
+        position relative
+        -webkit-box-align center
+        -moz-box-align center
+        -o-box-align center
+        -ms-flex-align center
+        -webkit-align-items center
+        align-items center
+        display -webkit-box
+        display -moz-box
+        display -webkit-flex
+        display -ms-flexbox
+        display box
+        display flex
+        -webkit-box-pack distribute
+        -moz-box-pack distribute
+        -o-box-pack distribute
+        -ms-flex-pack distribute
+        -webkit-justify-content space-around
+        justify-content space-around
+        padding-left 1.5em
         .fa-bell-o
-            font-size: 1.3em;
-            color: white;
+            font-size 1.3em
+            color #fff
         li
-            border: 0 !important
+            border 0 !important
             a
                 p
-                    font-weight: bold
+                    font-weight bold
                 .fa-angle-down
-                    margin-left: 1em;
-                    font-size: 1.5em;
-                    color: #00f080;
+                    margin-left 1em
+                    font-size 1.5em
+                    color #00f080
         #spandable
-            position: absolute;
-            background: #38023b;
-            color: white;
-            width: 80%;
-            top: 5em;
-            right: -10px;
-            display: none
+            position absolute
+            background #38023b
+            color #fff
+            width 80%
+            top 5em
+            right -10px
+            display none
             ul
-                display: flex;
-                flex-direction: column;
+                display -webkit-box
+                display -moz-box
+                display -webkit-flex
+                display -ms-flexbox
+                display box
+                display flex
+                -webkit-box-orient vertical
+                -moz-box-orient vertical
+                -o-box-orient vertical
+                -webkit-flex-direction column
+                -ms-flex-direction column
+                flex-direction column
                 li
-                    border: 0
-                    transition: all .3s ease-in-out
-                    font-weight: bold
-                    cursor: pointer
-                    height: 50px;
+                    border 0
+                    -webkit-transition all 0.3s ease-in-out
+                    -moz-transition all 0.3s ease-in-out
+                    -o-transition all 0.3s ease-in-out
+                    -ms-transition all 0.3s ease-in-out
+                    transition all 0.3s ease-in-out
+                    font-weight bold
+                    cursor pointer
+                    height 50px
                     &:hover
-                        background: #00f080;
+                        background #00f080
                         color #38023b
                     a
-                        width: 100%
+                        width 100%
                         .tile
-                            display: flex;
-                            align-items: center;
-                            justify-content: space-around
-                            width: 100%
+                            display -webkit-box
+                            display -moz-box
+                            display -webkit-flex
+                            display -ms-flexbox
+                            display box
+                            display flex
+                            -webkit-box-align center
+                            -moz-box-align center
+                            -o-box-align center
+                            -ms-flex-align center
+                            -webkit-align-items center
+                            align-items center
+                            -webkit-box-pack distribute
+                            -moz-box-pack distribute
+                            -o-box-pack distribute
+                            -ms-flex-pack distribute
+                            -webkit-justify-content space-around
+                            justify-content space-around
+                            width 100%
                             .fa
-                                font-size: 1.5em
-                                width: 20%
+                                font-size 1.5em
+                                width 20%
                             p
-                                margin: 0
-                                width: 60%;
-                                text-align: left;
+                                margin 0
+                                width 60%
+                                text-align left
+
+.Usuario
+    footer
+        -webkit-box-shadow 1px -3px 40px #212121
+        box-shadow 1px -3px 40px #212121
+
 .backblue
-    background: #38023b;                            
+    background #38023b
+
 .bannerusuario
     .banner-Container
         .back
-            height: auto !important
+            height auto !important
             img
-                width: 100%
-                height: auto
+                width 100%
+                height auto
         .content
             .text
-                background: none
+                background none
                 .btn-green
-                    position: relative !important;
-                    left: 0;
+                    position relative !important
+                    left 0
                 h1
-                    font-size: 4.5em
+                    font-size 4.5em
                 h2
-                    margin: .5em 0 
-// video
-$primary-foreground-color #fff
-$primary-background-color #38023b 
-$center-big-play-button: false
-$slider-bg-color lighten($primary-background-color, 33%)
-
-.video-js
-    /* The base font size controls the size of everything, not just text.
-    All dimensions use em-based sizes so that the scale along with the font size.
-    Try increasing it to 15px and see what happens. */
-    font-size: 10px;
-    /* The main font color changes the ICON COLORS as well as the text */
-    color: $primary-foreground-color;
-    /* The "Big Play Button" is the play button that shows before the video plays.
-    To center it set the align values to center and middle. The typical location
-    of the button is the center, but there is trend towards moving it to a corner
-    where it gets out of the way of valuable content in the poster image.*/
-.vjs-default-skin 
-    .vjs-big-play-button 
-        /* The font size is what makes the big play button...big. 
-        All width/height values use ems, which are a multiple of the font size.
-        If the .video-js font-size is 10px, then 3em equals 30px.*/
-        font-size: 3em;
-        /* We're using SCSS vars here because the values are used in multiple places.
-        Now that font size is set, the following em values will be a multiple of the
-        new font size. If the font-size is 3em (30px), then setting any of
-        the following values to 3em would equal 30px. 3 * font-size. */
-        $big-play-width: 3em; 
-        /* 1.5em = 45px default */
-        $big-play-height: 1.5em;
-        line-height: $big-play-height;
-        height: $big-play-height;
-        width: $big-play-width;
-        /* 0.06666em = 2px default */
-        border: 0.06666em solid $primary-foreground-color;
-        /* 0.3em = 9px default */
-        border-radius: 0.3em;
-
-if $center-big-play-button
-    /* Align center */
-    left: 50%;
-    top: 50%;
-    margin-left: -(3 / 2)em;
-    margin-top: -(3 / 2)em;   
-else 
-    /* Align top left. 0.5em = 15px default */
-    left: 0.5em;
-    top: 0.5em;
-
-
-/* The default color of control backgrounds is mostly black but with a little
-   bit of blue so it can still be seen on all-black video frames, which are common. */
-.video-js 
-    .vjs-control-bar
-        background-color: #38023b
-        background-color: rgba(56, 2, 59, 0.74);
-        width: 80%;
-        margin: 0 auto;
-        bottom: 1em;
-.video-js 
-    .vjs-big-play-button
-        background-color: #38023b
-        background-color: rgba(56, 2, 59, 0.74);
-.video-js 
-    .vjs-menu-button 
-        .vjs-menu-content 
-            background-color: #38023b
-            background-color: rgba(56, 2, 59, 0.74);
-
-
-/* Slider - used for Volume bar and Progress bar */
-.video-js 
-    .vjs-slider 
-            background-color: #38023b
-            background-color: rgba(56, 2, 59, 0.5);
-
-
-/* The slider bar color is used for the progress bar and the volume bar
-   (the first two can be removed after a fix that's coming) */
-.video-js 
-    .vjs-volume-level
-        background: #fff !important;
-.video-js 
-    .vjs-play-progress
-        background: #00f084 !important;
-.video-js 
-    .vjs-slider-bar 
-        background: #00f084 !important;
-
-
-/* The main progress bar also has a bar that shows how much has been loaded. */
-.video-js 
-    .vjs-load-progress 
-        background-color: #38023b
-        background-color: rgba(56, 2, 59, 0.74);
-
-
-/* The load progress bar also has internal divs that represent
-   smaller disconnected loaded time ranges */
-.video-js 
-    .vjs-load-progress 
-        div 
-            background-color: #38023b
-            background-color: rgba(56, 2, 59, 0.74);
-
-
+                    margin 0.5em 0
+@media (min-width: 768px) 
+    .nodesk 
+        display: none !important;
+  
 
 @media (min-width:1200px)
     .calendar-weekend-movil
@@ -2232,8 +2892,19 @@ else
                         h1
                             font-size: 4em !important
                         h2
-                            font-size: 2em !important    
-
+                            font-size: 2em !important
+    .content-tab
+        .precont
+            padding-bottom 3em
+        .precont.noti
+            .noticias
+                .img
+                    width 100%
+                    height 0
+                    padding-bottom 56%
+                    video
+                        width 100% !important
+                        height 100% !important
 @media (max-width:930px)
 
     .banner
@@ -2278,6 +2949,36 @@ else
                     text-align: center
                     img
                         display: inline-block
+    .banner-Container-Item
+        .back
+            height auto
+            padding-top 70px
+    .wrapper-custom
+        text-align center
+        > .btn-success
+            position relative !important
+            bottom auto !important
+            left auto !important
+            right auto !important
+    .pregratis
+        padding 0 !important
+
+    .pr_home_comp_jor
+        width auto
+        white-space initial
+        
+    .content-tab 
+        .noticias 
+            .img 
+                .video
+                    width 100%
+        .gratis
+            .content
+                .btn-purple
+                    font-size 16.4px
+    .slick-dots
+        position relative !important
+        top 15px
 
 @media (max-width:800px)
     .contentpa
@@ -2373,6 +3074,8 @@ else
                 p
                     padding:0 .5em !important 
     .banner
+        a
+            outline: 0
         &-Container
             &-Item
                 .back
@@ -2464,6 +3167,10 @@ else
                     font-size: 30px !important
                 h3
                     font-size: 20px !important
+    .more-sports
+        .content
+            padding-left 15px
+            padding-right 15px
 @media (max-width: 645px)
 
     .devices
@@ -2508,8 +3215,21 @@ else
                             font-size: 15px !important
                         h5
                             font-size: 10px !important
+    .semanal 
+        .eventos 
+            .eventob
+                height auto
+            .coleve 
+                + .coleve
+                    margin-top 1em
+                .img
+                    width 100%
+                    height 0
+                    padding-bottom 56.92%
 
 @media (max-width:600px)
+    body
+        font-size 14px
     .eventob
         flex-direction: column;
     .super-plan
@@ -2550,6 +3270,7 @@ else
             .super-plan
                 width: 100% !important
     .programs-container
+        .rever
         .col
             min-width: 100% !important
             .item
@@ -2561,6 +3282,44 @@ else
             .large
                 width: 33.333% !important;
                 height: 160px !important;
+    .more-sports
+        .content
+            padding 2em 0
+        .programs-container
+            .rever
+            .col
+                min-width: 100% !important
+                .item
+                    width: 33.333% !important;
+                    height: 160px !important;
+                .big
+                    width: 33.333% !important;
+                    height: 160px !important;
+                .large
+                    width: 33.333% !important;
+                    height: 160px !important;
+    .content-tab 
+        .planes 
+            .content
+                .btn-purple
+                    font-size 18px
+                    margin 1.5em auto
+            .super-plan
+            .mes-movil
+            .jornada-movil
+            .planes-Container 
+                .segment 
+                    .plan-item 
+                        .tab
+                            width 120px
+                            font-size 18px
+    .footer
+        .container
+            padding-left 15px
+            padding-right 15px
+            .col1
+                h4
+                    font-size 18px
 @media (max-width: 400px)
     .modal-video
         .video-cont
