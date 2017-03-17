@@ -2,49 +2,56 @@
 <section class="banner">
     <div class="banner-Container">
         <div class="banner-Container-Item">
-            <div class="back">
-                <img src="img/slide1.png" alt="">
-            </div>
-            <div class="content">
-                <div class="text">
-                    <h1>TODO EL DEPORTE <br> EN <span class="t_green">DIRECTO</span></h1>
-                    <a href="" class="btn btn-purple" tabindex="-1">PRUEBA UN MES GRATIS</a>
-                </div>
-            </div>
-        </div>
-        <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/newc1.jpg" alt="">
+            </a>
             </div>
 
         </div>
         <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/post2.png" alt="">
+            </a>
             </div>
 
         </div>
         <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/post3.png" alt="">
+            </a>
             </div>
 
         </div>
         <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/post4.png" alt="">
+            </a>
             </div>
 
         </div>
         <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/post5.png" alt="">
+            </a>
             </div>
 
         </div>
         <div class="banner-Container-Item">
+            <a href="https://www.opensport.es/" target="_blank">
+
             <div class="back">
                 <img src="img/post6.png" alt="">
+            </a>
             </div>
 
         </div>
