@@ -1,5 +1,19 @@
 (function ($) {
 	jQuery(document).ready(function ($) {
+		$(".tabox").on("click",function(){
+			var activebox = $(this).attr("data-active");
+			$(".tabox").removeClass("active")
+			$(this).addClass("active");
+			if(activebox == "box1"){
+				$(".box1").addClass("active");
+				$(".box2").removeClass("active");
+			}else{
+				$(".box2").addClass("active");
+				$(".box1").removeClass("active");
+			}
+			$("."+activebox).addClass("active");
+			
+		})
 		if ($(".tabs").length) {
 			var waypoint2 = new Waypoint({
 				element: document.getElementById('tabs'),

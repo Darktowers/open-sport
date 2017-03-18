@@ -4,13 +4,7 @@ module.exports = function (grunt) {
 		stylus:{
 			compile: {
 				options: {
-					compress: false,
-					sourcemap: {
-						comment:true,
-						inline: true,
-						sourceRoot: ".",
-						basePath:"."
-					}
+					compress: false
 				},
 				files: {
 					'css/main.css' : 'stylus/core/main.styl',

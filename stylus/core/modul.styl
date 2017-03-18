@@ -2779,11 +2779,383 @@ main
                     font-size 4.5em
                 h2
                     margin 0.5em 0
+//landing MOTOGP
+.landingp
+    background #1b1b1b
+    .buttonc
+        .btn-green
+            &:hover
+                background: #292929 !important
+    .containerbox
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1em 0;
+    .benefits-co
+        background: #292929
+        padding-bottom: 2em;
+        padding-top: 2em;
+    .interest-co
+        padding: 3em 0;
+        background: #252423;
+        .interest
+            &-title
+                h2
+                    font-size: 1.5em;
+                    font-weight: normal;
+                    color: #fff;
+                    text-align: center;
+                    margin: 0;
+            &-items
+                display: flex;
+                padding-top: 1em;
+                justify-content: center;
+                flex-wrap wrap
+                .interest-item
+                    width: 33.3%;
+                    padding: .5em;
+                    min-width: 300px;
+                    a
+                        display: inline-block;
+                        overflow: hidden   
+                        &:hover
+                            img 
+                                transform: scale(1.1)
+                        img
+                            width: 100%
+                            transition: all .3s ease-in-out
+    .months-co
+        padding: 3em 0;
+        background-image: url("../img/backgray.png");
+        .months
+            color: white;
+            h2
+                font-size: 1.5em;
+                font-weight: normal;
+                color: #c3c3c3;
+                text-align: center;
+                margin: 0;
+            &-events
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding: 1.5em 6em;
+                flex-wrap: wrap;
+                h3
+                    margin 0
+        .monthscontainer
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 3em;
+            justify-content: center;
+            .inactive
+                color: #c7c7c7 !important
+            .months-event
+                width: 33.3%;
+                padding: 1.5em;
+                border-bottom: 1px solid white;
+                min-width: 325px
+                &:nth-child(2)
+                    border-right: 1px solid white;
+                    border-left: 1px solid white
+                &:nth-child(5)
+                    border-right: 1px solid white;
+                    border-left: 1px solid white
+                &:nth-child(8)
+                    border-right: 1px solid white;
+                    border-left: 1px solid white
+                &:nth-child(11)
+                    border-right: 1px solid white;
+                    border-left: 1px solid white
+                .title
+                    font-size: 1.3em;
+                .econtainer
+                    .eventm
+                        display: flex;
+                        padding: 1em 0;
+                        .description
+                            width: 80%;
+                            p
+                                margin: 0
+                                margin-bottom: .5em;
+                        .day
+                            width: 20%;
+                            padding-right: .5em;
+                            p
+                                margin: 0;
+                                font-size: 2em;
+                                border-right: 1px solid;
+    .benefits
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .benefit
+            color: #c7c7c7;
+            width: 33.3%;
+            padding: 0 3em;
+            text-align: center;
+            border-right: 1px solid white;
+            min-width: 300px;
+            &:last-child
+                border 0
+            h5
+                font-weight: normal;
+                color: white;
+                text-align: center;
+                margin 0
+            img
+                width: 100%;
+            .whitec
+                color: white;
+    .wrapperx
+        background #1b1b1b !important
+        .banner
+            background #1b1b1b !important
+            &-Containerx
+                max-width: 1100px;
+                margin: 0 auto;
+                display: flex;
+                overflow: hidden;
+                flex-wrap: wrap;
+                justify-content: center;
+                .coluser
+                    width: 40%;
+                    &:last-child
+                        width: 60%;
+                        height: 695px;
+                        position: relative;
+                    &:first-child
+                        padding: 1.8em 2em 0 0;
+                        position: relative;
+                        z-index: 2;
+                        min-width: 300px;
+                        
+                    .text-section
+                        color: white;
+                    .image
+                        position: absolute;
+                        width: 100%;
+                        left: -7em;
+                        z-index: 0;
+                    .box
+                        color: white
+                        border: 1px solid #00f080;
+                        &-container
+                            .polit
+                                font-size: 10px;
+                            label
+                                margin-bottom: .5em;
+                            form
+                                display: flex;
+                                flex-direction: column;
+                                padding: 2em 3em;
+                                input[type=text]
+                                input[type=password]
+                                input[type=email]
+                                    border: 0;
+                                    color: white;
+                                    background: #1b1b1b;
+                                    border: 1px groove white;
+                                    padding: .5em;
+                                    margin-bottom: .5em;
+                                    outline-color: #00f080;
+                                .btn-greenx
+                                    background: #00f080;
+                                    padding: .5em 1em;
+                                    font-weight: bold;
+                                    font-size: 17.4px;
+                                    color: #1b1b1b !important;
+                                    display: inline-block;
+                                    position: relative;
+                                    margin: 1em 0
+                                    text-decoration: none !important
+                                    border: 1px solid transparent
+                                    transition: all .3s ease-in-out
+                                    outline-color: #00f080;  
+                                    max-width: 120px;                                  
+                                    &:hover
+                                        background: #1b1b1b
+                                        color #00f080 !important
+                                        border: 1px solid #00f080
+
+                        &-title
+                            background: #00f080;
+                            color: #1b1b1b;
+                            text-align: center;
+                            padding: 1em;
+                            font-weight: bold;
+                        &-tabContainer
+                            display: flex;
+                            justify-content: center;
+                            .tabox
+                                padding: 1em;
+                                width: 50%;
+                                text-align: center;
+                                background: #333333;
+                                border-bottom: 1px solid #00f080;
+                                cursor: pointer
+                                &.active
+                                    background: #1b1b1b;
+                                    border: 0;
+                                &:last-child
+                                    border-left: 1px solid #00f080;
+                                &:first-child
+                                    border-right: 1px solid #00f080;
+                        .active
+                            display: block !important
+                        .box1
+                        .box2
+                            display none
+    .header-userx
+        position relative !important
+        background #1b1b1b !important
+        .header-Container
+            position relative
+            -webkit-box-pack justify
+            -moz-box-pack justify
+            -o-box-pack justify
+            -ms-flex-pack justify
+            -webkit-justify-content space-between
+            justify-content space-between
+            max-width 1100px
+        .loginx
+            position relative
+            -webkit-box-align center
+            -moz-box-align center
+            -o-box-align center
+            -ms-flex-align center
+            -webkit-align-items center
+            align-items center
+            display -webkit-box
+            display -moz-box
+            display -webkit-flex
+            display -ms-flexbox
+            display box
+            display flex
+            -webkit-box-pack distribute
+            -moz-box-pack distribute
+            -o-box-pack distribute
+            -ms-flex-pack distribute
+            -webkit-justify-content space-around
+            justify-content space-around
+            padding-left 1.5em
+            .fa-bell-o
+                font-size 1.3em
+                color #fff
+            li
+                border 0 !important
+                a
+                    p
+                        font-weight bold
+                    .fa-angle-down
+                        margin-left 1em
+                        font-size 1.5em
+                        color #00f080
+            #spandable
+                position absolute
+                background #38023b
+                color #fff
+                width 80%
+                top 5em
+                right -10px
+                display none
+                ul
+                    display -webkit-box
+                    display -moz-box
+                    display -webkit-flex
+                    display -ms-flexbox
+                    display box
+                    display flex
+                    -webkit-box-orient vertical
+                    -moz-box-orient vertical
+                    -o-box-orient vertical
+                    -webkit-flex-direction column
+                    -ms-flex-direction column
+                    flex-direction column
+                    li
+                        border 0
+                        -webkit-transition all 0.3s ease-in-out
+                        -moz-transition all 0.3s ease-in-out
+                        -o-transition all 0.3s ease-in-out
+                        -ms-transition all 0.3s ease-in-out
+                        transition all 0.3s ease-in-out
+                        font-weight bold
+                        cursor pointer
+                        height 50px
+                        &:hover
+                            background #00f080
+                            color #38023b
+                        a
+                            width 100%
+                            .tile
+                                display -webkit-box
+                                display -moz-box
+                                display -webkit-flex
+                                display -ms-flexbox
+                                display box
+                                display flex
+                                -webkit-box-align center
+                                -moz-box-align center
+                                -o-box-align center
+                                -ms-flex-align center
+                                -webkit-align-items center
+                                align-items center
+                                -webkit-box-pack distribute
+                                -moz-box-pack distribute
+                                -o-box-pack distribute
+                                -ms-flex-pack distribute
+                                -webkit-justify-content space-around
+                                justify-content space-around
+                                width 100%
+                                .fa
+                                    font-size 1.5em
+                                    width 20%
+                                p
+                                    margin 0
+                                    width 60%
+                                    text-align left
+.footerx
+    background: #292929;
+    .container
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        padding: 1em 0;
+        justify-content: space-around;
+        color: #a6a8a8;
+        border-bottom: 1px solid;
+        flex-wrap wrap
+        &:last-child
+            border 0
+        .coly
+            display: flex;
+            flex-wrap wrap
+            li
+                list-style: none
+                border-right: 1px solid;
+                padding: .3em .5em;
+                &:last-child
+                    border 0
+        .cols
+            width: 25%;
+            border-right: 1px solid;
+            min-width: 250px;
+            &:last-child
+                border 0
+            ul
+                list-style: none;
+                margin 0
+                li
+                    padding: .3em;
+                    &:first-child
+                        color white
+                    img
+                    a
+                        display inline-block
+
+
 @media (min-width: 768px) 
     .nodesk 
         display: none !important;
-  
-
 @media (min-width:1200px)
     .calendar-weekend-movil
         display: none !important
@@ -2995,7 +3367,19 @@ main
                     width: 100% !important
                     text-align: center;
 
-@media (max-width:768px)
+@media (max-width:768px) 
+    .wrapperx
+        .banner
+            &-Containerx
+                flex-direction: column
+                .coluser
+                    width: 100% !important;
+                    &:last-child
+                        width: 100% !important;
+                        padding: 0 1em !important;
+                    &:first-child
+                        width: 100% !important;
+                        padding: 0 1em !important;
     .content-tab 
         .semanal 
             .content 
@@ -3321,6 +3705,10 @@ main
                 h4
                     font-size 18px
 @media (max-width: 400px)
+    .footerx
+        .container
+            .cols
+                width: 100% !important   
     .modal-video
         .video-cont
             width: 100%;
