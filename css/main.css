@@ -7797,6 +7797,9 @@ main.wrapperx .content .title {
 .landingp .wrapperx .banner-Containerx .coluser .box .box2 {
   display: none;
 }
+.landingp .login a:hover {
+  background: #1b1b1b !important;
+}
 .landingp .header-userx {
   position: relative !important;
   background: #1b1b1b !important;
@@ -22002,4 +22005,308 @@ main.wrapperx .content .title {
     -ms-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
+}
+.modaly {
+  top: inherit !important;
+  background: none !important;
+}
+.modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  background: transparent;
+  background-color: rgba(56,2,60,0.54);
+}
+.modal .modal-title {
+  margin: 30px 0 0;
+  font-size: 26px;
+  text-align: center;
+  color: #38023c;
+  font-family: inherit;
+  font-weight: 500;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #303030;
+  background-color: #ebebeb;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -moz-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -ms-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  margin: 1em 0;
+}
+.form-control:focus {
+  border-color: #38023c;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(56,2,60,0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(56,2,60,0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(56,2,60,0.6);
+}
+.btn-danger {
+  color: #fff;
+  background-color: #e11b71;
+  border-color: #e11b71;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #b3165a;
+  border-color: #aa1456;
+}
+.fixedx {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -o-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.fixedx div:first-child {
+  width: 68%;
+  min-width: 200px;
+}
+.fixedx div:nth-child(2) {
+  width: 32%;
+}
+.modal-cookies {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  -ms-transition: -ms-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  margin: 30px auto;
+  position: relative;
+  padding: 0 1.3em;
+  width: 100%;
+  border-radius: 0;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  -webkit-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  outline: 0;
+}
+.modal-cookies .modal-content {
+  margin: 0;
+}
+.modal-cookies .modal-content .small {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.modal-cookies .modal-content .close {
+  margin-top: -5px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 200;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -ms-filter: none;
+  filter: none;
+  font-size: 30px;
+  float: right;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: #38023c;
+  text-shadow: 0;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.modal-cookies .modal-content .close:hover {
+  color: #38023c;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  -ms-transition: -ms-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  margin: 30px auto;
+  max-width: 600px;
+  position: relative;
+  padding: 0 1.3em;
+  width: 100%;
+}
+.modal-dialog .modal-content {
+  border-radius: 0;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  -webkit-background-clip: padding-box;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  outline: 0;
+}
+.modal-dialog .modal-content .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+}
+.modal-dialog .modal-content .modal-header .modal-title {
+  margin: 30px 0 0;
+  font-size: 26px;
+  text-align: center;
+  color: #38023c;
+  line-height: 1.42857143;
+}
+.modal-dialog .modal-content .modal-header .close {
+  margin-top: -5px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 200;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  -ms-filter: none;
+  filter: none;
+  font-size: 30px;
+  float: right;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  color: #38023c;
+  text-shadow: 0;
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.modal-dialog .modal-content .modal-header .close:hover {
+  color: #38023c;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+}
+.modal-dialog .modal-content .modal-body {
+  position: relative;
+  padding: 30px 40px;
+}
+.modal-dialog .modal-content .modal-body a {
+  color: #e11b71 !important;
+  text-decoration: none;
+  font-size: 14px;
+}
+.modal-dialog .modal-content .modal-body .checkbox label {
+  font-size: 13px;
+  padding-left: 1em;
+  cursor: pointer;
 }

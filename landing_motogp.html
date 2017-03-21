@@ -9,7 +9,7 @@
 	<meta name="author" content="">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, minimum-scale=1.0">
-	<link rel="icon" href="favicon.ico">
+	<link rel="icon" href="http://imgap.opensport.es/img/favicons/favicon.ico">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/other-styles.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,7 +19,7 @@
 <body class="landingp">
 	<header class="header header-userx">
 		<div class="header-Container wrap ">
-			<a href="index.php" >
+			<a href="index.php">
 				<div class="header-Container-Logo">
 					<img src="img/logo-open-sport.svg" alt="">
 				</div>
@@ -39,7 +39,7 @@
 						</div>
 					</a>
 					<ul>
-						<li class="login"><a href="">INICIAR SESIÓN</a></li>
+						<li class="login"><a data-target="modal_login" href="">INICIAR SESIÓN</a></li>
 					</ul>
 				</div>
 			</div>
@@ -390,7 +390,10 @@
 		<div class="cols">
 			<ul>
 				<li>Nuestas Apps</li>
-				<li><a href=""><img src="img/apstore.png" alt=""></a><a href=""><img src="img/playstore.png" alt=""></a></li>
+				<li>
+					<a href=""><img src="img/apstore.png" alt=""></a>
+					<a href=""><img src="img/playstore.png" alt=""></a>
+				</li>
 			</ul>
 			<ul>
 				<li>Nuestras Redes</li>
@@ -400,7 +403,7 @@
  						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
 					</span></a>
 					<a href="">
-					<span class="fa-stack">
+						<span class="fa-stack">
   						<i class="fa fa-circle fa-stack-2x"></i>
  						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 					</span></a>
@@ -428,6 +431,88 @@
 		</div>
 	</div>
 </footer>
+<div class="modal fade in" id="modal_login" >
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title">Iniciar sesión</h4>
+			</div>
+			<div class="modal-body">
+				<form name="form_login" id="form_login">
+					<div class="form-group">
+						<p class="" id="login-input-email-error" style="display:none;">¡Ups, parece que tu usuario o contraseña son incorrectos! Inténtalo de nuevo o restablece tu contraseña
+							<a href="#"
+							 class="text-primary" id="mostrar_password_recovery_error" data-toggle="modal" data-target="#modal_password_recovery">
+								<u>aquí</u>
+							</a>.</p>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico">
+						<!--<p id="form_login_error_email" style="padding-left: 12px;padding-top: 5px;color: red;font-size: 14px;display:none;"></p>-->
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" id="password" name="password" placeholder="Contraseña">
+						<!--<p id="form_login_error_password" style="padding-left: 12px;padding-top: 5px;color: red;font-size: 14px;display:none;"></p>-->
+					</div>
+					<div class="form-group">
+						<input type="hidden" name="csrf_os_name" value="8893bc11aefe4c8f689731df226f37b7">
+					</div>
+					<div class="clearfix small fixedx">
+						<div class="col-sm-7 no-padding no-margin">
+							<div class="checkbox no-mt">
+								<label>
+                                        <input type="checkbox" id="login_checkbox_password" checked=""> Recordarme en este dispositivo
+                                    </label>
+							</div>
+							<!-- Uncomment when check/uncheked status styled in forms.styl is fixed
+                                <label class="control control--checkbox" for="login_checkbox_password" style="display:none;">
+                                    Recordarme en este dispositivo
+                                    <input type="checkbox" class="checked" id="login_checkbox_password" />
+                                    <div class="control__indicator" id="check_login"></div>
+                                </label>
+                                -->
+						</div>
+						<div class="col-sm-5 no-padding form-group text-right text-left-sm-xs">
+							<a href="#" data-toggle="modal" id="mostrar_password_recovery" data-target="#modal_password_recovery">¿Ha olvidado su contraseña?</a>
+						</div>
+						<input type="hidden" name="dispositivo" id="dispositivo" value="pc">
+					</div>
+					<br>
+				</form>
+				<div class="text-center clearfix">
+					<div class="col-md-12 col-md-offset-6 no-padding">
+						<img src="http://imgap.opensport.es/img/ajax-loader.gif" id="loader_login" style="display:none;margin-left:-10px;">
+					</div>
+				</div>
+				<div class="text-center clearfix" id="boton_login_div">
 
-
+					<div class="col-md-6 col-md-offset-3 no-padding">
+						<input type="button" name="boton_login" id="boton_login" class="btn btn-danger btn-block" value="Aceptar">
+						<br>
+						<!--<div>También puedes</div>
+                            <button type="submit" class="btn btn-facebook btn-block lowercase"><i class="fa fa-facebook-official pull-left"></i> <span>Entrar con <b>Facebook</b></span></button>
+                            <br/>-->
+					</div>
+				</div>
+				<!--<div class="text-center">
+                        <p>Si aún no eres usuario de Opensport, <a href="#" data-toggle="modal" id="mostrar_registro_oculta_login" data-target="#modal_register"><b>pincha aquí</b></a></p>
+                    </div>-->
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal modaly fade in" id="cookies" aria-hidden="false" style="display: block" >
+    <div class=" modal-cookies" id="cookies_id">
+        <div class="modal-content">
+            <div class="modal-body" style="padding-top: 1.5%; padding-bottom: 1.5% ">
+                <button type="button" class="close close_cookies" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <div class="container container--xl">
+                    <div class="col-md-12">
+                        <p class="small no-margin">Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información <a href="/politica_cookies">aquí</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </html>

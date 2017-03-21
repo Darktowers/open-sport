@@ -14,6 +14,22 @@
 			$("."+activebox).addClass("active");
 			
 		})
+		$(".login a").on("click",function(e){
+			e.preventDefault();
+			var modal = $(this).attr("data-target");
+			$("#"+modal).slideDown("slow");
+		})
+		$(".modal-header .close").on("click",function(e){
+			e.preventDefault();
+			var modal = $(this).attr("data-target");
+			$("#modal_login").slideUp("slow");
+		})
+		$(".modal-body .close").on("click",function(e){
+			e.preventDefault();
+			var modal = $(this).attr("data-target");
+			$("#cookies_id").slideUp("slow");
+		})
+		
 		if ($(".tabs").length) {
 			var waypoint2 = new Waypoint({
 				element: document.getElementById('tabs'),
@@ -496,7 +512,7 @@
 				return m + ":" + s;
 			}
 			$('.current').text(timeFormat(0));
-			$('.duration').text(timeFormat(videostyle[0].duration));
+			if($(".duration").length){$('.duration').text(timeFormat(videostyle[0].duration));}
 			;
 			//start to get video buffering data 
 		
@@ -558,13 +574,14 @@
 			//display video buffering bar
 			 $(document).ready(function(){
 				 var videostyle = $('#my_video_1');
+				 if(videostyle.length){
 				videostyle[0].onprogress = function () {
 					if(videostyle[0].buffered.length>0){
 							var w = 100*(videostyle[0].buffered.end(0))/videostyle[0].duration;
 							$('.bufferBar').css('width', w + '%');
 						}
 
-				};
+				};}
 			 })
 
 			 
@@ -631,6 +648,9 @@
 			})
 			var updateVolume = function (x, vol) {
 				var volume = $('.volume');
+				if(volume.length){
+
+				
 				var percentage;
 				//if only volume have specificed
 				//then direct update volume
@@ -663,8 +683,9 @@
 				else {
 					$('.sound').removeClass('muted').removeClass('sound2');
 				}
-
+				}
 			};
+			
 
 		})
 
